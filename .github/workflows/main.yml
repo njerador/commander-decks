@@ -1,0 +1,29 @@
+name: Test Moxfield Access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-moxfield:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test Moxfield API
+        run: |
+          echo "Teste Moxfield..."
+
+          URL="https://api2.moxfield.com/v3/decks/all/HtZJddJBNEKyWj3_I8Vb5g"
+
+          HTTP_CODE=$(curl -s -o response.json -w "%{http_code}" "$URL")
+
+          echo "HTTP Status: $HTTP_CODE"
+          echo "Antwort:"
+          head -c 1000 response.json
+          echo
+
+          if [ "$HTTP_CODE" = "200" ]; then
+            echo "Moxfield ist erreichbar!"
+          else
+            echo "Moxfield hat den Zugriff abgelehnt oder einen Fehler zurückgegeben."
+            exit 1
+          fi
