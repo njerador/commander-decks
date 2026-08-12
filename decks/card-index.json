@@ -1913,18 +1913,6 @@
     ],
     "deck_count": 1
   },
-  "decadent dragon // expensive taste": {
-    "name": "Decadent Dragon // Expensive Taste",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "defiler of flesh": {
     "name": "Defiler of Flesh",
     "decks": [
@@ -3737,18 +3725,6 @@
     ],
     "deck_count": 1
   },
-  "hit the mother lode": {
-    "name": "Hit the Mother Lode",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "hostile hostel // creeping inn": {
     "name": "Hostile Hostel // Creeping Inn",
     "decks": [
@@ -4133,18 +4109,6 @@
     ],
     "deck_count": 2
   },
-  "kindred summons": {
-    "name": "Kindred Summons",
-    "decks": [
-      {
-        "deck_number": 10,
-        "deck_name": "thranduil",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "kinnan, bonder prodigy": {
     "name": "Kinnan, Bonder Prodigy",
     "decks": [
@@ -4517,18 +4481,6 @@
       {
         "deck_number": 5,
         "deck_name": "Giada",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "lys alana bowmaster": {
-    "name": "Lys Alana Bowmaster",
-    "decks": [
-      {
-        "deck_number": 10,
-        "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -7157,18 +7109,6 @@
     ],
     "deck_count": 1
   },
-  "sprouting goblin": {
-    "name": "Sprouting Goblin",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "squirming emergence": {
     "name": "Squirming Emergence",
     "decks": [
@@ -8081,6 +8021,18 @@
       {
         "deck_number": 2,
         "deck_name": "disa",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "torment of hailfire": {
+    "name": "Torment of Hailfire",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
         "quantity": 1,
         "board": "mainboard"
       }

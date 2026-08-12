@@ -6568,6 +6568,22 @@
         ]
       },
       {
+        "name": "Torment of Hailfire",
+        "quantity": 1,
+        "card_id": "LGbb5",
+        "unique_card_id": "kXbbr",
+        "scryfall_id": "f69d77d1-5980-436c-bf48-790939b069aa",
+        "mana_cost": "{X}{B}{B}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
         "name": "Misty Rainforest",
         "quantity": 1,
         "card_id": "k9KNg",
@@ -6961,23 +6977,6 @@
         ]
       },
       {
-        "name": "Sprouting Goblin",
-        "quantity": 1,
-        "card_id": "WanQZ",
-        "unique_card_id": "YMp7N",
-        "scryfall_id": "602f5370-d096-4765-b612-16bcec3aafa7",
-        "mana_cost": "{1}{R}",
-        "cmc": 2.0,
-        "type_line": "Creature — Goblin Druid",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "G",
-          "R"
-        ]
-      },
-      {
         "name": "Smoldering Marsh",
         "quantity": 1,
         "card_id": "9mvdg",
@@ -7058,23 +7057,6 @@
         ]
       },
       {
-        "name": "Decadent Dragon // Expensive Taste",
-        "quantity": 1,
-        "card_id": "aQmNK",
-        "unique_card_id": "LR7VJ",
-        "scryfall_id": "8a717d27-596d-4341-b592-4f9777f778e5",
-        "mana_cost": "{2}{R}{R} // {2}{B}",
-        "cmc": 4.0,
-        "type_line": "Creature — Dragon // Instant — Adventure",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "B",
-          "R"
-        ]
-      },
-      {
         "name": "Dragonskull Summit",
         "quantity": 1,
         "card_id": "vr0Aw",
@@ -7086,22 +7068,6 @@
         "colors": [],
         "color_identity": [
           "B",
-          "R"
-        ]
-      },
-      {
-        "name": "Hit the Mother Lode",
-        "quantity": 1,
-        "card_id": "1vbb3",
-        "unique_card_id": "LVX48",
-        "scryfall_id": "e75f460c-43e2-4353-8b73-71ff8651a79d",
-        "mana_cost": "{4}{R}{R}{R}",
-        "cmc": 7.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
           "R"
         ]
       },
@@ -7262,6 +7228,48 @@
           "B",
           "G",
           "R"
+        ]
+      },
+      {
+        "name": "Forest",
+        "quantity": 6,
+        "card_id": "pRn5p",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Mountain",
+        "quantity": 4,
+        "card_id": "43w6P",
+        "unique_card_id": "kqAb3",
+        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Mountain",
+        "colors": [],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 5,
+        "card_id": "7vG38",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
         ]
       },
       {
@@ -7551,60 +7559,18 @@
         "type_line": "Land",
         "colors": [],
         "color_identity": []
-      },
-      {
-        "name": "Forest",
-        "quantity": 6,
-        "card_id": "pRn5p",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Mountain",
-        "quantity": 4,
-        "card_id": "43w6P",
-        "unique_card_id": "kqAb3",
-        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Mountain",
-        "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 5,
-        "card_id": "7vG38",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
-        ]
       }
     ],
-    "mainboard_count": 94,
-    "unique_mainboard_cards": 82,
-    "total_cards": 95,
+    "mainboard_count": 92,
+    "unique_mainboard_cards": 80,
+    "total_cards": 93,
     "colors": [
       "B",
       "R",
       "G"
     ],
     "bracket": 3,
-    "last_updated": "2026-08-11T18:41:31.127Z"
+    "last_updated": "2026-08-12T09:57:20.95Z"
   },
   {
     "deck_number": 7,
@@ -11760,22 +11726,6 @@
         ]
       },
       {
-        "name": "Lys Alana Bowmaster",
-        "quantity": 1,
-        "card_id": "LDxpz",
-        "unique_card_id": "kyWMo",
-        "scryfall_id": "fac845bd-becd-4c58-9561-7cdf2adca058",
-        "mana_cost": "{2}{G}",
-        "cmc": 3.0,
-        "type_line": "Creature — Elf Archer",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Joraga Warcaller",
         "quantity": 1,
         "card_id": "kyyXr",
@@ -12637,22 +12587,6 @@
         ]
       },
       {
-        "name": "Kindred Summons",
-        "quantity": 1,
-        "card_id": "3Gvel",
-        "unique_card_id": "Y8x87",
-        "scryfall_id": "3485e240-4957-421b-86f4-2aa494563747",
-        "mana_cost": "{5}{G}{G}",
-        "cmc": 7.0,
-        "type_line": "Instant",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Fabled Passage",
         "quantity": 1,
         "card_id": "VB6g5",
@@ -12911,14 +12845,14 @@
         ]
       }
     ],
-    "mainboard_count": 101,
-    "unique_mainboard_cards": 91,
-    "total_cards": 102,
+    "mainboard_count": 99,
+    "unique_mainboard_cards": 89,
+    "total_cards": 100,
     "colors": [
       "U",
       "G"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-10T06:09:38.143Z"
+    "last_updated": "2026-08-12T09:52:26.907Z"
   }
 ]
