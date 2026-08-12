@@ -1,50 +1,85 @@
 import json
+from pathlib import Path
 
+DECKS_DIR = Path("decks")
+OUTPUT_FILE = DECKS_DIR / "decks-overview.json"
 
-with open("decks/deck-01.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+decks = []
 
-boards = data.get("boards", {})
+for deck_number in range(1, 11):
+    filename = DECKS_DIR / f"deck-{deck_number:02d}.json"
+
+    if not filename.exists():
+        print(f"WARNUNG: {filename} nicht gefunden.")
+        continue
+
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        boards = data.get("boards", {})
+
+        # Commander aus boards.commanders.cards
+        commander_cards = boards.get("commanders", {}).get("cards", {})
+
+        commanders = []
+
+        if isinstance(commander_cards, dict):
+            for entry in commander_cards.values():
+                card = entry.get("card", {})
+                name = card.get("name")
+
+                if name:
+                    commanders.append(name)
+
+        # Mainboard
+        mainboard = boards.get("mainboard", {})
+        mainboard_count = mainboard.get("count", 0)
+
+        # Farben
+        color_identity = data.get("colorIdentity", [])
+
+        # Bracket
+        bracket = data.get("bracket")
+
+        # Letzte Änderung
+        last_updated = data.get("lastUpdatedAtUtc")
+
+        deck_info = {
+            "deck_number": deck_number,
+            "file": filename.name,
+            "moxfield_id": data.get("publicId"),
+            "name": data.get("name"),
+            "commanders": commanders,
+            "color_identity": color_identity,
+            "bracket": bracket,
+            "mainboard_count": mainboard_count,
+            "last_updated": last_updated,
+            "public_url": data.get("publicUrl")
+        }
+
+        decks.append(deck_info)
+
+    except Exception as e:
+        print(f"FEHLER bei Deck {deck_number}: {e}")
+
+# Übersicht speichern
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(decks, f, indent=2, ensure_ascii=False)
 
 print("================================")
-print("DIAGNOSE BOARD-STRUKTUR")
+print(f"{len(decks)} Decks verarbeitet.")
+print(f"Übersicht: {OUTPUT_FILE}")
 print("================================")
 
-for board_name in ["commanders", "mainboard", "sideboard"]:
+for deck in decks:
+    commanders = ", ".join(deck["commanders"]) if deck["commanders"] else "NICHT GEFUNDEN"
+    colors = ", ".join(deck["color_identity"]) if deck["color_identity"] else "FARBLOS"
 
-    board = boards.get(board_name)
-
+    print(f"Deck {deck['deck_number']}: {deck['name']}")
+    print(f"Commander: {commanders}")
+    print(f"Farben: {colors}")
+    print(f"Bracket: {deck['bracket']}")
+    print(f"Karten im Mainboard: {deck['mainboard_count']}")
+    print(f"Letzte Änderung: {deck['last_updated']}")
     print()
-    print(f"=== {board_name.upper()} ===")
-    print(f"Typ: {type(board).__name__}")
-
-    if isinstance(board, dict):
-
-        print(f"Anzahl Einträge: {len(board)}")
-        print(f"Keys: {list(board.keys())[:10]}")
-
-        for key, value in list(board.items())[:3]:
-
-            print()
-            print(f"KEY: {key}")
-            print(f"Wert-Typ: {type(value).__name__}")
-            print(f"Wert: {value}")
-
-    elif isinstance(board, list):
-
-        print(f"Anzahl Einträge: {len(board)}")
-
-        for item in board[:3]:
-
-            print()
-            print(f"Element-Typ: {type(item).__name__}")
-            print(f"Element: {item}")
-
-    else:
-
-        print(f"Wert: {board}")
-
-print()
-print("================================")
-print("ENDE DIAGNOSE")
-print("================================")
