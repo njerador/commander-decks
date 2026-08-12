@@ -146,7 +146,11 @@ jobs:
         run: |
           echo "Heruntergeladene Decks:"
           ls -lh decks/
-
+          
+      - name: Create deck overview
+        run: |
+          python3 scripts/create-overview.py
+          
       - name: Commit updated decks
         run: |
           git config user.name "github-actions[bot]"
