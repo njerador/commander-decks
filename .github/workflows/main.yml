@@ -9,12 +9,19 @@ jobs:
 
     steps:
       - name: Test Moxfield API
+        env:
+          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
         run: |
           echo "Teste Moxfield..."
 
           URL="https://api2.moxfield.com/v3/decks/all/HtZJddJBNEKyWj3_I8Vb5g"
 
-          HTTP_CODE=$(curl -s -o response.json -w "%{http_code}" "$URL")
+          HTTP_CODE=$(curl \
+            -s \
+            -o response.json \
+            -w "%{http_code}" \
+            -A "$MOXFIELD_USER_AGENT" \
+            "$URL")
 
           echo "HTTP Status: $HTTP_CODE"
           echo "Antwort:"
