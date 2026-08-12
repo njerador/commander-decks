@@ -1,184 +1,127 @@
 import json
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-DECKS_DIR = BASE_DIR / "decks"
-OUTPUT_FILE = DECKS_DIR / "analysis-data.json"
+DECKS_DIR = Path("decks")
+OUTPUT_FILE = DECKS_DIR / "analysis-export.json"
 
 
-def extract_cards(board):
+def extract_card(entry):
     """Extrahiert nur die für die Deckanalyse relevanten Kartendaten."""
-    if not isinstance(board, dict):
-        return []
 
-    cards = board.get("cards", {})
-
-    if not isinstance(cards, dict):
-        return []
-
-    result = []
-
-    for entry in cards.values():
-        card = entry.get("card", {})
-
-        if not isinstance(card, dict):
-            continue
-
-        result.append({
-            "name": card.get("name"),
-            "quantity": entry.get("quantity", 1),
-            "mana_cost": card.get("mana_cost"),
-            "cmc": card.get("cmc"),
-            "type_line": card.get("type_line"),
-            "oracle_text": card.get("oracle_text"),
-            "power": card.get("power"),
-            "toughness": card.get("toughness"),
-            "colors": card.get("colors", []),
-            "color_identity": card.get("color_identity", []),
-            "set": card.get("set"),
-            "board": entry.get("boardType"),
-        })
-
-    # Alphabetisch sortieren
-    result.sort(key=lambda x: (x["name"] or "").lower())
-
-    return result
-
-
-def extract_commanders(board):
-    """Extrahiert die Commander."""
-    if not isinstance(board, dict):
-        return []
-
-    cards = board.get("cards", {})
-
-    if not isinstance(cards, dict):
-        return []
-
-    result = []
-
-    for entry in cards.values():
-        card = entry.get("card", {})
-
-        if not isinstance(card, dict):
-            continue
-
-        result.append({
-            "name": card.get("name"),
-            "mana_cost": card.get("mana_cost"),
-            "cmc": card.get("cmc"),
-            "type_line": card.get("type_line"),
-            "oracle_text": card.get("oracle_text"),
-            "power": card.get("power"),
-            "toughness": card.get("toughness"),
-            "colors": card.get("colors", []),
-            "color_identity": card.get("color_identity", []),
-        })
-
-    return result
-
-
-def process_deck(deck_number):
-    filename = DECKS_DIR / f"deck-{deck_number:02d}.json"
-
-    if not filename.exists():
-        print(f"WARNUNG: {filename} nicht gefunden.")
+    if not isinstance(entry, dict):
         return None
 
-    with open(filename, "r", encoding="utf-8") as f:
+    card = entry.get("card", entry)
+
+    if not isinstance(card, dict):
+        return None
+
+    return {
+        "name": card.get("name"),
+        "mana_cost": card.get("mana_cost"),
+        "cmc": card.get("cmc"),
+        "type_line": card.get("type_line"),
+        "oracle_text": card.get("oracle_text"),
+        "power": card.get("power"),
+        "toughness": card.get("toughness"),
+        "colors": card.get("colors"),
+        "color_identity": card.get("color_identity"),
+        "quantity": entry.get("quantity", 1)
+    }
+
+
+def extract_board(board):
+    """Unterstützt sowohl Dict- als auch Listen-Strukturen."""
+
+    cards = []
+
+    if isinstance(board, dict):
+        entries = board.get("cards", {})
+
+        if isinstance(entries, dict):
+            entries = entries.values()
+
+    elif isinstance(board, list):
+        entries = board
+
+    else:
+        entries = []
+
+    for entry in entries:
+        card = extract_card(entry)
+
+        if card:
+            cards.append(card)
+
+    return cards
+
+
+result = {}
+
+deck_files = sorted(DECKS_DIR.glob("deck-*.json"))
+
+for path in deck_files:
+
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
+
+    # Falls die Datei unerwartet eine Liste enthält
+    if isinstance(data, list):
+
+        if len(data) == 1 and isinstance(data[0], dict):
+            data = data[0]
+
+        else:
+            print(f"WARNUNG: {path} enthält eine Liste und wird übersprungen.")
+            continue
+
+    if not isinstance(data, dict):
+        print(f"WARNUNG: {path} besitzt kein gültiges JSON-Objekt.")
+        continue
 
     boards = data.get("boards", {})
 
-    commanders = extract_commanders(
-        boards.get("commanders")
-    )
+    if not isinstance(boards, dict):
+        boards = {}
 
-    mainboard = extract_cards(
-        boards.get("mainboard")
-    )
-
-    sideboard = extract_cards(
-        boards.get("sideboard")
-    )
-
-    return {
-        "deck_number": deck_number,
+    deck = {
         "name": data.get("name"),
         "format": data.get("format"),
         "bracket": data.get("bracket"),
-        "colors": data.get("colors", []),
-        "color_identity": data.get("colorIdentity", []),
-        "created_at": data.get("createdAtUtc"),
-        "last_updated": data.get("lastUpdatedAtUtc"),
-
-        "commanders": commanders,
-
-        "mainboard_count": sum(
-            card["quantity"] for card in mainboard
+        "colors": data.get("colors"),
+        "colorIdentity": data.get("colorIdentity"),
+        "commander": extract_board(
+            boards.get("commanders")
         ),
-
-        "mainboard_unique": len(mainboard),
-
-        "mainboard": mainboard,
-
-        "sideboard": sideboard,
-    }
-
-
-def main():
-    print("================================")
-    print("ERSTELLE ANALYSE-DATEN")
-    print("================================")
-
-    decks = []
-
-    for deck_number in range(1, 11):
-        deck = process_deck(deck_number)
-
-        if deck:
-            decks.append(deck)
-
-            commander_names = ", ".join(
-                c["name"] for c in deck["commanders"]
-            ) or "NICHT GEFUNDEN"
-
-            print(
-                f"Deck {deck_number}: {deck['name']}"
-            )
-
-            print(
-                f"Commander: {commander_names}"
-            )
-
-            print(
-                f"Karten: {deck['mainboard_count']}"
-            )
-
-    output = {
-        "generated_from": "Moxfield deck JSON files",
-        "deck_count": len(decks),
-        "decks": decks
-    }
-
-    with open(
-        OUTPUT_FILE,
-        "w",
-        encoding="utf-8"
-    ) as f:
-        json.dump(
-            output,
-            f,
-            ensure_ascii=False,
-            indent=2
+        "mainboard": extract_board(
+            boards.get("mainboard")
         )
+    }
 
-    print()
-    print("================================")
-    print(f"{len(decks)} Decks exportiert.")
-    print(f"Ausgabe: {OUTPUT_FILE}")
-    print("================================")
+    result[path.stem] = deck
 
 
-if __name__ == "__main__":
-    main()
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(
+        result,
+        f,
+        ensure_ascii=False,
+        separators=(",", ":")
+    )
+
+
+print("================================")
+print("ANALYSE-EXPORT")
+print("================================")
+print(f"Decks verarbeitet: {len(result)}")
+
+for deck_id, deck in result.items():
+    print(
+        f"{deck_id}: "
+        f"{deck['name']} | "
+        f"Commander: {len(deck['commander'])} | "
+        f"Mainboard: {sum(c['quantity'] for c in deck['mainboard'])}"
+    )
+
+print(f"Ausgabe: {OUTPUT_FILE}")
+print("================================")
