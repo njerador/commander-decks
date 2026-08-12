@@ -22,36 +22,43 @@ jobs:
         run: |
           set -e
 
-          DECK_IDS=(
-            "V06ztO0Imk-p5I8N81Ue8g"
-            "EaLs95TxjUqWITO_S_EvQg"
-            "HhNRfRwTEEW8KYS1tRJZWQ"
-            "HtZJddJBNEKyWj3_I8Vb5g"
-            "Pfcxa6ZPG0aymFgL4EnykQ"
-            "c5LA9QE_8kW8-uH2_K3Gfg"
-            "p8SZwpoQ50iqg0lC246gQg"
-            "OjdBIK_rg0qV-qA0eFtvXw"
-            "F4yQH82KJEGJ95nwUIo6_A"
-            "dNTuEnmK80ChNB9XIPe3Lw"
-          )
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import time
+          from pathlib import Path
 
-          for i in "${!DECK_IDS[@]}"; do
-            DECK_NUMBER=$((i + 1))
-            DECK_ID="${DECK_IDS[$i]}"
+          config_path = Path("config/decks.json")
+          decks_dir = Path("decks")
 
-            echo "================================"
-            echo "Download Deck $DECK_NUMBER"
-            echo "Moxfield ID: $DECK_ID"
-            echo "================================"
+          with open(config_path, "r", encoding="utf-8") as f:
+              config = json.load(f)
 
-            curl -f -s \
-              -H "User-Agent: $MOXFIELD_USER_AGENT" \
-              -H "Accept: application/json" \
-              "https://api2.moxfield.com/v3/decks/all/$DECK_ID" \
-              -o "decks/deck-$(printf '%02d' "$DECK_NUMBER").json"
+          deck_ids = config["decks"]
 
-            sleep 2
-          done
+          print(f"{len(deck_ids)} Decks in der Config gefunden.")
+
+          for i, deck_id in enumerate(deck_ids, start=1):
+              output = decks_dir / f"deck-{i:02d}.json"
+
+              print()
+              print("================================")
+              print(f"Download Deck {i}")
+              print(f"Moxfield ID: {deck_id}")
+              print("================================")
+
+              subprocess.run([
+                  "curl",
+                  "-f",
+                  "-s",
+                  "-H", f"User-Agent: {__import__('os').environ['MOXFIELD_USER_AGENT']}",
+                  "-H", "Accept: application/json",
+                  f"https://api2.moxfield.com/v3/decks/all/{deck_id}",
+                  "-o", str(output)
+              ], check=True)
+
+              time.sleep(2)
+          PY
 
       - name: Check downloaded files
         run: |
@@ -65,6 +72,10 @@ jobs:
       - name: Create card index
         run: |
           python3 scripts/create-card-index.py
+
+      - name: Create analysis export
+        run: |
+          python3 scripts/export-for-analysis.py
 
       - name: Commit updated decks
         run: |
