@@ -8,42 +8,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: TEST
+        run: |
+          echo "================================"
+          echo "NEUER WORKFLOW WIRD AUSGEFÜHRT"
+          echo "================================"
+
       - name: Check secret
         env:
           MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
         run: |
           if [ -z "$MOXFIELD_USER_AGENT" ]; then
-            echo "FEHLER: MOXFIELD_USER_AGENT ist leer oder wurde nicht gefunden."
+            echo "SECRET FEHLT!"
             exit 1
           fi
 
-          echo "MOXFIELD_USER_AGENT wurde von GitHub erfolgreich geladen."
+          echo "SECRET IST VORHANDEN"
           echo "Anzahl Zeichen: ${#MOXFIELD_USER_AGENT}"
-
-      - name: Test Moxfield API
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          echo "Teste Moxfield..."
-
-          URL="https://api2.moxfield.com/v3/decks/all/HtZJddJBNEKyWj3_I8Vb5g"
-
-          HTTP_CODE=$(curl \
-            -s \
-            -o response.json \
-            -w "%{http_code}" \
-            -A "$MOXFIELD_USER_AGENT" \
-            "$URL")
-
-          echo "HTTP Status: $HTTP_CODE"
-          echo "Antwort:"
-          head -c 1000 response.json
-          echo
-
-          if [ "$HTTP_CODE" = "200" ]; then
-            echo "Moxfield ist erreichbar!"
-          else
-            echo "Moxfield hat den Zugriff abgelehnt oder einen Fehler zurückgegeben."
-            exit 1
-          fi
-          fi
