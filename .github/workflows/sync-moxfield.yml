@@ -146,35 +146,10 @@ jobs:
         run: |
           echo "Heruntergeladene Decks:"
           ls -lh decks/
-
-      - name: Inspect Moxfield data
+          
+      - name: Create deck overview
         run: |
-          python3 - <<'PY'
-          import json
-
-          with open("decks/deck-01.json", "r", encoding="utf-8") as f:
-              data = json.load(f)
-
-          print("=== TOP LEVEL KEYS ===")
-          print(list(data.keys()))
-
-          print()
-          print("=== WICHTIGE FELDER ===")
-
-          for key in data.keys():
-              value = data[key]
-
-              if isinstance(value, (str, int, float, bool)) or value is None:
-                  print(f"{key}: {value}")
-              elif isinstance(value, list):
-                  print(f"{key}: LIST ({len(value)} Elemente)")
-                  if value:
-                      print(f"  erstes Element: {value[0]}")
-              elif isinstance(value, dict):
-                  print(f"{key}: DICT")
-                  print(f"  keys: {list(value.keys())[:20]}")
-
-          PY
+          python3 scripts/create-overview.py
           
       - name: Commit updated decks
         run: |
