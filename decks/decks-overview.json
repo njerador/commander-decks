@@ -5,7 +5,21 @@
     "moxfield_id": "V06ztO0Imk-p5I8N81Ue8g",
     "name": "captain nghathrod",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "U",
+      "B"
+    ],
+    "color_identity": [
+      "U",
+      "B"
+    ],
+    "bracket": 2,
+    "created_at": "2026-06-12T11:20:07.473Z",
+    "last_updated": "2026-06-15T06:51:48.1Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 2,
@@ -13,7 +27,23 @@
     "moxfield_id": "EaLs95TxjUqWITO_S_EvQg",
     "name": "disa",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "B",
+      "R",
+      "G"
+    ],
+    "color_identity": [
+      "B",
+      "R",
+      "G"
+    ],
+    "bracket": 3,
+    "created_at": "2026-06-04T05:48:45.85Z",
+    "last_updated": "2026-08-11T18:41:24.647Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 3,
@@ -21,7 +51,23 @@
     "moxfield_id": "HhNRfRwTEEW8KYS1tRJZWQ",
     "name": "food and fellowship",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "W",
+      "B",
+      "G"
+    ],
+    "color_identity": [
+      "W",
+      "B",
+      "G"
+    ],
+    "bracket": 3,
+    "created_at": "2026-06-24T08:14:46.877Z",
+    "last_updated": "2026-08-11T08:26:58.843Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 4,
@@ -29,7 +75,19 @@
     "moxfield_id": "HtZJddJBNEKyWj3_I8Vb5g",
     "name": "Ghalta",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "G"
+    ],
+    "color_identity": [
+      "G"
+    ],
+    "bracket": 2,
+    "created_at": "2026-08-10T06:25:08.05Z",
+    "last_updated": "2026-08-11T13:14:46.55Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 5,
@@ -37,7 +95,19 @@
     "moxfield_id": "Pfcxa6ZPG0aymFgL4EnykQ",
     "name": "Giada",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "bracket": 3,
+    "created_at": "2026-06-25T11:31:19.58Z",
+    "last_updated": "2026-07-14T17:00:29.273Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 6,
@@ -45,7 +115,23 @@
     "moxfield_id": "c5LA9QE_8kW8-uH2_K3Gfg",
     "name": "korvold",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "B",
+      "R",
+      "G"
+    ],
+    "color_identity": [
+      "B",
+      "R",
+      "G"
+    ],
+    "bracket": 3,
+    "created_at": "2026-06-06T12:08:35.72Z",
+    "last_updated": "2026-08-11T18:41:31.127Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 7,
@@ -53,7 +139,21 @@
     "moxfield_id": "p8SZwpoQ50iqg0lC246gQg",
     "name": "raphael ",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "B",
+      "R"
+    ],
+    "color_identity": [
+      "B",
+      "R"
+    ],
+    "bracket": 3,
+    "created_at": "2026-07-02T09:47:25.633Z",
+    "last_updated": "2026-07-14T12:18:34.703Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 8,
@@ -61,7 +161,19 @@
     "moxfield_id": "OjdBIK_rg0qV-qA0eFtvXw",
     "name": "Solphim, Mayhem Dominus",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "R"
+    ],
+    "bracket": 2,
+    "created_at": "2026-08-09T06:14:41.54Z",
+    "last_updated": "2026-08-10T14:21:44.337Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 9,
@@ -69,7 +181,27 @@
     "moxfield_id": "F4yQH82KJEGJ95nwUIo6_A",
     "name": "spross des ur-drachen",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "W",
+      "U",
+      "B",
+      "R",
+      "G"
+    ],
+    "color_identity": [
+      "W",
+      "U",
+      "B",
+      "R",
+      "G"
+    ],
+    "bracket": 2,
+    "created_at": "2026-06-29T09:17:15.667Z",
+    "last_updated": "2026-07-14T15:02:23.103Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   },
   {
     "deck_number": 10,
@@ -77,6 +209,20 @@
     "moxfield_id": "dNTuEnmK80ChNB9XIPe3Lw",
     "name": "thranduil",
     "commanders": [],
-    "last_updated": null
+    "colors": [
+      "U",
+      "G"
+    ],
+    "color_identity": [
+      "U",
+      "G"
+    ],
+    "bracket": 2,
+    "created_at": "2026-08-08T05:18:28.767Z",
+    "last_updated": "2026-08-10T06:09:38.143Z",
+    "mainboard_card_count": 0,
+    "sideboard_card_count": 0,
+    "mainboard": [],
+    "sideboard": []
   }
 ]
