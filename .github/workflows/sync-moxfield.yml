@@ -2,9 +2,13 @@ name: Sync Moxfield Decks
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *"
 
+  push:
+    paths:
+      - "config/decks.json"
+
+  schedule:
+    - cron: "*/30 * * * *"
 jobs:
   sync:
     runs-on: ubuntu-latest
