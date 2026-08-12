@@ -8,6 +8,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check secret
+        env:
+          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
+        run: |
+          if [ -z "$MOXFIELD_USER_AGENT" ]; then
+            echo "FEHLER: MOXFIELD_USER_AGENT ist leer oder wurde nicht gefunden."
+            exit 1
+          fi
+
+          echo "MOXFIELD_USER_AGENT wurde von GitHub erfolgreich geladen."
+          echo "Anzahl Zeichen: ${#MOXFIELD_USER_AGENT}"
+
       - name: Test Moxfield API
         env:
           MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
