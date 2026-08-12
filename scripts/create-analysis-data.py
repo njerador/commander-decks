@@ -2,12 +2,10 @@ import json
 from pathlib import Path
 
 DECKS_DIR = Path("decks")
-OUTPUT_FILE = DECKS_DIR / "analysis-export.json"
+OUTPUT_FILE = DECKS_DIR / "analysis-data.json"
 
 
 def extract_card(entry):
-    """Extrahiert nur die für die Deckanalyse relevanten Kartendaten."""
-
     if not isinstance(entry, dict):
         return None
 
@@ -31,8 +29,6 @@ def extract_card(entry):
 
 
 def extract_board(board):
-    """Unterstützt sowohl Dict- als auch Listen-Strukturen."""
-
     cards = []
 
     if isinstance(board, dict):
@@ -56,72 +52,106 @@ def extract_board(board):
     return cards
 
 
-result = {}
-
-deck_files = sorted(DECKS_DIR.glob("deck-*.json"))
-
-for path in deck_files:
-
+def load_deck(path):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Falls die Datei unerwartet eine Liste enthält
     if isinstance(data, list):
-
         if len(data) == 1 and isinstance(data[0], dict):
             data = data[0]
-
         else:
-            print(f"WARNUNG: {path} enthält eine Liste und wird übersprungen.")
-            continue
+            raise ValueError("JSON enthält unerwartete Listenstruktur")
 
     if not isinstance(data, dict):
-        print(f"WARNUNG: {path} besitzt kein gültiges JSON-Objekt.")
-        continue
+        raise ValueError("JSON enthält kein gültiges Objekt")
 
     boards = data.get("boards", {})
 
     if not isinstance(boards, dict):
         boards = {}
 
-    deck = {
+    commanders = extract_board(
+        boards.get("commanders")
+    )
+
+    mainboard = extract_board(
+        boards.get("mainboard")
+    )
+
+    sideboard = extract_board(
+        boards.get("sideboard")
+    )
+
+    return {
         "name": data.get("name"),
         "format": data.get("format"),
         "bracket": data.get("bracket"),
         "colors": data.get("colors"),
-        "colorIdentity": data.get("colorIdentity"),
-        "commander": extract_board(
-            boards.get("commanders")
-        ),
-        "mainboard": extract_board(
-            boards.get("mainboard")
-        )
+        "color_identity": data.get("colorIdentity"),
+        "commander": commanders,
+        "mainboard": mainboard,
+        "sideboard": sideboard
     }
 
-    result[path.stem] = deck
 
+def main():
+    result = {}
 
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(
-        result,
-        f,
-        ensure_ascii=False,
-        separators=(",", ":")
+    deck_files = sorted(
+        DECKS_DIR.glob("deck-*.json")
     )
 
+    for path in deck_files:
+        try:
+            deck = load_deck(path)
+            result[path.stem] = deck
 
-print("================================")
-print("ANALYSE-EXPORT")
-print("================================")
-print(f"Decks verarbeitet: {len(result)}")
+        except Exception as e:
+            print(
+                f"WARNUNG: {path.name} konnte nicht verarbeitet werden:"
+            )
+            print(f"  {e}")
 
-for deck_id, deck in result.items():
-    print(
-        f"{deck_id}: "
-        f"{deck['name']} | "
-        f"Commander: {len(deck['commander'])} | "
-        f"Mainboard: {sum(c['quantity'] for c in deck['mainboard'])}"
-    )
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as f:
+        json.dump(
+            result,
+            f,
+            ensure_ascii=False,
+            separators=(",", ":")
+        )
 
-print(f"Ausgabe: {OUTPUT_FILE}")
-print("================================")
+    print("================================")
+    print("ANALYSE-DATEN")
+    print("================================")
+    print(f"Decks verarbeitet: {len(result)}")
+
+    for deck_id, deck in result.items():
+
+        commander_count = sum(
+            card["quantity"]
+            for card in deck["commander"]
+        )
+
+        mainboard_count = sum(
+            card["quantity"]
+            for card in deck["mainboard"]
+        )
+
+        print(
+            f"{deck_id}: "
+            f"{deck['name']} | "
+            f"Commander: {commander_count} | "
+            f"Mainboard: {mainboard_count}"
+        )
+
+    print("--------------------------------")
+    print(f"Ausgabe: {OUTPUT_FILE}")
+    print("================================")
+
+
+if __name__ == "__main__":
+    main()
