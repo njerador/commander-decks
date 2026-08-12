@@ -4,33 +4,25 @@
     "file": "deck-01.json",
     "moxfield_id": "V06ztO0Imk-p5I8N81Ue8g",
     "name": "captain nghathrod",
-    "commanders": [],
-    "colors": [
-      "U",
-      "B"
+    "commanders": [
+      "Captain N'ghathrod"
     ],
     "color_identity": [
       "U",
       "B"
     ],
     "bracket": 2,
-    "created_at": "2026-06-12T11:20:07.473Z",
+    "mainboard_count": 99,
     "last_updated": "2026-06-15T06:51:48.1Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/V06ztO0Imk-p5I8N81Ue8g"
   },
   {
     "deck_number": 2,
     "file": "deck-02.json",
     "moxfield_id": "EaLs95TxjUqWITO_S_EvQg",
     "name": "disa",
-    "commanders": [],
-    "colors": [
-      "B",
-      "R",
-      "G"
+    "commanders": [
+      "Disa the Restless"
     ],
     "color_identity": [
       "B",
@@ -38,23 +30,18 @@
       "G"
     ],
     "bracket": 3,
-    "created_at": "2026-06-04T05:48:45.85Z",
+    "mainboard_count": 99,
     "last_updated": "2026-08-11T18:41:24.647Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/EaLs95TxjUqWITO_S_EvQg"
   },
   {
     "deck_number": 3,
     "file": "deck-03.json",
     "moxfield_id": "HhNRfRwTEEW8KYS1tRJZWQ",
     "name": "food and fellowship",
-    "commanders": [],
-    "colors": [
-      "W",
-      "B",
-      "G"
+    "commanders": [
+      "Frodo, Adventurous Hobbit",
+      "Sam, Loyal Attendant"
     ],
     "color_identity": [
       "W",
@@ -62,63 +49,49 @@
       "G"
     ],
     "bracket": 3,
-    "created_at": "2026-06-24T08:14:46.877Z",
+    "mainboard_count": 98,
     "last_updated": "2026-08-11T08:26:58.843Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/HhNRfRwTEEW8KYS1tRJZWQ"
   },
   {
     "deck_number": 4,
     "file": "deck-04.json",
     "moxfield_id": "HtZJddJBNEKyWj3_I8Vb5g",
     "name": "Ghalta",
-    "commanders": [],
-    "colors": [
-      "G"
+    "commanders": [
+      "Ghalta, Primal Hunger"
     ],
     "color_identity": [
       "G"
     ],
     "bracket": 2,
-    "created_at": "2026-08-10T06:25:08.05Z",
+    "mainboard_count": 99,
     "last_updated": "2026-08-11T13:14:46.55Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/HtZJddJBNEKyWj3_I8Vb5g"
   },
   {
     "deck_number": 5,
     "file": "deck-05.json",
     "moxfield_id": "Pfcxa6ZPG0aymFgL4EnykQ",
     "name": "Giada",
-    "commanders": [],
-    "colors": [
-      "W"
+    "commanders": [
+      "Giada, Font of Hope"
     ],
     "color_identity": [
       "W"
     ],
     "bracket": 3,
-    "created_at": "2026-06-25T11:31:19.58Z",
+    "mainboard_count": 99,
     "last_updated": "2026-07-14T17:00:29.273Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/Pfcxa6ZPG0aymFgL4EnykQ"
   },
   {
     "deck_number": 6,
     "file": "deck-06.json",
     "moxfield_id": "c5LA9QE_8kW8-uH2_K3Gfg",
     "name": "korvold",
-    "commanders": [],
-    "colors": [
-      "B",
-      "R",
-      "G"
+    "commanders": [
+      "Korvold, Fae-Cursed King"
     ],
     "color_identity": [
       "B",
@@ -126,67 +99,50 @@
       "G"
     ],
     "bracket": 3,
-    "created_at": "2026-06-06T12:08:35.72Z",
+    "mainboard_count": 94,
     "last_updated": "2026-08-11T18:41:31.127Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/c5LA9QE_8kW8-uH2_K3Gfg"
   },
   {
     "deck_number": 7,
     "file": "deck-07.json",
     "moxfield_id": "p8SZwpoQ50iqg0lC246gQg",
     "name": "raphael ",
-    "commanders": [],
-    "colors": [
-      "B",
-      "R"
+    "commanders": [
+      "Raphael, Fiendish Savior"
     ],
     "color_identity": [
       "B",
       "R"
     ],
     "bracket": 3,
-    "created_at": "2026-07-02T09:47:25.633Z",
+    "mainboard_count": 99,
     "last_updated": "2026-07-14T12:18:34.703Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/p8SZwpoQ50iqg0lC246gQg"
   },
   {
     "deck_number": 8,
     "file": "deck-08.json",
     "moxfield_id": "OjdBIK_rg0qV-qA0eFtvXw",
     "name": "Solphim, Mayhem Dominus",
-    "commanders": [],
-    "colors": [
-      "R"
+    "commanders": [
+      "Solphim, Mayhem Dominus"
     ],
     "color_identity": [
       "R"
     ],
     "bracket": 2,
-    "created_at": "2026-08-09T06:14:41.54Z",
+    "mainboard_count": 99,
     "last_updated": "2026-08-10T14:21:44.337Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/OjdBIK_rg0qV-qA0eFtvXw"
   },
   {
     "deck_number": 9,
     "file": "deck-09.json",
     "moxfield_id": "F4yQH82KJEGJ95nwUIo6_A",
     "name": "spross des ur-drachen",
-    "commanders": [],
-    "colors": [
-      "W",
-      "U",
-      "B",
-      "R",
-      "G"
+    "commanders": [
+      "Scion of the Ur-Dragon"
     ],
     "color_identity": [
       "W",
@@ -196,33 +152,25 @@
       "G"
     ],
     "bracket": 2,
-    "created_at": "2026-06-29T09:17:15.667Z",
+    "mainboard_count": 99,
     "last_updated": "2026-07-14T15:02:23.103Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/F4yQH82KJEGJ95nwUIo6_A"
   },
   {
     "deck_number": 10,
     "file": "deck-10.json",
     "moxfield_id": "dNTuEnmK80ChNB9XIPe3Lw",
     "name": "thranduil",
-    "commanders": [],
-    "colors": [
-      "U",
-      "G"
+    "commanders": [
+      "Thranduil the Strategist"
     ],
     "color_identity": [
       "U",
       "G"
     ],
     "bracket": 2,
-    "created_at": "2026-08-08T05:18:28.767Z",
+    "mainboard_count": 101,
     "last_updated": "2026-08-10T06:09:38.143Z",
-    "mainboard_card_count": 0,
-    "sideboard_card_count": 0,
-    "mainboard": [],
-    "sideboard": []
+    "public_url": "https://moxfield.com/decks/dNTuEnmK80ChNB9XIPe3Lw"
   }
 ]
