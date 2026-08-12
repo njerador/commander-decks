@@ -150,6 +150,10 @@ jobs:
       - name: Create deck overview
         run: |
           python3 scripts/create-overview.py
+
+      - name: Create card index
+        run: |
+          python3 scripts/create-card-index.py
           
       - name: Commit updated decks
         run: |
