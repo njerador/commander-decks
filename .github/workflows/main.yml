@@ -46,3 +46,4 @@ jobs:
             echo "Moxfield hat den Zugriff abgelehnt oder einen Fehler zurückgegeben."
             exit 1
           fi
+          fi
