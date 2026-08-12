@@ -2,6 +2,8 @@ name: Sync Moxfield Decks
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
 
 jobs:
   sync:
@@ -12,141 +14,50 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create decks directory
-        run: |
-          mkdir -p decks
+        run: mkdir -p decks
 
-      - name: Download Deck 01
+      - name: Download all decks
         env:
           MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
         run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/V06ztO0Imk-p5I8N81Ue8g" \
-            -o decks/deck-01.json
+          set -e
 
-      - name: Wait
-        run: sleep 2
+          DECK_IDS=(
+            "V06ztO0Imk-p5I8N81Ue8g"
+            "EaLs95TxjUqWITO_S_EvQg"
+            "HhNRfRwTEEW8KYS1tRJZWQ"
+            "HtZJddJBNEKyWj3_I8Vb5g"
+            "Pfcxa6ZPG0aymFgL4EnykQ"
+            "c5LA9QE_8kW8-uH2_K3Gfg"
+            "p8SZwpoQ50iqg0lC246gQg"
+            "OjdBIK_rg0qV-qA0eFtvXw"
+            "F4yQH82KJEGJ95nwUIo6_A"
+            "dNTuEnmK80ChNB9XIPe3Lw"
+          )
 
-      - name: Download Deck 02
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/EaLs95TxjUqWITO_S_EvQg" \
-            -o decks/deck-02.json
+          for i in "${!DECK_IDS[@]}"; do
+            DECK_NUMBER=$((i + 1))
+            DECK_ID="${DECK_IDS[$i]}"
 
-      - name: Wait
-        run: sleep 2
+            echo "================================"
+            echo "Download Deck $DECK_NUMBER"
+            echo "Moxfield ID: $DECK_ID"
+            echo "================================"
 
-      - name: Download Deck 03
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/HhNRfRwTEEW8KYS1tRJZWQ" \
-            -o decks/deck-03.json
+            curl -f -s \
+              -H "User-Agent: $MOXFIELD_USER_AGENT" \
+              -H "Accept: application/json" \
+              "https://api2.moxfield.com/v3/decks/all/$DECK_ID" \
+              -o "decks/deck-$(printf '%02d' "$DECK_NUMBER").json"
 
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 04
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/HtZJddJBNEKyWj3_I8Vb5g" \
-            -o decks/deck-04.json
-
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 05
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/Pfcxa6ZPG0aymFgL4EnykQ" \
-            -o decks/deck-05.json
-
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 06
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/c5LA9QE_8kW8-uH2_K3Gfg" \
-            -o decks/deck-06.json
-
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 07
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/p8SZwpoQ50iqg0lC246gQg" \
-            -o decks/deck-07.json
-
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 08
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/OjdBIK_rg0qV-qA0eFtvXw" \
-            -o decks/deck-08.json
-
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 09
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/F4yQH82KJEGJ95nwUIo6_A" \
-            -o decks/deck-09.json
-
-      - name: Wait
-        run: sleep 2
-
-      - name: Download Deck 10
-        env:
-          MOXFIELD_USER_AGENT: ${{ secrets.MOXFIELD_USER_AGENT }}
-        run: |
-          curl -s \
-            -H "User-Agent: $MOXFIELD_USER_AGENT" \
-            -H "Accept: application/json" \
-            "https://api2.moxfield.com/v3/decks/all/dNTuEnmK80ChNB9XIPe3Lw" \
-            -o decks/deck-10.json
+            sleep 2
+          done
 
       - name: Check downloaded files
         run: |
           echo "Heruntergeladene Decks:"
           ls -lh decks/
-          
+
       - name: Create deck overview
         run: |
           python3 scripts/create-overview.py
@@ -154,7 +65,7 @@ jobs:
       - name: Create card index
         run: |
           python3 scripts/create-card-index.py
-          
+
       - name: Commit updated decks
         run: |
           git config user.name "github-actions[bot]"
