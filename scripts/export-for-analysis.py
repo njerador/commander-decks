@@ -1,4 +1,3 @@
-```python
 import json
 from pathlib import Path
 
@@ -50,7 +49,6 @@ def normalize_card(card, quantity=1):
       'Vorinclex // The Grand Evolution'
       als eine Karte mit beiden Seiten erhalten.
     """
-
     if not isinstance(card, dict):
         return None
 
@@ -75,15 +73,8 @@ def normalize_card(card, quantity=1):
         "colors": card.get("colors", []),
         "color_identity": card.get("color_identity", []),
         "quantity": quantity,
-
-        # Informationen über das Kartenlayout
         "layout": card.get("layout"),
-
-        # Beide Seiten von MDFCs / Transform-Karten etc.
         "card_faces": normalized_faces,
-
-        # Zusätzliche Informationen, die für spätere Analysen
-        # hilfreich sein können.
         "color_indicator": card.get("color_indicator", []),
     }
 
@@ -101,7 +92,6 @@ def normalize_board_cards(cards):
             -> quantity
             -> card
     """
-
     result = []
 
     if not isinstance(cards, dict):
@@ -141,7 +131,6 @@ def normalize_deck(deck_data):
     damit ältere/anders exportierte Deckdateien nicht sofort
     unbrauchbar werden.
     """
-
     result = {
         "name": deck_data.get("name"),
         "format": deck_data.get("format"),
@@ -155,10 +144,7 @@ def normalize_deck(deck_data):
     # ---------------------------------------------------------
     # COMMANDER
     # ---------------------------------------------------------
-    #
-    # Dein aktueller Moxfield-Export speichert den Commander
-    # direkt unter "main".
-    #
+
     commander = deck_data.get("main")
 
     if isinstance(commander, dict):
@@ -170,8 +156,6 @@ def normalize_deck(deck_data):
         if normalized_commander is not None:
             result["commander"].append(normalized_commander)
 
-    # Unterstützung für ältere/alternative Formate,
-    # falls Commander direkt als Liste gespeichert wurde.
     elif isinstance(commander, list):
         for card in commander:
             normalized_commander = normalize_card(
@@ -246,13 +230,12 @@ def normalize_deck(deck_data):
 def get_deck_data(data):
     """
     Unterstützt:
-        { ... }
+    { ... }
     und
-        [ { ... } ]
+    [ { ... } ]
 
     Bei Listen wird der erste Eintrag verwendet.
     """
-
     if isinstance(data, list):
 
         if not data:
@@ -355,4 +338,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
