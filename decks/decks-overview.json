@@ -1,0 +1,82 @@
+[
+  {
+    "deck_number": 1,
+    "file": "deck-01.json",
+    "moxfield_id": "V06ztO0Imk-p5I8N81Ue8g",
+    "name": "captain nghathrod",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 2,
+    "file": "deck-02.json",
+    "moxfield_id": "EaLs95TxjUqWITO_S_EvQg",
+    "name": "disa",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 3,
+    "file": "deck-03.json",
+    "moxfield_id": "HhNRfRwTEEW8KYS1tRJZWQ",
+    "name": "food and fellowship",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 4,
+    "file": "deck-04.json",
+    "moxfield_id": "HtZJddJBNEKyWj3_I8Vb5g",
+    "name": "Ghalta",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 5,
+    "file": "deck-05.json",
+    "moxfield_id": "Pfcxa6ZPG0aymFgL4EnykQ",
+    "name": "Giada",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 6,
+    "file": "deck-06.json",
+    "moxfield_id": "c5LA9QE_8kW8-uH2_K3Gfg",
+    "name": "korvold",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 7,
+    "file": "deck-07.json",
+    "moxfield_id": "p8SZwpoQ50iqg0lC246gQg",
+    "name": "raphael ",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 8,
+    "file": "deck-08.json",
+    "moxfield_id": "OjdBIK_rg0qV-qA0eFtvXw",
+    "name": "Solphim, Mayhem Dominus",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 9,
+    "file": "deck-09.json",
+    "moxfield_id": "F4yQH82KJEGJ95nwUIo6_A",
+    "name": "spross des ur-drachen",
+    "commanders": [],
+    "last_updated": null
+  },
+  {
+    "deck_number": 10,
+    "file": "deck-10.json",
+    "moxfield_id": "dNTuEnmK80ChNB9XIPe3Lw",
+    "name": "thranduil",
+    "commanders": [],
+    "last_updated": null
+  }
+]
