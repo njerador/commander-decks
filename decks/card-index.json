@@ -2411,6 +2411,18 @@
     ],
     "deck_count": 1
   },
+  "emeritus of woe // demonic tutor": {
+    "name": "Emeritus of Woe // Demonic Tutor",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "endless atlas": {
     "name": "Endless Atlas",
     "decks": [
@@ -2987,7 +2999,7 @@
       {
         "deck_number": 6,
         "deck_name": "korvold",
-        "quantity": 6,
+        "quantity": 8,
         "board": "mainboard"
       },
       {
@@ -4305,6 +4317,12 @@
         "board": "mainboard"
       },
       {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 7,
         "deck_name": "raphael ",
         "quantity": 1,
@@ -4329,7 +4347,7 @@
         "board": "mainboard"
       }
     ],
-    "deck_count": 6
+    "deck_count": 7
   },
   "liliana's contract": {
     "name": "Liliana's Contract",
@@ -4919,7 +4937,7 @@
       {
         "deck_number": 6,
         "deck_name": "korvold",
-        "quantity": 4,
+        "quantity": 3,
         "board": "mainboard"
       },
       {
@@ -4945,6 +4963,18 @@
   },
   "mountain valley": {
     "name": "Mountain Valley",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "multani, yavimaya's avatar": {
+    "name": "Multani, Yavimaya's Avatar",
     "decks": [
       {
         "deck_number": 6,
@@ -5572,6 +5602,18 @@
       }
     ],
     "deck_count": 3
+  },
+  "planar engineering": {
+    "name": "Planar Engineering",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
   },
   "planetary annihilation": {
     "name": "Planetary Annihilation",
@@ -6515,6 +6557,18 @@
     ],
     "deck_count": 1
   },
+  "scouring swarm": {
+    "name": "Scouring Swarm",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "scute swarm": {
     "name": "Scute Swarm",
     "decks": [
@@ -7241,6 +7295,18 @@
     ],
     "deck_count": 1
   },
+  "strionic resonator": {
+    "name": "Strionic Resonator",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "sulfurous springs": {
     "name": "Sulfurous Springs",
     "decks": [
@@ -7355,7 +7421,7 @@
       {
         "deck_number": 6,
         "deck_name": "korvold",
-        "quantity": 5,
+        "quantity": 4,
         "board": "mainboard"
       },
       {
@@ -8717,6 +8783,18 @@
       {
         "deck_number": 10,
         "deck_name": "thranduil",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "witherbloom charm": {
+    "name": "Witherbloom Charm",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
         "quantity": 1,
         "board": "mainboard"
       }

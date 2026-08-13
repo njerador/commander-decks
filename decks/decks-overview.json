@@ -6470,6 +6470,18 @@
         ]
       },
       {
+        "name": "Strionic Resonator",
+        "quantity": 1,
+        "card_id": "Lm6dz",
+        "unique_card_id": "E6WwZ",
+        "scryfall_id": "88326f60-1c86-4aca-8e6a-b1882a048635",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact",
+        "colors": [],
+        "color_identity": []
+      },
+      {
         "name": "Beast Within",
         "quantity": 1,
         "card_id": "kAnw5",
@@ -7088,6 +7100,18 @@
         ]
       },
       {
+        "name": "Field of the Dead",
+        "quantity": 1,
+        "card_id": "AWgND",
+        "unique_card_id": "k7g58",
+        "scryfall_id": "2cf97898-1e05-4c0e-896f-ba6713bf6a7b",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": []
+      },
+      {
         "name": "Aftermath Analyst",
         "quantity": 1,
         "card_id": "O92BX",
@@ -7247,6 +7271,22 @@
         ]
       },
       {
+        "name": "Multani, Yavimaya's Avatar",
+        "quantity": 1,
+        "card_id": "VBAbx",
+        "unique_card_id": "LGmw6",
+        "scryfall_id": "f7377855-1944-4736-9248-2b9b40d6bf03",
+        "mana_cost": "{4}{G}{G}",
+        "cmc": 6.0,
+        "type_line": "Legendary Creature — Elemental Avatar",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
         "name": "Szarel, Genesis Shepherd",
         "quantity": 1,
         "card_id": "BDB8V",
@@ -7310,6 +7350,24 @@
         ],
         "color_identity": [
           "R"
+        ]
+      },
+      {
+        "name": "Scouring Swarm",
+        "quantity": 1,
+        "card_id": "Ox3eK",
+        "unique_card_id": "E5gGW",
+        "scryfall_id": "8fc25982-8668-43c4-93db-84e716e8783d",
+        "mana_cost": "{1}{B}{G}",
+        "cmc": 3.0,
+        "type_line": "Creature — Insect",
+        "colors": [
+          "B",
+          "G"
+        ],
+        "color_identity": [
+          "B",
+          "G"
         ]
       },
       {
@@ -7430,18 +7488,6 @@
         ]
       },
       {
-        "name": "Field of the Dead",
-        "quantity": 1,
-        "card_id": "BDmlG",
-        "unique_card_id": "k7g58",
-        "scryfall_id": "1e1f470f-1194-4a87-ab6e-3574f5731642",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Assassin's Trophy",
         "quantity": 1,
         "card_id": "za958",
@@ -7469,6 +7515,24 @@
         "cmc": 0,
         "type_line": "Land — Swamp Forest",
         "colors": [],
+        "color_identity": [
+          "B",
+          "G"
+        ]
+      },
+      {
+        "name": "Witherbloom Charm",
+        "quantity": 1,
+        "card_id": "l4J6n",
+        "unique_card_id": "YepKQ",
+        "scryfall_id": "254437f7-7a8a-4b11-9cea-e8e7ea23c59e",
+        "mana_cost": "{B}{G}",
+        "cmc": 2.0,
+        "type_line": "Instant",
+        "colors": [
+          "B",
+          "G"
+        ],
         "color_identity": [
           "B",
           "G"
@@ -7519,8 +7583,52 @@
         "color_identity": []
       },
       {
+        "name": "Planar Engineering",
+        "quantity": 1,
+        "card_id": "n4Pgv",
+        "unique_card_id": "kyKoN",
+        "scryfall_id": "c83b96a3-ddfd-4d11-8a85-5bf62087cbb9",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Emeritus of Woe // Demonic Tutor",
+        "quantity": 1,
+        "card_id": "40J7G",
+        "unique_card_id": "Y2mJ4",
+        "scryfall_id": "7eb9e83d-515d-4911-a06b-9982200277b2",
+        "mana_cost": "{3}{B} // {1}{B}",
+        "cmc": 4.0,
+        "type_line": "Creature — Vampire Warlock // Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Lightning Greaves",
+        "quantity": 1,
+        "card_id": "oWA9Z",
+        "unique_card_id": "EZNG7",
+        "scryfall_id": "b61634ae-05be-4b56-8ebb-9d4ade902e42",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact — Equipment",
+        "colors": [],
+        "color_identity": []
+      },
+      {
         "name": "Forest",
-        "quantity": 6,
+        "quantity": 8,
         "card_id": "pRn5p",
         "unique_card_id": "kywJr",
         "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
@@ -7534,7 +7642,7 @@
       },
       {
         "name": "Mountain",
-        "quantity": 4,
+        "quantity": 3,
         "card_id": "43w6P",
         "unique_card_id": "kqAb3",
         "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
@@ -7548,7 +7656,7 @@
       },
       {
         "name": "Swamp",
-        "quantity": 5,
+        "quantity": 4,
         "card_id": "7vG38",
         "unique_card_id": "kOzVw",
         "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
@@ -7561,16 +7669,16 @@
         ]
       }
     ],
-    "mainboard_count": 92,
-    "unique_mainboard_cards": 80,
-    "total_cards": 93,
+    "mainboard_count": 99,
+    "unique_mainboard_cards": 87,
+    "total_cards": 100,
     "colors": [
       "B",
       "R",
       "G"
     ],
     "bracket": 3,
-    "last_updated": "2026-08-12T09:57:20.95Z"
+    "last_updated": "2026-08-13T07:16:51.79Z"
   },
   {
     "deck_number": 7,
@@ -12163,22 +12271,6 @@
         ]
       },
       {
-        "name": "Nyxbloom Ancient",
-        "quantity": 1,
-        "card_id": "01VMJ",
-        "unique_card_id": "LmyR0",
-        "scryfall_id": "71c9929e-95bc-4d97-8579-d85c6f4e2dc8",
-        "mana_cost": "{4}{G}{G}{G}",
-        "cmc": 7.0,
-        "type_line": "Enchantment Creature — Elemental",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Kinnan, Bonder Prodigy",
         "quantity": 1,
         "card_id": "dXaqw",
@@ -12418,22 +12510,6 @@
         ]
       },
       {
-        "name": "Doubling Season",
-        "quantity": 1,
-        "card_id": "MxPnB",
-        "unique_card_id": "YxjxG",
-        "scryfall_id": "4ba8fabe-3af7-4f19-9508-5b5a6a608a3c",
-        "mana_cost": "{4}{G}",
-        "cmc": 5.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Dionus, Elvish Archdruid",
         "quantity": 1,
         "card_id": "q4JMP",
@@ -12461,20 +12537,6 @@
         "colors": [
           "G"
         ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Forest",
-        "quantity": 11,
-        "card_id": "pRn5p",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
         "color_identity": [
           "G"
         ]
@@ -12679,52 +12741,6 @@
         ]
       },
       {
-        "name": "Island",
-        "quantity": 2,
-        "card_id": "7Rz0Z",
-        "unique_card_id": "kaN49",
-        "scryfall_id": "b2fba3ad-4c61-484b-a788-8468dcdb7345",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Island",
-        "colors": [],
-        "color_identity": [
-          "U"
-        ]
-      },
-      {
-        "name": "Nissa, Resurgent Animist",
-        "quantity": 1,
-        "card_id": "n49vp",
-        "unique_card_id": "kaBmO",
-        "scryfall_id": "f3bfeb35-470e-4e18-b15b-66a4a20d51b7",
-        "mana_cost": "{2}{G}",
-        "cmc": 3.0,
-        "type_line": "Legendary Creature — Elf Scout",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Tireless Provisioner",
-        "quantity": 1,
-        "card_id": "PJDdR",
-        "unique_card_id": "kyAWo",
-        "scryfall_id": "6d2e2e8d-8382-4d98-9e25-2dff1b1d0ff8",
-        "mana_cost": "{2}{G}",
-        "cmc": 3.0,
-        "type_line": "Creature — Elf Scout",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Elrond, Moon-Reader",
         "quantity": 1,
         "card_id": "oWrmz",
@@ -12828,6 +12844,98 @@
         "colors": [
           "U"
         ],
+        "color_identity": [
+          "U"
+        ]
+      },
+      {
+        "name": "Nyxbloom Ancient",
+        "quantity": 1,
+        "card_id": "01VMJ",
+        "unique_card_id": "LmyR0",
+        "scryfall_id": "71c9929e-95bc-4d97-8579-d85c6f4e2dc8",
+        "mana_cost": "{4}{G}{G}{G}",
+        "cmc": 7.0,
+        "type_line": "Enchantment Creature — Elemental",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Doubling Season",
+        "quantity": 1,
+        "card_id": "MxPnB",
+        "unique_card_id": "YxjxG",
+        "scryfall_id": "4ba8fabe-3af7-4f19-9508-5b5a6a608a3c",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Nissa, Resurgent Animist",
+        "quantity": 1,
+        "card_id": "n49vp",
+        "unique_card_id": "kaBmO",
+        "scryfall_id": "f3bfeb35-470e-4e18-b15b-66a4a20d51b7",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "type_line": "Legendary Creature — Elf Scout",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Tireless Provisioner",
+        "quantity": 1,
+        "card_id": "PJDdR",
+        "unique_card_id": "kyAWo",
+        "scryfall_id": "6d2e2e8d-8382-4d98-9e25-2dff1b1d0ff8",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "type_line": "Creature — Elf Scout",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Forest",
+        "quantity": 11,
+        "card_id": "pRn5p",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Island",
+        "quantity": 2,
+        "card_id": "7Rz0Z",
+        "unique_card_id": "kaN49",
+        "scryfall_id": "b2fba3ad-4c61-484b-a788-8468dcdb7345",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Island",
+        "colors": [],
         "color_identity": [
           "U"
         ]

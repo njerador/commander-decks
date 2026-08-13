@@ -2,16 +2,48 @@
   "generated_from": "decks/analysis-data.json",
   "decks_changed": 1,
   "changes": {
-    "deck-10": {
+    "deck-06": {
       "added": [
         {
+          "name": "Emeritus of Woe // Demonic Tutor",
+          "quantity": 1
+        },
+        {
           "name": "Forest",
+          "quantity": 2
+        },
+        {
+          "name": "Lightning Greaves",
+          "quantity": 1
+        },
+        {
+          "name": "Multani, Yavimaya's Avatar",
+          "quantity": 1
+        },
+        {
+          "name": "Planar Engineering",
+          "quantity": 1
+        },
+        {
+          "name": "Scouring Swarm",
+          "quantity": 1
+        },
+        {
+          "name": "Strionic Resonator",
+          "quantity": 1
+        },
+        {
+          "name": "Witherbloom Charm",
           "quantity": 1
         }
       ],
       "removed": [
         {
-          "name": "Path of Ancestry",
+          "name": "Mountain",
+          "quantity": 1
+        },
+        {
+          "name": "Swamp",
           "quantity": 1
         }
       ]
