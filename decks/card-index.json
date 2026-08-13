@@ -2999,7 +2999,7 @@
       {
         "deck_number": 10,
         "deck_name": "thranduil",
-        "quantity": 10,
+        "quantity": 11,
         "board": "mainboard"
       }
     ],
@@ -5419,15 +5419,9 @@
         "deck_name": "raphael ",
         "quantity": 1,
         "board": "mainboard"
-      },
-      {
-        "deck_number": 10,
-        "deck_name": "thranduil",
-        "quantity": 1,
-        "board": "mainboard"
       }
     ],
-    "deck_count": 5
+    "deck_count": 4
   },
   "path to exile": {
     "name": "Path to Exile",
