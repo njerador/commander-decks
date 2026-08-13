@@ -1,35 +1,5 @@
 {
   "generated_from": "decks/analysis-data.json",
-  "decks_changed": 1,
-  "changes": {
-    "deck-06": {
-      "added": [],
-      "removed": [
-        {
-          "name": "Groundskeeper",
-          "quantity": 1
-        },
-        {
-          "name": "Mountain Valley",
-          "quantity": 1
-        },
-        {
-          "name": "Myriad Landscape",
-          "quantity": 1
-        },
-        {
-          "name": "Overwhelming Stampede",
-          "quantity": 1
-        },
-        {
-          "name": "Riveteers Overlook",
-          "quantity": 1
-        },
-        {
-          "name": "Satyr Wayfinder",
-          "quantity": 1
-        }
-      ]
-    }
-  }
+  "decks_changed": 0,
+  "changes": {}
 }
