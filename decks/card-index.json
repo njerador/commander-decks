@@ -3479,18 +3479,6 @@
     ],
     "deck_count": 1
   },
-  "groundskeeper": {
-    "name": "Groundskeeper",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "guiltfeeder": {
     "name": "Guiltfeeder",
     "decks": [
@@ -4961,18 +4949,6 @@
     ],
     "deck_count": 5
   },
-  "mountain valley": {
-    "name": "Mountain Valley",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "multani, yavimaya's avatar": {
     "name": "Multani, Yavimaya's Avatar",
     "decks": [
@@ -4991,18 +4967,6 @@
       {
         "deck_number": 3,
         "deck_name": "food and fellowship",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "myriad landscape": {
-    "name": "Myriad Landscape",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -5359,18 +5323,6 @@
   },
   "overgrown tomb": {
     "name": "Overgrown Tomb",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "overwhelming stampede": {
-    "name": "Overwhelming Stampede",
     "decks": [
       {
         "deck_number": 6,
@@ -6239,18 +6191,6 @@
     ],
     "deck_count": 1
   },
-  "riveteers overlook": {
-    "name": "Riveteers Overlook",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "roaming throne": {
     "name": "Roaming Throne",
     "decks": [
@@ -6437,18 +6377,6 @@
       {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "satyr wayfinder": {
-    "name": "Satyr Wayfinder",
-    "decks": [
-      {
-        "deck_number": 6,
-        "deck_name": "korvold",
         "quantity": 1,
         "board": "mainboard"
       }

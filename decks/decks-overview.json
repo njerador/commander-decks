@@ -6514,38 +6514,6 @@
         ]
       },
       {
-        "name": "Groundskeeper",
-        "quantity": 1,
-        "card_id": "LKogd",
-        "unique_card_id": "kqNZx",
-        "scryfall_id": "ae029a5b-bcfb-4004-86aa-aaeca561545c",
-        "mana_cost": "{G}",
-        "cmc": 1.0,
-        "type_line": "Creature — Human Druid",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Satyr Wayfinder",
-        "quantity": 1,
-        "card_id": "LGza5",
-        "unique_card_id": "Y8rb7",
-        "scryfall_id": "95702caa-c9eb-4538-83ff-3b015c6b1349",
-        "mana_cost": "{1}{G}",
-        "cmc": 2.0,
-        "type_line": "Creature — Satyr",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Gaze of Granite",
         "quantity": 1,
         "card_id": "E1XWx",
@@ -6768,18 +6736,6 @@
         ]
       },
       {
-        "name": "Mountain Valley",
-        "quantity": 1,
-        "card_id": "YoO2z",
-        "unique_card_id": "k9KB6",
-        "scryfall_id": "9558892f-c4e8-4849-8c3b-384780cfb183",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Windgrace's Judgment",
         "quantity": 1,
         "card_id": "k9xyg",
@@ -6934,30 +6890,6 @@
         ]
       },
       {
-        "name": "Riveteers Overlook",
-        "quantity": 1,
-        "card_id": "WaaqD",
-        "unique_card_id": "Y2nam",
-        "scryfall_id": "1d161f81-c01a-4c91-b025-52dcb1881638",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Myriad Landscape",
-        "quantity": 1,
-        "card_id": "Mx9aX",
-        "unique_card_id": "ErzP7",
-        "scryfall_id": "276f49f9-019b-44cb-a551-0fba9851ecc7",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Braids, Arisen Nightmare",
         "quantity": 1,
         "card_id": "w2wdl",
@@ -7050,22 +6982,6 @@
         "color_identity": [
           "G",
           "R"
-        ]
-      },
-      {
-        "name": "Overwhelming Stampede",
-        "quantity": 1,
-        "card_id": "MxDM6",
-        "unique_card_id": "YBxQM",
-        "scryfall_id": "8b7d65b9-5f66-4cf7-b3ef-c47e7c6a131b",
-        "mana_cost": "{3}{G}{G}",
-        "cmc": 5.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
         ]
       },
       {
@@ -7669,16 +7585,16 @@
         ]
       }
     ],
-    "mainboard_count": 99,
-    "unique_mainboard_cards": 87,
-    "total_cards": 100,
+    "mainboard_count": 93,
+    "unique_mainboard_cards": 81,
+    "total_cards": 94,
     "colors": [
       "B",
       "R",
       "G"
     ],
     "bracket": 3,
-    "last_updated": "2026-08-13T07:16:51.79Z"
+    "last_updated": "2026-08-13T15:06:44.7Z"
   },
   {
     "deck_number": 7,
