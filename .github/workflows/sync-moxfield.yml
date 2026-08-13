@@ -9,6 +9,7 @@ on:
 
   schedule:
     - cron: "*/30 * * * *"
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -16,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Create decks directory
         run: mkdir -p decks
@@ -81,10 +84,14 @@ jobs:
         run: |
           python3 scripts/export-for-analysis.py
 
+      - name: Create deck change log
+        run: |
+          python3 scripts/create-change-log.py
+
       - name: Commit updated decks
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+users.noreply.github.com"
 
           git add decks/
 
