@@ -1199,6 +1199,18 @@
     ],
     "deck_count": 1
   },
+  "burgeoning": {
+    "name": "Burgeoning",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "buried alive": {
     "name": "Buried Alive",
     "decks": [
@@ -3687,6 +3699,12 @@
         "board": "mainboard"
       },
       {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
         "quantity": 1,
@@ -3699,7 +3717,7 @@
         "board": "mainboard"
       }
     ],
-    "deck_count": 5
+    "deck_count": 6
   },
   "hidetsugu, devouring chaos": {
     "name": "Hidetsugu, Devouring Chaos",
@@ -7383,6 +7401,12 @@
     "name": "Swiftfoot Boots",
     "decks": [
       {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 7,
         "deck_name": "raphael ",
         "quantity": 1,
@@ -7395,7 +7419,7 @@
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 3
   },
   "sword of the animist": {
     "name": "Sword of the Animist",
@@ -7756,6 +7780,18 @@
       }
     ],
     "deck_count": 2
+  },
+  "the last agni kai": {
+    "name": "The Last Agni Kai",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
   },
   "the meathook massacre": {
     "name": "The Meathook Massacre",
@@ -8429,6 +8465,18 @@
     ],
     "deck_count": 1
   },
+  "veil of summer": {
+    "name": "Veil of Summer",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "verdant catacombs": {
     "name": "Verdant Catacombs",
     "decks": [
@@ -8815,6 +8863,18 @@
   },
   "worldsoul's rage": {
     "name": "Worldsoul's Rage",
+    "decks": [
+      {
+        "deck_number": 6,
+        "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "yavimaya, cradle of growth": {
+    "name": "Yavimaya, Cradle of Growth",
     "decks": [
       {
         "deck_number": 6,

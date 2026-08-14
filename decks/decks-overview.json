@@ -6684,6 +6684,22 @@
         "color_identity": []
       },
       {
+        "name": "Burgeoning",
+        "quantity": 1,
+        "card_id": "Yer3P",
+        "unique_card_id": "YjDwl",
+        "scryfall_id": "fa9af8e5-bc97-4704-ae5c-e3d2d5b72586",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
         "name": "Wooded Foothills",
         "quantity": 1,
         "card_id": "YvG1a",
@@ -6921,6 +6937,18 @@
         ]
       },
       {
+        "name": "Swiftfoot Boots",
+        "quantity": 1,
+        "card_id": "WaNzl",
+        "unique_card_id": "LzKbN",
+        "scryfall_id": "53a91058-f98a-48dd-94da-354710a27019",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact — Equipment",
+        "colors": [],
+        "color_identity": []
+      },
+      {
         "name": "Smoldering Marsh",
         "quantity": 1,
         "card_id": "9mvdg",
@@ -6982,6 +7010,22 @@
         "color_identity": [
           "G",
           "R"
+        ]
+      },
+      {
+        "name": "Heroic Intervention",
+        "quantity": 1,
+        "card_id": "WaMMy",
+        "unique_card_id": "YMr0j",
+        "scryfall_id": "4377b09d-08e8-4150-bb84-4a9c00c7af82",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "type_line": "Instant",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
         ]
       },
       {
@@ -7149,6 +7193,18 @@
           "B",
           "R"
         ]
+      },
+      {
+        "name": "Yavimaya, Cradle of Growth",
+        "quantity": 1,
+        "card_id": "pRpB0",
+        "unique_card_id": "LDlpN",
+        "scryfall_id": "8a12b4f7-8f6b-4a3c-9114-825e1b2099a0",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Legendary Land",
+        "colors": [],
+        "color_identity": []
       },
       {
         "name": "Gluttonous Hellkite",
@@ -7404,6 +7460,22 @@
         ]
       },
       {
+        "name": "The Last Agni Kai",
+        "quantity": 1,
+        "card_id": "61OVR",
+        "unique_card_id": "Ydp7r",
+        "scryfall_id": "61eaebc6-7575-48ed-b212-ff8b0c7ae694",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "type_line": "Instant",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Assassin's Trophy",
         "quantity": 1,
         "card_id": "za958",
@@ -7515,6 +7587,22 @@
         ]
       },
       {
+        "name": "Veil of Summer",
+        "quantity": 1,
+        "card_id": "dovwz",
+        "unique_card_id": "Er6RV",
+        "scryfall_id": "5724a4a3-dd66-4a66-af8b-5374119ecdfb",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "type_line": "Instant",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
         "name": "Emeritus of Woe // Demonic Tutor",
         "quantity": 1,
         "card_id": "40J7G",
@@ -7585,16 +7673,16 @@
         ]
       }
     ],
-    "mainboard_count": 93,
-    "unique_mainboard_cards": 81,
-    "total_cards": 94,
+    "mainboard_count": 99,
+    "unique_mainboard_cards": 87,
+    "total_cards": 100,
     "colors": [
       "B",
       "R",
       "G"
     ],
     "bracket": 3,
-    "last_updated": "2026-08-13T15:06:44.7Z"
+    "last_updated": "2026-08-14T08:00:36.363Z"
   },
   {
     "deck_number": 7,
