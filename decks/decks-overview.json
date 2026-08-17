@@ -9323,17 +9323,15 @@
         ]
       },
       {
-        "name": "Howl of the Horde",
+        "name": "Fire Diamond",
         "quantity": 1,
-        "card_id": "YoGgJ",
-        "unique_card_id": "YjxNB",
-        "scryfall_id": "5db4baf3-f0dc-4b27-8323-a76764332590",
-        "mana_cost": "{2}{R}",
-        "cmc": 3.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "R"
-        ],
+        "card_id": "LDydp",
+        "unique_card_id": "Y84z4",
+        "scryfall_id": "cdb74b43-350a-45dc-bd26-89971f803251",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact",
+        "colors": [],
         "color_identity": [
           "R"
         ]
@@ -9396,6 +9394,22 @@
         "cmc": 3.0,
         "type_line": "Instant // Land",
         "colors": [],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Valakut Exploration",
+        "quantity": 1,
+        "card_id": "LRD02",
+        "unique_card_id": "E5Dgd",
+        "scryfall_id": "18cb7bf6-9c7c-4e62-a678-7b75862e2f64",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "R"
+        ],
         "color_identity": [
           "R"
         ]
@@ -9533,25 +9547,13 @@
         ]
       },
       {
-        "name": "Gauntlet of Power",
+        "name": "Sulfuric Vortex",
         "quantity": 1,
-        "card_id": "3q3eR",
-        "unique_card_id": "YndDv",
-        "scryfall_id": "d153663f-f08a-483e-92c9-82b5a9723807",
-        "mana_cost": "{5}",
-        "cmc": 5.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "City on Fire",
-        "quantity": 1,
-        "card_id": "01RO2",
-        "unique_card_id": "YNJQG",
-        "scryfall_id": "6f455cc1-a822-44ef-ba7c-bfcff69bd45e",
-        "mana_cost": "{5}{R}{R}{R}",
-        "cmc": 8.0,
+        "card_id": "na043",
+        "unique_card_id": "k9wmg",
+        "scryfall_id": "3253a624-50cc-4a8a-9b0c-9902aa53775f",
+        "mana_cost": "{1}{R}{R}",
+        "cmc": 3.0,
         "type_line": "Enchantment",
         "colors": [
           "R"
@@ -9739,22 +9741,6 @@
         ]
       },
       {
-        "name": "Brash Taunter",
-        "quantity": 1,
-        "card_id": "8OJq4",
-        "unique_card_id": "EbQjg",
-        "scryfall_id": "0b5cb154-1825-4b81-a109-7b3e9592c65c",
-        "mana_cost": "{4}{R}",
-        "cmc": 5.0,
-        "type_line": "Creature — Goblin",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
         "name": "Neheb, the Eternal",
         "quantity": 1,
         "card_id": "zbNoN",
@@ -9776,6 +9762,18 @@
         "card_id": "XdWmM",
         "unique_card_id": "EbO8n",
         "scryfall_id": "630febf5-58ff-4dab-a5a8-575ebc5435a6",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Fellwar Stone",
+        "quantity": 1,
+        "card_id": "enGZm",
+        "unique_card_id": "E645O",
+        "scryfall_id": "e99c4fec-eb21-4288-a12f-1c58c4946bae",
         "mana_cost": "{2}",
         "cmc": 2.0,
         "type_line": "Artifact",
@@ -10024,7 +10022,7 @@
       "R"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-10T14:21:44.337Z"
+    "last_updated": "2026-08-17T09:49:57.033Z"
   },
   {
     "deck_number": 9,

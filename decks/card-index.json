@@ -1127,18 +1127,6 @@
     ],
     "deck_count": 1
   },
-  "brash taunter": {
-    "name": "Brash Taunter",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "brawn": {
     "name": "Brawn",
     "decks": [
@@ -1507,18 +1495,6 @@
   },
   "citadel of pain": {
     "name": "Citadel of Pain",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "city on fire": {
-    "name": "City on Fire",
     "decks": [
       {
         "deck_number": 8,
@@ -2823,13 +2799,19 @@
     "name": "Fellwar Stone",
     "decks": [
       {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 1
+    "deck_count": 2
   },
   "fetid pools": {
     "name": "Fetid Pools",
@@ -2885,6 +2867,18 @@
       {
         "deck_number": 10,
         "deck_name": "thranduil",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "fire diamond": {
+    "name": "Fire Diamond",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -3149,18 +3143,6 @@
       {
         "deck_number": 4,
         "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "gauntlet of power": {
-    "name": "Gauntlet of Power",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -3749,18 +3731,6 @@
       {
         "deck_number": 1,
         "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "howl of the horde": {
-    "name": "Howl of the Horde",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -7253,6 +7223,18 @@
     ],
     "deck_count": 1
   },
+  "sulfuric vortex": {
+    "name": "Sulfuric Vortex",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "sulfurous springs": {
     "name": "Sulfurous Springs",
     "decks": [
@@ -8353,6 +8335,18 @@
   },
   "valakut awakening // valakut stoneforge": {
     "name": "Valakut Awakening // Valakut Stoneforge",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "valakut exploration": {
+    "name": "Valakut Exploration",
     "decks": [
       {
         "deck_number": 8,

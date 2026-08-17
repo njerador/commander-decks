@@ -1,5 +1,44 @@
 {
   "generated_from": "decks/analysis-data.json",
-  "decks_changed": 0,
-  "changes": {}
+  "decks_changed": 1,
+  "changes": {
+    "deck-08": {
+      "added": [
+        {
+          "name": "Fellwar Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fire Diamond",
+          "quantity": 1
+        },
+        {
+          "name": "Sulfuric Vortex",
+          "quantity": 1
+        },
+        {
+          "name": "Valakut Exploration",
+          "quantity": 1
+        }
+      ],
+      "removed": [
+        {
+          "name": "Brash Taunter",
+          "quantity": 1
+        },
+        {
+          "name": "City on Fire",
+          "quantity": 1
+        },
+        {
+          "name": "Gauntlet of Power",
+          "quantity": 1
+        },
+        {
+          "name": "Howl of the Horde",
+          "quantity": 1
+        }
+      ]
+    }
+  }
 }
