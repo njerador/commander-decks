@@ -2945,18 +2945,6 @@
     ],
     "deck_count": 1
   },
-  "firebrand archer": {
-    "name": "Firebrand Archer",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "firemane commando": {
     "name": "Firemane Commando",
     "decks": [
