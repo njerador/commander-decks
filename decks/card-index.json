@@ -2267,6 +2267,18 @@
     ],
     "deck_count": 1
   },
+  "electrostatic field": {
+    "name": "Electrostatic Field",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "elemental bond": {
     "name": "Elemental Bond",
     "decks": [
@@ -3845,6 +3857,18 @@
       {
         "deck_number": 1,
         "deck_name": "captain nghathrod",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "into the fire": {
+    "name": "Into the Fire",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -5633,6 +5657,18 @@
     ],
     "deck_count": 1
   },
+  "primal amulet // primal wellspring": {
+    "name": "Primal Amulet // Primal Wellspring",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "prismatic vista": {
     "name": "Prismatic Vista",
     "decks": [
@@ -5713,18 +5749,6 @@
   },
   "pyrohemia": {
     "name": "Pyrohemia",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "pyromancer's goggles": {
-    "name": "Pyromancer's Goggles",
     "decks": [
       {
         "deck_number": 8,
@@ -6983,6 +7007,18 @@
     ],
     "deck_count": 1
   },
+  "soul-scar mage": {
+    "name": "Soul-Scar Mage",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "sower of discord": {
     "name": "Sower of Discord",
     "decks": [
@@ -7307,6 +7343,18 @@
       {
         "deck_number": 3,
         "deck_name": "food and fellowship",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "sunspine lynx": {
+    "name": "Sunspine Lynx",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -7895,6 +7943,18 @@
     ],
     "deck_count": 1
   },
+  "thran dynamo": {
+    "name": "Thran Dynamo",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "thranduil the strategist": {
     "name": "Thranduil the Strategist",
     "decks": [
@@ -7963,15 +8023,9 @@
         "deck_name": "Giada",
         "quantity": 1,
         "board": "mainboard"
-      },
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "tiamat": {
     "name": "Tiamat",
@@ -8873,6 +8927,18 @@
       {
         "deck_number": 6,
         "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "young pyromancer": {
+    "name": "Young Pyromancer",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }

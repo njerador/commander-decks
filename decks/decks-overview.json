@@ -9051,6 +9051,22 @@
         ]
       },
       {
+        "name": "Young Pyromancer",
+        "quantity": 1,
+        "card_id": "LwmQ4",
+        "unique_card_id": "YNroJ",
+        "scryfall_id": "4ba02df9-4ccd-4e0f-a1f2-f0f6c7fd6329",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "type_line": "Creature — Human Shaman",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Chandra's Incinerator",
         "quantity": 1,
         "card_id": "Lwm5m",
@@ -9178,6 +9194,22 @@
         "scryfall_id": "a3508f2a-a800-4e55-8f65-29bd2f0aefb4",
         "mana_cost": "{1}{R}{R}",
         "cmc": 3.0,
+        "type_line": "Creature — Human Wizard",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Soul-Scar Mage",
+        "quantity": 1,
+        "card_id": "L3OJJ",
+        "unique_card_id": "Lm2W0",
+        "scryfall_id": "a8003786-6e2a-4e2d-a915-f23293c7273a",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
         "type_line": "Creature — Human Wizard",
         "colors": [
           "R"
@@ -9323,6 +9355,20 @@
         ]
       },
       {
+        "name": "Valakut, the Molten Pinnacle",
+        "quantity": 1,
+        "card_id": "k9961",
+        "unique_card_id": "kOaA4",
+        "scryfall_id": "61859afa-9578-4179-8c2b-9c54e880f339",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Fire Diamond",
         "quantity": 1,
         "card_id": "LDydp",
@@ -9351,6 +9397,18 @@
         "color_identity": [
           "R"
         ]
+      },
+      {
+        "name": "Primal Amulet // Primal Wellspring",
+        "quantity": 1,
+        "card_id": "kaVZK",
+        "unique_card_id": "Er01V",
+        "scryfall_id": "d4d379b5-7f56-4a7d-a4ac-131fc3d579c6",
+        "mana_cost": null,
+        "cmc": 4.0,
+        "type_line": "Artifact // Land",
+        "colors": [],
+        "color_identity": []
       },
       {
         "name": "Vandalblast",
@@ -9577,6 +9635,22 @@
         ]
       },
       {
+        "name": "Into the Fire",
+        "quantity": 1,
+        "card_id": "jqXrl",
+        "unique_card_id": "E5A1b",
+        "scryfall_id": "b13202d5-b89a-4feb-8a0e-45e6fe2654dc",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Mind Stone",
         "quantity": 1,
         "card_id": "5MBzW",
@@ -9697,18 +9771,6 @@
         ]
       },
       {
-        "name": "Throne of Eldraine",
-        "quantity": 1,
-        "card_id": "XdyKG",
-        "unique_card_id": "EPPZm",
-        "scryfall_id": "6bba4159-d507-4bb2-8c71-be7cd42d9277",
-        "mana_cost": "{5}",
-        "cmc": 5.0,
-        "type_line": "Legendary Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Virtue of Courage // Embereth Blaze",
         "quantity": 1,
         "card_id": "8OpJy",
@@ -9769,6 +9831,22 @@
         "color_identity": []
       },
       {
+        "name": "Sunspine Lynx",
+        "quantity": 1,
+        "card_id": "Q42pD",
+        "unique_card_id": "ky9pr",
+        "scryfall_id": "8995ceaf-b7e0-423c-8f3e-25212d522502",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "type_line": "Creature — Elemental Cat",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Fellwar Stone",
         "quantity": 1,
         "card_id": "enGZm",
@@ -9789,6 +9867,22 @@
         "mana_cost": "{2}{R}",
         "cmc": 3.0,
         "type_line": "Enchantment",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Electrostatic Field",
+        "quantity": 1,
+        "card_id": "dXb6G",
+        "unique_card_id": "YemK8",
+        "scryfall_id": "2ddbabad-4f23-4138-a25e-9de1b80a1389",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "type_line": "Creature — Wall",
         "colors": [
           "R"
         ],
@@ -9877,20 +9971,6 @@
         ]
       },
       {
-        "name": "Pyromancer's Goggles",
-        "quantity": 1,
-        "card_id": "G4Dbx",
-        "unique_card_id": "YNa4n",
-        "scryfall_id": "f340d8a4-196a-4433-807c-b7124e96e44f",
-        "mana_cost": "{5}",
-        "cmc": 5.0,
-        "type_line": "Legendary Artifact",
-        "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
         "name": "Twinflame Tyrant",
         "quantity": 1,
         "card_id": "dXQ9x",
@@ -9934,6 +10014,20 @@
         "colors": [
           "R"
         ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Mountain",
+        "quantity": 32,
+        "card_id": "r4AGn",
+        "unique_card_id": "kqAb3",
+        "scryfall_id": "287c7486-472b-4069-9826-6a3adbdefaa6",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Mountain",
+        "colors": [],
         "color_identity": [
           "R"
         ]
@@ -9987,42 +10081,26 @@
         ]
       },
       {
-        "name": "Valakut, the Molten Pinnacle",
+        "name": "Thran Dynamo",
         "quantity": 1,
-        "card_id": "k9961",
-        "unique_card_id": "kOaA4",
-        "scryfall_id": "61859afa-9578-4179-8c2b-9c54e880f339",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
+        "card_id": "x725y",
+        "unique_card_id": "YljgQ",
+        "scryfall_id": "873d52a8-f10e-4116-8511-bf63aeb2e413",
+        "mana_cost": "{4}",
+        "cmc": 4.0,
+        "type_line": "Artifact",
         "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Mountain",
-        "quantity": 32,
-        "card_id": "r4AGn",
-        "unique_card_id": "kqAb3",
-        "scryfall_id": "287c7486-472b-4069-9826-6a3adbdefaa6",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Mountain",
-        "colors": [],
-        "color_identity": [
-          "R"
-        ]
+        "color_identity": []
       }
     ],
-    "mainboard_count": 99,
-    "unique_mainboard_cards": 68,
-    "total_cards": 100,
+    "mainboard_count": 104,
+    "unique_mainboard_cards": 73,
+    "total_cards": 105,
     "colors": [
       "R"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-17T09:49:57.033Z"
+    "last_updated": "2026-08-18T16:38:20.973Z"
   },
   {
     "deck_number": 9,
