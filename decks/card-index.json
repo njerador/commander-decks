@@ -3515,18 +3515,6 @@
     ],
     "deck_count": 1
   },
-  "groundchuck & dirtbag": {
-    "name": "Groundchuck & Dirtbag",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "guiltfeeder": {
     "name": "Guiltfeeder",
     "decks": [
@@ -4321,6 +4309,18 @@
   },
   "life's legacy": {
     "name": "Life's Legacy",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "lifestream's blessing": {
+    "name": "Lifestream's Blessing",
     "decks": [
       {
         "deck_number": 4,
@@ -7019,18 +7019,6 @@
       {
         "deck_number": 1,
         "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "soul's majesty": {
-    "name": "Soul's Majesty",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }

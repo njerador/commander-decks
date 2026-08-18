@@ -5,89 +5,17 @@
     "deck-04": {
       "added": [
         {
-          "name": "Defiler of Vigor",
-          "quantity": 1
-        },
-        {
-          "name": "Elvish Mystic",
-          "quantity": 1
-        },
-        {
-          "name": "Excalibur, Sword of Eden",
-          "quantity": 1
-        },
-        {
-          "name": "Ghalta, Stampede Tyrant",
-          "quantity": 1
-        },
-        {
-          "name": "Green Sun's Zenith",
-          "quantity": 1
-        },
-        {
-          "name": "Leatherhead, Swamp Stalker",
-          "quantity": 1
-        },
-        {
-          "name": "Ojer Kaslem, Deepest Growth // Temple of Cultivation",
-          "quantity": 1
-        },
-        {
-          "name": "Raucous Audience",
-          "quantity": 1
-        },
-        {
-          "name": "Sol Ring",
-          "quantity": 1
-        },
-        {
-          "name": "Soul's Majesty",
-          "quantity": 1
-        },
-        {
-          "name": "Yorvo, Lord of Garenbrig",
+          "name": "Lifestream's Blessing",
           "quantity": 1
         }
       ],
       "removed": [
         {
-          "name": "Avatar of the Resolute",
+          "name": "Groundchuck & Dirtbag",
           "quantity": 1
         },
         {
-          "name": "Baloth Prime",
-          "quantity": 1
-        },
-        {
-          "name": "Beast Whisperer",
-          "quantity": 1
-        },
-        {
-          "name": "Concordant Crossroads",
-          "quantity": 1
-        },
-        {
-          "name": "Garruk's Packleader",
-          "quantity": 1
-        },
-        {
-          "name": "Majestic Genesis",
-          "quantity": 1
-        },
-        {
-          "name": "Ohran Frostfang",
-          "quantity": 1
-        },
-        {
-          "name": "Rhonas the Indomitable",
-          "quantity": 1
-        },
-        {
-          "name": "Steel Leaf Champion",
-          "quantity": 1
-        },
-        {
-          "name": "Watchful Radstag",
+          "name": "Soul's Majesty",
           "quantity": 1
         }
       ]
