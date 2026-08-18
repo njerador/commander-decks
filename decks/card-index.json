@@ -587,18 +587,6 @@
     ],
     "deck_count": 1
   },
-  "avatar of the resolute": {
-    "name": "Avatar of the Resolute",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "awaken the woods": {
     "name": "Awaken the Woods",
     "decks": [
@@ -669,19 +657,13 @@
     "name": "Baloth Prime",
     "decks": [
       {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 6,
         "deck_name": "korvold",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "banquet guests": {
     "name": "Banquet Guests",
@@ -723,19 +705,13 @@
     "name": "Beast Whisperer",
     "decks": [
       {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 10,
         "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "beast within": {
     "name": "Beast Within",
@@ -1593,19 +1569,13 @@
     "name": "Concordant Crossroads",
     "decks": [
       {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 10,
         "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "consuming aberration": {
     "name": "Consuming Aberration",
@@ -1919,6 +1889,18 @@
       {
         "deck_number": 8,
         "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "defiler of vigor": {
+    "name": "Defiler of Vigor",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -2391,13 +2373,19 @@
     "name": "Elvish Mystic",
     "decks": [
       {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 10,
         "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 1
+    "deck_count": 2
   },
   "elvish warmaster": {
     "name": "Elvish Warmaster",
@@ -2645,6 +2633,18 @@
       {
         "deck_number": 3,
         "deck_name": "food and fellowship",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "excalibur, sword of eden": {
+    "name": "Excalibur, Sword of Eden",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -3173,18 +3173,6 @@
     ],
     "deck_count": 1
   },
-  "garruk's packleader": {
-    "name": "Garruk's Packleader",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "garruk's uprising": {
     "name": "Garruk's Uprising",
     "decks": [
@@ -3229,6 +3217,18 @@
         "deck_name": "Ghalta",
         "quantity": 1,
         "board": "commander"
+      }
+    ],
+    "deck_count": 1
+  },
+  "ghalta, stampede tyrant": {
+    "name": "Ghalta, Stampede Tyrant",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
       }
     ],
     "deck_count": 1
@@ -3441,13 +3441,19 @@
     "name": "Green Sun's Zenith",
     "decks": [
       {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 10,
         "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 1
+    "deck_count": 2
   },
   "grell philosopher": {
     "name": "Grell Philosopher",
@@ -4241,6 +4247,18 @@
     ],
     "deck_count": 1
   },
+  "leatherhead, swamp stalker": {
+    "name": "Leatherhead, Swamp Stalker",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "legolas's quick reflexes": {
     "name": "Legolas's Quick Reflexes",
     "decks": [
@@ -4565,18 +4583,6 @@
       {
         "deck_number": 7,
         "deck_name": "raphael ",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "majestic genesis": {
-    "name": "Majestic Genesis",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -5243,8 +5249,8 @@
     ],
     "deck_count": 1
   },
-  "ohran frostfang": {
-    "name": "Ohran Frostfang",
+  "ojer kaslem, deepest growth // temple of cultivation": {
+    "name": "Ojer Kaslem, Deepest Growth // Temple of Cultivation",
     "decks": [
       {
         "deck_number": 4,
@@ -5945,6 +5951,18 @@
     ],
     "deck_count": 1
   },
+  "raucous audience": {
+    "name": "Raucous Audience",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "raugrin triome": {
     "name": "Raugrin Triome",
     "decks": [
@@ -6131,18 +6149,6 @@
       {
         "deck_number": 3,
         "deck_name": "food and fellowship",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "rhonas the indomitable": {
-    "name": "Rhonas the Indomitable",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -6957,6 +6963,12 @@
         "board": "mainboard"
       },
       {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 5,
         "deck_name": "Giada",
         "quantity": 1,
@@ -6987,7 +6999,7 @@
         "board": "mainboard"
       }
     ],
-    "deck_count": 8
+    "deck_count": 9
   },
   "solphim, mayhem dominus": {
     "name": "Solphim, Mayhem Dominus",
@@ -7007,6 +7019,18 @@
       {
         "deck_number": 1,
         "deck_name": "captain nghathrod",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "soul's majesty": {
+    "name": "Soul's Majesty",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -7157,18 +7181,6 @@
       {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "steel leaf champion": {
-    "name": "Steel Leaf Champion",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -8657,18 +8669,6 @@
     ],
     "deck_count": 1
   },
-  "watchful radstag": {
-    "name": "Watchful Radstag",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "waterlogged grove": {
     "name": "Waterlogged Grove",
     "decks": [
@@ -8921,6 +8921,18 @@
       {
         "deck_number": 6,
         "deck_name": "korvold",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "yorvo, lord of garenbrig": {
+    "name": "Yorvo, Lord of Garenbrig",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
