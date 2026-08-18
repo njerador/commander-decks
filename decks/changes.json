@@ -5,7 +5,69 @@
     "deck-08": {
       "added": [
         {
-          "name": "Electrostatic Field",
+          "name": "Browbeat",
+          "quantity": 1
+        },
+        {
+          "name": "Chaos Warp",
+          "quantity": 1
+        },
+        {
+          "name": "Defiler of Instinct",
+          "quantity": 1
+        },
+        {
+          "name": "Deflecting Swat",
+          "quantity": 1
+        },
+        {
+          "name": "Electro, Assaulting Battery",
+          "quantity": 1
+        },
+        {
+          "name": "Fiery Emancipation",
+          "quantity": 1
+        },
+        {
+          "name": "Firebrand Archer",
+          "quantity": 1
+        },
+        {
+          "name": "Koth, Fire of Resistance",
+          "quantity": 1
+        },
+        {
+          "name": "Manabarbs",
+          "quantity": 1
+        },
+        {
+          "name": "Prisoner's Dilemma",
+          "quantity": 1
+        },
+        {
+          "name": "Thunderdrum Soloist",
+          "quantity": 1
+        },
+        {
+          "name": "Volcanic Fallout",
+          "quantity": 1
+        },
+        {
+          "name": "Wheel of Misfortune",
+          "quantity": 1
+        }
+      ],
+      "removed": [
+        {
+          "name": "Chandra's Ignition",
+          "quantity": 1
+        },
+        {
+          "name": "Chandra, Awakened Inferno",
+          "quantity": 1
+        },
+        {
+          "name": "Fireball",
           "quantity": 1
         },
         {
@@ -13,15 +75,31 @@
           "quantity": 1
         },
         {
+          "name": "Lightning Greaves",
+          "quantity": 1
+        },
+        {
+          "name": "Mountain",
+          "quantity": 2
+        },
+        {
           "name": "Primal Amulet // Primal Wellspring",
           "quantity": 1
         },
         {
-          "name": "Soul-Scar Mage",
+          "name": "Reforge the Soul",
           "quantity": 1
         },
         {
-          "name": "Sunspine Lynx",
+          "name": "Reverberate",
+          "quantity": 1
+        },
+        {
+          "name": "Shadowspear",
+          "quantity": 1
+        },
+        {
+          "name": "Tectonic Giant",
           "quantity": 1
         },
         {
@@ -29,17 +107,11 @@
           "quantity": 1
         },
         {
-          "name": "Young Pyromancer",
-          "quantity": 1
-        }
-      ],
-      "removed": [
-        {
-          "name": "Pyromancer's Goggles",
+          "name": "Virtue of Courage // Embereth Blaze",
           "quantity": 1
         },
         {
-          "name": "Throne of Eldraine",
+          "name": "Visions of Phyrexia",
           "quantity": 1
         }
       ]

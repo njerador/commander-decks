@@ -1416,6 +1416,22 @@
         ]
       },
       {
+        "name": "Sheoldred, Whispering One",
+        "quantity": 1,
+        "card_id": "kXB9D",
+        "unique_card_id": "EPg1n",
+        "scryfall_id": "72ddbbac-9914-44ff-b4d4-60989031744e",
+        "mana_cost": "{5}{B}{B}",
+        "cmc": 7.0,
+        "type_line": "Legendary Creature — Phyrexian Praetor",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
         "name": "Stomping Ground",
         "quantity": 1,
         "card_id": "Y2xld",
@@ -2407,6 +2423,48 @@
         ]
       },
       {
+        "name": "Forest",
+        "quantity": 3,
+        "card_id": "pRn5p",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Mountain",
+        "quantity": 2,
+        "card_id": "43w6P",
+        "unique_card_id": "kqAb3",
+        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Mountain",
+        "colors": [],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 5,
+        "card_id": "7vG38",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
         "name": "Life from the Loam",
         "quantity": 1,
         "card_id": "doAx8",
@@ -2646,64 +2704,6 @@
         ],
         "color_identity": [
           "G"
-        ]
-      },
-      {
-        "name": "Sheoldred, Whispering One",
-        "quantity": 1,
-        "card_id": "kXB9D",
-        "unique_card_id": "EPg1n",
-        "scryfall_id": "72ddbbac-9914-44ff-b4d4-60989031744e",
-        "mana_cost": "{5}{B}{B}",
-        "cmc": 7.0,
-        "type_line": "Legendary Creature — Phyrexian Praetor",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Forest",
-        "quantity": 3,
-        "card_id": "pRn5p",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Mountain",
-        "quantity": 2,
-        "card_id": "43w6P",
-        "unique_card_id": "kqAb3",
-        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Mountain",
-        "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 5,
-        "card_id": "7vG38",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
         ]
       }
     ],
@@ -8991,22 +8991,6 @@
     "commander_count": 1,
     "mainboard": [
       {
-        "name": "Tectonic Giant",
-        "quantity": 1,
-        "card_id": "EWNNl",
-        "unique_card_id": "LGpp4",
-        "scryfall_id": "693e0e95-55b7-4224-b2ce-4d3a5c0ddcb5",
-        "mana_cost": "{2}{R}{R}",
-        "cmc": 4.0,
-        "type_line": "Creature — Elemental Giant",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
         "name": "Arcane Signet",
         "quantity": 1,
         "card_id": "EWNJl",
@@ -9026,22 +9010,6 @@
         "scryfall_id": "b5bcf822-e129-45f6-9403-310ce9410f3b",
         "mana_cost": "{1}{R}{R}{R}",
         "cmc": 4.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Fireball",
-        "quantity": 1,
-        "card_id": "kOzym",
-        "unique_card_id": "YM6dX",
-        "scryfall_id": "b90d7906-3c0e-4309-918a-0f20371a6b97",
-        "mana_cost": "{X}{R}",
-        "cmc": 1.0,
         "type_line": "Sorcery",
         "colors": [
           "R"
@@ -9075,6 +9043,22 @@
         "mana_cost": "{5}{R}",
         "cmc": 6.0,
         "type_line": "Creature — Elemental",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Fiery Emancipation",
+        "quantity": 1,
+        "card_id": "LG6Z2",
+        "unique_card_id": "LD075",
+        "scryfall_id": "0b12e4b7-2c45-4795-94d3-901f89b8f290",
+        "mana_cost": "{3}{R}{R}{R}",
+        "cmc": 6.0,
+        "type_line": "Enchantment",
         "colors": [
           "R"
         ],
@@ -9155,14 +9139,30 @@
         ]
       },
       {
-        "name": "Reverberate",
+        "name": "Firebrand Archer",
         "quantity": 1,
-        "card_id": "L4GJr",
-        "unique_card_id": "L4Mlg",
-        "scryfall_id": "dd435013-0ab9-42f4-985c-66ea2b3760e9",
-        "mana_cost": "{R}{R}",
+        "card_id": "E0GV5",
+        "unique_card_id": "k9vZg",
+        "scryfall_id": "6ddc6b73-298b-4afa-990a-63706e77dd9f",
+        "mana_cost": "{1}{R}",
         "cmc": 2.0,
-        "type_line": "Instant",
+        "type_line": "Creature — Human Archer",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Browbeat",
+        "quantity": 1,
+        "card_id": "YjDep",
+        "unique_card_id": "YeyBv",
+        "scryfall_id": "77c0eb52-8e09-471a-b00c-aaa1ae244afc",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "type_line": "Sorcery",
         "colors": [
           "R"
         ],
@@ -9178,6 +9178,22 @@
         "scryfall_id": "39b35408-3728-4e1b-9f58-b0775df914d6",
         "mana_cost": "{3}{R}",
         "cmc": 4.0,
+        "type_line": "Instant",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Deflecting Swat",
+        "quantity": 1,
+        "card_id": "E5O8P",
+        "unique_card_id": "ka8D9",
+        "scryfall_id": "84f035e1-6c89-457b-b05f-85680a50ed91",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
         "type_line": "Instant",
         "colors": [
           "R"
@@ -9251,6 +9267,22 @@
         ]
       },
       {
+        "name": "Volcanic Fallout",
+        "quantity": 1,
+        "card_id": "LDD0M",
+        "unique_card_id": "EWxwr",
+        "scryfall_id": "0c123961-7107-4f29-97ad-48bd8db7b24d",
+        "mana_cost": "{1}{R}{R}",
+        "cmc": 3.0,
+        "type_line": "Instant",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Citadel of Pain",
         "quantity": 1,
         "card_id": "EgXVr",
@@ -9297,18 +9329,6 @@
         "color_identity": [
           "R"
         ]
-      },
-      {
-        "name": "Shadowspear",
-        "quantity": 1,
-        "card_id": "EWXoZ",
-        "unique_card_id": "LzdO8",
-        "scryfall_id": "131cb967-9569-4fbf-8143-c410d3a94538",
-        "mana_cost": "{1}",
-        "cmc": 1.0,
-        "type_line": "Legendary Artifact — Equipment",
-        "colors": [],
-        "color_identity": []
       },
       {
         "name": "Endless Atlas",
@@ -9399,18 +9419,6 @@
         ]
       },
       {
-        "name": "Primal Amulet // Primal Wellspring",
-        "quantity": 1,
-        "card_id": "kaVZK",
-        "unique_card_id": "Er01V",
-        "scryfall_id": "d4d379b5-7f56-4a7d-a4ac-131fc3d579c6",
-        "mana_cost": null,
-        "cmc": 4.0,
-        "type_line": "Artifact // Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Vandalblast",
         "quantity": 1,
         "card_id": "EZ0BP",
@@ -9433,6 +9441,22 @@
         "unique_card_id": "E6wX9",
         "scryfall_id": "7e17b8ee-9de9-44d8-958b-3fced717ed32",
         "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Manabarbs",
+        "quantity": 1,
+        "card_id": "EWZXD",
+        "unique_card_id": "EQyl4",
+        "scryfall_id": "bd4942f9-c3ec-4cb1-9300-9f6ed9e7caa9",
+        "mana_cost": "{3}{R}",
         "cmc": 4.0,
         "type_line": "Enchantment",
         "colors": [
@@ -9515,6 +9539,22 @@
         "color_identity": []
       },
       {
+        "name": "Wheel of Misfortune",
+        "quantity": 1,
+        "card_id": "kXPjZ",
+        "unique_card_id": "k7AVZ",
+        "scryfall_id": "74177b51-a300-49d9-8ea7-557b19cf80c7",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Flame Rift",
         "quantity": 1,
         "card_id": "kyOrX",
@@ -9561,6 +9601,22 @@
         ]
       },
       {
+        "name": "Defiler of Instinct",
+        "quantity": 1,
+        "card_id": "yj1DD",
+        "unique_card_id": "kq3dz",
+        "scryfall_id": "0e76e0cc-caff-4b15-b550-39e2324c8c95",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "type_line": "Creature — Phyrexian Kavu",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Sceptre of Eternal Glory",
         "quantity": 1,
         "card_id": "Q4d24",
@@ -9571,22 +9627,6 @@
         "type_line": "Legendary Artifact",
         "colors": [],
         "color_identity": []
-      },
-      {
-        "name": "Visions of Phyrexia",
-        "quantity": 1,
-        "card_id": "naWwZ",
-        "unique_card_id": "k9d6d",
-        "scryfall_id": "e922ef35-b62a-4cf8-9282-319f6de150b0",
-        "mana_cost": "{2}{R}{R}",
-        "cmc": 4.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
       },
       {
         "name": "Dictate of the Twin Gods",
@@ -9621,6 +9661,22 @@
         ]
       },
       {
+        "name": "Koth, Fire of Resistance",
+        "quantity": 1,
+        "card_id": "aQ9W9",
+        "unique_card_id": "EZavw",
+        "scryfall_id": "6528e012-4091-4722-b706-c51772676167",
+        "mana_cost": "{2}{R}{R}",
+        "cmc": 4.0,
+        "type_line": "Legendary Planeswalker — Koth",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Urabrask // The Great Work",
         "quantity": 1,
         "card_id": "dXPBe",
@@ -9630,22 +9686,6 @@
         "cmc": 4.0,
         "type_line": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
         "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Into the Fire",
-        "quantity": 1,
-        "card_id": "jqXrl",
-        "unique_card_id": "E5A1b",
-        "scryfall_id": "b13202d5-b89a-4feb-8a0e-45e6fe2654dc",
-        "mana_cost": "{2}{R}",
-        "cmc": 3.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "R"
-        ],
         "color_identity": [
           "R"
         ]
@@ -9727,34 +9767,6 @@
         ]
       },
       {
-        "name": "Chandra, Awakened Inferno",
-        "quantity": 1,
-        "card_id": "loOAG",
-        "unique_card_id": "E14nA",
-        "scryfall_id": "0d4fb926-fe8c-4640-ac8d-ef418b8945d5",
-        "mana_cost": "{4}{R}{R}",
-        "cmc": 6.0,
-        "type_line": "Legendary Planeswalker — Chandra",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Lightning Greaves",
-        "quantity": 1,
-        "card_id": "8ObKl",
-        "unique_card_id": "EZNG7",
-        "scryfall_id": "331013f6-976a-4dac-9939-1006e474e108",
-        "mana_cost": "{2}",
-        "cmc": 2.0,
-        "type_line": "Artifact — Equipment",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Repercussion",
         "quantity": 1,
         "card_id": "1vw2a",
@@ -9771,27 +9783,11 @@
         ]
       },
       {
-        "name": "Virtue of Courage // Embereth Blaze",
+        "name": "Prisoner's Dilemma",
         "quantity": 1,
-        "card_id": "8OpJy",
-        "unique_card_id": "LzZJ6",
-        "scryfall_id": "8b0e6daf-0dec-4718-af79-b7ce137c3135",
-        "mana_cost": "{3}{R}{R} // {1}{R}",
-        "cmc": 5.0,
-        "type_line": "Enchantment // Instant — Adventure",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Chandra's Ignition",
-        "quantity": 1,
-        "card_id": "ZOWqw",
-        "unique_card_id": "Egj3v",
-        "scryfall_id": "960f45a3-f9cf-41e6-b813-f3dee620a944",
+        "card_id": "g3mwZ",
+        "unique_card_id": "Y28nm",
+        "scryfall_id": "d678e736-7c29-433a-9a2a-b78749252377",
         "mana_cost": "{3}{R}{R}",
         "cmc": 5.0,
         "type_line": "Sorcery",
@@ -10003,14 +9999,14 @@
         ]
       },
       {
-        "name": "Reforge the Soul",
+        "name": "Chaos Warp",
         "quantity": 1,
-        "card_id": "AW11D",
-        "unique_card_id": "LRNap",
-        "scryfall_id": "1c3509c6-2ae7-45be-8ac9-4d14d69db32f",
-        "mana_cost": "{3}{R}{R}",
-        "cmc": 5.0,
-        "type_line": "Sorcery",
+        "card_id": "PJ4Wq",
+        "unique_card_id": "EP6e9",
+        "scryfall_id": "18081e2b-6a63-45d0-b321-1ca7c90ef408",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "type_line": "Instant",
         "colors": [
           "R"
         ],
@@ -10020,7 +10016,7 @@
       },
       {
         "name": "Mountain",
-        "quantity": 32,
+        "quantity": 30,
         "card_id": "r4AGn",
         "unique_card_id": "kqAb3",
         "scryfall_id": "287c7486-472b-4069-9826-6a3adbdefaa6",
@@ -10065,6 +10061,38 @@
         ]
       },
       {
+        "name": "Electro, Assaulting Battery",
+        "quantity": 1,
+        "card_id": "Ox0Rz",
+        "unique_card_id": "Yjpq7",
+        "scryfall_id": "d672cfad-e656-47f8-bf93-64f262aff33e",
+        "mana_cost": "{1}{R}{R}",
+        "cmc": 3.0,
+        "type_line": "Legendary Creature — Human Villain",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Thunderdrum Soloist",
+        "quantity": 1,
+        "card_id": "ZM0zV",
+        "unique_card_id": "E62Po",
+        "scryfall_id": "590d1d95-ed13-4121-899f-f5a2d8a6617a",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "type_line": "Creature — Dwarf Bard",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
         "name": "Tablet of Discovery",
         "quantity": 1,
         "card_id": "7Rmg8",
@@ -10079,28 +10107,16 @@
         "color_identity": [
           "R"
         ]
-      },
-      {
-        "name": "Thran Dynamo",
-        "quantity": 1,
-        "card_id": "x725y",
-        "unique_card_id": "YljgQ",
-        "scryfall_id": "873d52a8-f10e-4116-8511-bf63aeb2e413",
-        "mana_cost": "{4}",
-        "cmc": 4.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
       }
     ],
-    "mainboard_count": 104,
+    "mainboard_count": 102,
     "unique_mainboard_cards": 73,
-    "total_cards": 105,
+    "total_cards": 103,
     "colors": [
       "R"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-18T16:38:20.973Z"
+    "last_updated": "2026-08-18T19:07:28.71Z"
   },
   {
     "deck_number": 9,

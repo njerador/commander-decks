@@ -1151,6 +1151,18 @@
     ],
     "deck_count": 1
   },
+  "browbeat": {
+    "name": "Browbeat",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "bruna, the fading light": {
     "name": "Bruna, the Fading Light",
     "decks": [
@@ -1309,30 +1321,12 @@
         "deck_name": "korvold",
         "quantity": 1,
         "board": "mainboard"
-      },
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 2
-  },
-  "chandra's incinerator": {
-    "name": "Chandra's Incinerator",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
       }
     ],
     "deck_count": 1
   },
-  "chandra, awakened inferno": {
-    "name": "Chandra, Awakened Inferno",
+  "chandra's incinerator": {
+    "name": "Chandra's Incinerator",
     "decks": [
       {
         "deck_number": 8,
@@ -1375,9 +1369,15 @@
         "deck_name": "raphael ",
         "quantity": 1,
         "board": "mainboard"
+      },
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
       }
     ],
-    "deck_count": 1
+    "deck_count": 2
   },
   "charcoal diamond": {
     "name": "Charcoal Diamond",
@@ -1913,6 +1913,30 @@
     ],
     "deck_count": 1
   },
+  "defiler of instinct": {
+    "name": "Defiler of Instinct",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "deflecting swat": {
+    "name": "Deflecting Swat",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "delighted halfling": {
     "name": "Delighted Halfling",
     "decks": [
@@ -2261,6 +2285,18 @@
       {
         "deck_number": 10,
         "deck_name": "thranduil",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "electro, assaulting battery": {
+    "name": "Electro, Assaulting Battery",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -2861,6 +2897,18 @@
     ],
     "deck_count": 1
   },
+  "fiery emancipation": {
+    "name": "Fiery Emancipation",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "final act": {
     "name": "Final Act",
     "decks": [
@@ -2897,8 +2945,8 @@
     ],
     "deck_count": 1
   },
-  "fireball": {
-    "name": "Fireball",
+  "firebrand archer": {
+    "name": "Firebrand Archer",
     "decks": [
       {
         "deck_number": 8,
@@ -3863,18 +3911,6 @@
     ],
     "deck_count": 1
   },
-  "into the fire": {
-    "name": "Into the Fire",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "invasion of ikoria // zilortha, apex of ikoria": {
     "name": "Invasion of Ikoria // Zilortha, Apex of Ikoria",
     "decks": [
@@ -4169,6 +4205,18 @@
     ],
     "deck_count": 1
   },
+  "koth, fire of resistance": {
+    "name": "Koth, Fire of Resistance",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "last march of the ents": {
     "name": "Last March of the Ents",
     "decks": [
@@ -4329,12 +4377,6 @@
         "board": "mainboard"
       },
       {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
         "quantity": 1,
@@ -4347,7 +4389,7 @@
         "board": "mainboard"
       }
     ],
-    "deck_count": 7
+    "deck_count": 6
   },
   "liliana's contract": {
     "name": "Liliana's Contract",
@@ -4579,6 +4621,18 @@
   },
   "mana geyser": {
     "name": "Mana Geyser",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "manabarbs": {
+    "name": "Manabarbs",
     "decks": [
       {
         "deck_number": 8,
@@ -4949,7 +5003,7 @@
       {
         "deck_number": 8,
         "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 32,
+        "quantity": 30,
         "board": "mainboard"
       },
       {
@@ -5657,18 +5711,6 @@
     ],
     "deck_count": 1
   },
-  "primal amulet // primal wellspring": {
-    "name": "Primal Amulet // Primal Wellspring",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "prismatic vista": {
     "name": "Prismatic Vista",
     "decks": [
@@ -5686,6 +5728,18 @@
       }
     ],
     "deck_count": 2
+  },
+  "prisoner's dilemma": {
+    "name": "Prisoner's Dilemma",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
   },
   "profane tutor": {
     "name": "Profane Tutor",
@@ -6011,18 +6065,6 @@
     ],
     "deck_count": 1
   },
-  "reforge the soul": {
-    "name": "Reforge the Soul",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "regal imperiosaur": {
     "name": "Regal Imperiosaur",
     "decks": [
@@ -6089,18 +6131,6 @@
       {
         "deck_number": 10,
         "deck_name": "thranduil",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "reverberate": {
-    "name": "Reverberate",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -6671,18 +6701,6 @@
       {
         "deck_number": 7,
         "deck_name": "raphael ",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "shadowspear": {
-    "name": "Shadowspear",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -7661,18 +7679,6 @@
     ],
     "deck_count": 1
   },
-  "tectonic giant": {
-    "name": "Tectonic Giant",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "teferi's protection": {
     "name": "Teferi's Protection",
     "decks": [
@@ -7943,18 +7949,6 @@
     ],
     "deck_count": 1
   },
-  "thran dynamo": {
-    "name": "Thran Dynamo",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "thranduil the strategist": {
     "name": "Thranduil the Strategist",
     "decks": [
@@ -8021,6 +8015,18 @@
       {
         "deck_number": 5,
         "deck_name": "Giada",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "thunderdrum soloist": {
+    "name": "Thunderdrum Soloist",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -8621,20 +8627,8 @@
     ],
     "deck_count": 2
   },
-  "virtue of courage // embereth blaze": {
-    "name": "Virtue of Courage // Embereth Blaze",
-    "decks": [
-      {
-        "deck_number": 8,
-        "deck_name": "Solphim, Mayhem Dominus",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "visions of phyrexia": {
-    "name": "Visions of Phyrexia",
+  "volcanic fallout": {
+    "name": "Volcanic Fallout",
     "decks": [
       {
         "deck_number": 8,
@@ -8752,6 +8746,18 @@
       }
     ],
     "deck_count": 2
+  },
+  "wheel of misfortune": {
+    "name": "Wheel of Misfortune",
+    "decks": [
+      {
+        "deck_number": 8,
+        "deck_name": "Solphim, Mayhem Dominus",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
   },
   "windgrace's judgment": {
     "name": "Windgrace's Judgment",
