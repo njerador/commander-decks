@@ -4222,22 +4222,6 @@
         "color_identity": []
       },
       {
-        "name": "Karametra's Acolyte",
-        "quantity": 1,
-        "card_id": "Yew51",
-        "unique_card_id": "EZr5B",
-        "scryfall_id": "579f4800-8fd0-44c8-ab46-acf4a5d20384",
-        "mana_cost": "{3}{G}",
-        "cmc": 4.0,
-        "type_line": "Creature — Human Druid",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Hunter's Insight",
         "quantity": 1,
         "card_id": "EQ51p",
@@ -4265,36 +4249,6 @@
         "colors": [
           "G"
         ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Nylea, Keen-Eyed",
-        "quantity": 1,
-        "card_id": "YMev6",
-        "unique_card_id": "EJ5dB",
-        "scryfall_id": "2a022e36-5074-4875-ac30-aaa09b7ef421",
-        "mana_cost": "{3}{G}",
-        "cmc": 4.0,
-        "type_line": "Legendary Enchantment Creature — God",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Forest",
-        "quantity": 29,
-        "card_id": "kpGlj",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "dd98de13-d556-4cf3-99f3-d1c0db85cb3f",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
         "color_identity": [
           "G"
         ]
@@ -4458,22 +4412,6 @@
         ]
       },
       {
-        "name": "Circle of Dreams Druid",
-        "quantity": 1,
-        "card_id": "EZVqm",
-        "unique_card_id": "kyAKr",
-        "scryfall_id": "c3a884d6-081e-4a0f-b9c0-56c8c4487128",
-        "mana_cost": "{G}{G}{G}",
-        "cmc": 3.0,
-        "type_line": "Creature — Elf Druid",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Unnatural Growth",
         "quantity": 1,
         "card_id": "Yxg89",
@@ -4548,6 +4486,22 @@
         ]
       },
       {
+        "name": "Concordant Crossroads",
+        "quantity": 1,
+        "card_id": "w2yQn",
+        "unique_card_id": "kybvX",
+        "scryfall_id": "c9a26f51-5bff-4f06-abaa-6fbb56a8b5b6",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "type_line": "World Enchantment",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
         "name": "Silverback Elder",
         "quantity": 1,
         "card_id": "MxOjN",
@@ -4604,38 +4558,6 @@
         "mana_cost": "{2}{G}",
         "cmc": 3.0,
         "type_line": "Enchantment",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Tyrranax Rex",
-        "quantity": 1,
-        "card_id": "Pb9X9",
-        "unique_card_id": "kaxyq",
-        "scryfall_id": "ebc1978e-ba4f-48ed-90e2-9252603f99fe",
-        "mana_cost": "{4}{G}{G}{G}",
-        "cmc": 7.0,
-        "type_line": "Creature — Phyrexian Dinosaur",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Zopandrel, Hunger Dominus",
-        "quantity": 1,
-        "card_id": "V2xq8",
-        "unique_card_id": "kAo85",
-        "scryfall_id": "a8b31ca5-087a-4359-a570-134eedc7cb3a",
-        "mana_cost": "{5}{G}{G}",
-        "cmc": 7.0,
-        "type_line": "Legendary Creature — Phyrexian Horror",
         "colors": [
           "G"
         ],
@@ -4768,22 +4690,6 @@
         ]
       },
       {
-        "name": "The Great Henge",
-        "quantity": 1,
-        "card_id": "aQr59",
-        "unique_card_id": "LK6Dg",
-        "scryfall_id": "d1921b08-a3b3-422d-a82d-49af9149aee7",
-        "mana_cost": "{7}{G}{G}",
-        "cmc": 9.0,
-        "type_line": "Legendary Artifact",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "The Skullspore Nexus",
         "quantity": 1,
         "card_id": "1vzOR",
@@ -4854,6 +4760,22 @@
         "mana_cost": "{5}{G}{G}{G}",
         "cmc": 8.0,
         "type_line": "Legendary Creature — Elder Dinosaur",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Archdruid's Charm",
+        "quantity": 1,
+        "card_id": "Q4vV2",
+        "unique_card_id": "LKeaN",
+        "scryfall_id": "bb44e9eb-2d82-421b-8e53-0bf465aff3d7",
+        "mana_cost": "{G}{G}{G}",
+        "cmc": 3.0,
+        "type_line": "Instant",
         "colors": [
           "G"
         ],
@@ -4984,22 +4906,6 @@
         "color_identity": []
       },
       {
-        "name": "Keen-Eyed Curator",
-        "quantity": 1,
-        "card_id": "Wa3eb",
-        "unique_card_id": "Egqvw",
-        "scryfall_id": "8cf33d80-0704-4dc4-8e8d-1dcbcbc35add",
-        "mana_cost": "{G}{G}",
-        "cmc": 2.0,
-        "type_line": "Creature — Raccoon Scout",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Elemental Bond",
         "quantity": 1,
         "card_id": "naPyp",
@@ -5008,22 +4914,6 @@
         "mana_cost": "{2}{G}",
         "cmc": 3.0,
         "type_line": "Enchantment",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Gigantosaurus",
-        "quantity": 1,
-        "card_id": "bRNja",
-        "unique_card_id": "LR3rR",
-        "scryfall_id": "bc1c518a-dcb4-407c-85be-ed5935a24198",
-        "mana_cost": "{G}{G}{G}{G}{G}",
-        "cmc": 5.0,
-        "type_line": "Creature — Dinosaur",
         "colors": [
           "G"
         ],
@@ -5096,22 +4986,6 @@
         ]
       },
       {
-        "name": "Frenzied Baloth",
-        "quantity": 1,
-        "card_id": "AJdQ5",
-        "unique_card_id": "LDdrW",
-        "scryfall_id": "9797f0ca-8252-4cdb-8036-ea0d9877569a",
-        "mana_cost": "{G}{G}",
-        "cmc": 2.0,
-        "type_line": "Creature — Beast",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Evendo, Waking Haven",
         "quantity": 1,
         "card_id": "b5r98",
@@ -5174,22 +5048,6 @@
         ]
       },
       {
-        "name": "Food Chain",
-        "quantity": 1,
-        "card_id": "zaGV8",
-        "unique_card_id": "Yn6AR",
-        "scryfall_id": "5021063d-c5a1-4925-8ac6-0113b8c58dc0",
-        "mana_cost": "{2}{G}",
-        "cmc": 3.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Slumbering Trudge",
         "quantity": 1,
         "card_id": "oWmrA",
@@ -5216,16 +5074,142 @@
         "type_line": "Artifact",
         "colors": [],
         "color_identity": []
+      },
+      {
+        "name": "Karametra's Acolyte",
+        "quantity": 1,
+        "card_id": "Yew51",
+        "unique_card_id": "EZr5B",
+        "scryfall_id": "579f4800-8fd0-44c8-ab46-acf4a5d20384",
+        "mana_cost": "{3}{G}",
+        "cmc": 4.0,
+        "type_line": "Creature — Human Druid",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Circle of Dreams Druid",
+        "quantity": 1,
+        "card_id": "EZVqm",
+        "unique_card_id": "kyAKr",
+        "scryfall_id": "c3a884d6-081e-4a0f-b9c0-56c8c4487128",
+        "mana_cost": "{G}{G}{G}",
+        "cmc": 3.0,
+        "type_line": "Creature — Elf Druid",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Tyrranax Rex",
+        "quantity": 1,
+        "card_id": "Pb9X9",
+        "unique_card_id": "kaxyq",
+        "scryfall_id": "ebc1978e-ba4f-48ed-90e2-9252603f99fe",
+        "mana_cost": "{4}{G}{G}{G}",
+        "cmc": 7.0,
+        "type_line": "Creature — Phyrexian Dinosaur",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Zopandrel, Hunger Dominus",
+        "quantity": 1,
+        "card_id": "V2xq8",
+        "unique_card_id": "kAo85",
+        "scryfall_id": "a8b31ca5-087a-4359-a570-134eedc7cb3a",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7.0,
+        "type_line": "Legendary Creature — Phyrexian Horror",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Gigantosaurus",
+        "quantity": 1,
+        "card_id": "bRNja",
+        "unique_card_id": "LR3rR",
+        "scryfall_id": "bc1c518a-dcb4-407c-85be-ed5935a24198",
+        "mana_cost": "{G}{G}{G}{G}{G}",
+        "cmc": 5.0,
+        "type_line": "Creature — Dinosaur",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Food Chain",
+        "quantity": 1,
+        "card_id": "zaGV8",
+        "unique_card_id": "Yn6AR",
+        "scryfall_id": "5021063d-c5a1-4925-8ac6-0113b8c58dc0",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Forest",
+        "quantity": 29,
+        "card_id": "kpGlj",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "dd98de13-d556-4cf3-99f3-d1c0db85cb3f",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "The Great Henge",
+        "quantity": 1,
+        "card_id": "aQr59",
+        "unique_card_id": "LK6Dg",
+        "scryfall_id": "d1921b08-a3b3-422d-a82d-49af9149aee7",
+        "mana_cost": "{7}{G}{G}",
+        "cmc": 9.0,
+        "type_line": "Legendary Artifact",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
       }
     ],
-    "mainboard_count": 100,
-    "unique_mainboard_cards": 72,
-    "total_cards": 101,
+    "mainboard_count": 99,
+    "unique_mainboard_cards": 71,
+    "total_cards": 100,
     "colors": [
       "G"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-19T07:20:41.733Z"
+    "last_updated": "2026-08-19T07:48:14.347Z"
   },
   {
     "deck_number": 5,
@@ -11850,6 +11834,24 @@
         ]
       },
       {
+        "name": "Neoform",
+        "quantity": 1,
+        "card_id": "Yn3wN",
+        "unique_card_id": "Lz6ea",
+        "scryfall_id": "92d8f67e-4f2f-4a1f-b190-7c3f39e477e4",
+        "mana_cost": "{G}{U}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "G",
+          "U"
+        ],
+        "color_identity": [
+          "G",
+          "U"
+        ]
+      },
+      {
         "name": "Finale of Devastation",
         "quantity": 1,
         "card_id": "LVpoO",
@@ -11874,22 +11876,6 @@
         "mana_cost": "{G}{G}{G}",
         "cmc": 3.0,
         "type_line": "Creature — Elf Druid",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Greater Good",
-        "quantity": 1,
-        "card_id": "YvZpw",
-        "unique_card_id": "LDoKz",
-        "scryfall_id": "12befd35-2dc6-4852-a153-75b553042643",
-        "mana_cost": "{2}{G}{G}",
-        "cmc": 4.0,
-        "type_line": "Enchantment",
         "colors": [
           "G"
         ],
@@ -12154,6 +12140,24 @@
         "type_line": "Land",
         "colors": [],
         "color_identity": []
+      },
+      {
+        "name": "Double Major",
+        "quantity": 1,
+        "card_id": "LmrXr",
+        "unique_card_id": "Yxxwm",
+        "scryfall_id": "9b56c2ef-7df1-47f7-9943-84ea55f6eebf",
+        "mana_cost": "{G}{U}",
+        "cmc": 2.0,
+        "type_line": "Instant",
+        "colors": [
+          "G",
+          "U"
+        ],
+        "color_identity": [
+          "G",
+          "U"
+        ]
       },
       {
         "name": "Quirion Ranger",
@@ -12961,22 +12965,6 @@
         ]
       },
       {
-        "name": "Doubling Season",
-        "quantity": 1,
-        "card_id": "MxPnB",
-        "unique_card_id": "YxjxG",
-        "scryfall_id": "4ba8fabe-3af7-4f19-9508-5b5a6a608a3c",
-        "mana_cost": "{4}{G}",
-        "cmc": 5.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Nissa, Resurgent Animist",
         "quantity": 1,
         "card_id": "n49vp",
@@ -13045,6 +13033,6 @@
       "G"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-13T05:56:13.997Z"
+    "last_updated": "2026-08-19T08:47:19.483Z"
   }
 ]

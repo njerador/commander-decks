@@ -455,6 +455,18 @@
     ],
     "deck_count": 1
   },
+  "archdruid's charm": {
+    "name": "Archdruid's Charm",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "archfiend of depravity": {
     "name": "Archfiend of Depravity",
     "decks": [
@@ -1581,13 +1593,19 @@
     "name": "Concordant Crossroads",
     "decks": [
       {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      },
+      {
         "deck_number": 10,
         "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 1
+    "deck_count": 2
   },
   "consuming aberration": {
     "name": "Consuming Aberration",
@@ -2075,6 +2093,18 @@
     ],
     "deck_count": 1
   },
+  "double major": {
+    "name": "Double Major",
+    "decks": [
+      {
+        "deck_number": 10,
+        "deck_name": "thranduil",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "doubling season": {
     "name": "Doubling Season",
     "decks": [
@@ -2083,15 +2113,9 @@
         "deck_name": "food and fellowship",
         "quantity": 1,
         "board": "mainboard"
-      },
-      {
-        "deck_number": 10,
-        "deck_name": "thranduil",
-        "quantity": 1,
-        "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "dragon tempest": {
     "name": "Dragon Tempest",
@@ -3107,18 +3131,6 @@
     ],
     "deck_count": 1
   },
-  "frenzied baloth": {
-    "name": "Frenzied Baloth",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "frodo, adventurous hobbit": {
     "name": "Frodo, Adventurous Hobbit",
     "decks": [
@@ -3439,15 +3451,9 @@
         "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
-      },
-      {
-        "deck_number": 10,
-        "deck_name": "thranduil",
-        "quantity": 1,
-        "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "green sun's zenith": {
     "name": "Green Sun's Zenith",
@@ -4061,18 +4067,6 @@
       {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "keen-eyed curator": {
-    "name": "Keen-Eyed Curator",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -5135,6 +5129,18 @@
     ],
     "deck_count": 1
   },
+  "neoform": {
+    "name": "Neoform",
+    "decks": [
+      {
+        "deck_number": 10,
+        "deck_name": "thranduil",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "nicol bolas, the ravager // nicol bolas, the arisen": {
     "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
     "decks": [
@@ -5224,18 +5230,6 @@
       }
     ],
     "deck_count": 4
-  },
-  "nylea, keen-eyed": {
-    "name": "Nylea, Keen-Eyed",
-    "decks": [
-      {
-        "deck_number": 4,
-        "deck_name": "Ghalta",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
   },
   "nyxbloom ancient": {
     "name": "Nyxbloom Ancient",
