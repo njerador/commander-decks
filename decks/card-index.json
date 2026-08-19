@@ -1079,6 +1079,18 @@
     ],
     "deck_count": 1
   },
+  "boseiju, who endures": {
+    "name": "Boseiju, Who Endures",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
   "braids, arisen nightmare": {
     "name": "Braids, Arisen Nightmare",
     "decks": [
@@ -3047,7 +3059,7 @@
       {
         "deck_number": 4,
         "deck_name": "Ghalta",
-        "quantity": 30,
+        "quantity": 29,
         "board": "mainboard"
       },
       {
@@ -6149,6 +6161,18 @@
       {
         "deck_number": 3,
         "deck_name": "food and fellowship",
+        "quantity": 1,
+        "board": "mainboard"
+      }
+    ],
+    "deck_count": 1
+  },
+  "rhonas's monument": {
+    "name": "Rhonas's Monument",
+    "decks": [
+      {
+        "deck_number": 4,
+        "deck_name": "Ghalta",
         "quantity": 1,
         "board": "mainboard"
       }
