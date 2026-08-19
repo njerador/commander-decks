@@ -1,24 +1,5 @@
 {
   "generated_from": "decks/analysis-data.json",
-  "decks_changed": 1,
-  "changes": {
-    "deck-04": {
-      "added": [
-        {
-          "name": "Lifestream's Blessing",
-          "quantity": 1
-        }
-      ],
-      "removed": [
-        {
-          "name": "Groundchuck & Dirtbag",
-          "quantity": 1
-        },
-        {
-          "name": "Soul's Majesty",
-          "quantity": 1
-        }
-      ]
-    }
-  }
+  "decks_changed": 0,
+  "changes": {}
 }
