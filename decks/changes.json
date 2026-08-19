@@ -1,54 +1,5 @@
 {
   "generated_from": "decks/analysis-data.json",
-  "decks_changed": 2,
-  "changes": {
-    "deck-04": {
-      "added": [
-        {
-          "name": "Archdruid's Charm",
-          "quantity": 1
-        },
-        {
-          "name": "Concordant Crossroads",
-          "quantity": 1
-        }
-      ],
-      "removed": [
-        {
-          "name": "Frenzied Baloth",
-          "quantity": 1
-        },
-        {
-          "name": "Keen-Eyed Curator",
-          "quantity": 1
-        },
-        {
-          "name": "Nylea, Keen-Eyed",
-          "quantity": 1
-        }
-      ]
-    },
-    "deck-10": {
-      "added": [
-        {
-          "name": "Double Major",
-          "quantity": 1
-        },
-        {
-          "name": "Neoform",
-          "quantity": 1
-        }
-      ],
-      "removed": [
-        {
-          "name": "Doubling Season",
-          "quantity": 1
-        },
-        {
-          "name": "Greater Good",
-          "quantity": 1
-        }
-      ]
-    }
-  }
+  "decks_changed": 0,
+  "changes": {}
 }
