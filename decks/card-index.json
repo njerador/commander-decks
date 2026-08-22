@@ -2113,9 +2113,15 @@
         "deck_name": "food and fellowship",
         "quantity": 1,
         "board": "mainboard"
+      },
+      {
+        "deck_number": 10,
+        "deck_name": "thranduil",
+        "quantity": 1,
+        "board": "mainboard"
       }
     ],
-    "deck_count": 1
+    "deck_count": 2
   },
   "dragon tempest": {
     "name": "Dragon Tempest",
@@ -2291,18 +2297,6 @@
       {
         "deck_number": 1,
         "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "eldritch evolution": {
-    "name": "Eldritch Evolution",
-    "decks": [
-      {
-        "deck_number": 10,
-        "deck_name": "thranduil",
         "quantity": 1,
         "board": "mainboard"
       }

@@ -139,6 +139,20 @@
         ]
       },
       {
+        "name": "Island",
+        "quantity": 9,
+        "card_id": "YMMOV",
+        "unique_card_id": "kaN49",
+        "scryfall_id": "e24d0c78-4df5-4cc9-8b9e-65b969c5babd",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Island",
+        "colors": [],
+        "color_identity": [
+          "U"
+        ]
+      },
+      {
         "name": "Changeling Outcast",
         "quantity": 1,
         "card_id": "YB54v",
@@ -168,6 +182,20 @@
         ],
         "color_identity": [
           "U"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 11,
+        "card_id": "EW3Vr",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "4510090f-b42d-4df1-af71-64a77dfbc1b2",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
         ]
       },
       {
@@ -436,6 +464,22 @@
         ],
         "color_identity": [
           "B"
+        ]
+      },
+      {
+        "name": "Zellix, Sanity Flayer",
+        "quantity": 1,
+        "card_id": "aQoR9",
+        "unique_card_id": "E1AeR",
+        "scryfall_id": "a5d57db6-0aa5-4e28-b156-e97b74af2cee",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "type_line": "Legendary Creature — Horror",
+        "colors": [
+          "U"
+        ],
+        "color_identity": [
+          "U"
         ]
       },
       {
@@ -709,6 +753,22 @@
         "mana_cost": "{X}{B}",
         "cmc": 1.0,
         "type_line": "Instant",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Phyrexian Arena",
+        "quantity": 1,
+        "card_id": "2z6eW",
+        "unique_card_id": "Y84gO",
+        "scryfall_id": "3b18d219-efde-4cc0-b955-cb71ead88023",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "type_line": "Enchantment",
         "colors": [
           "B"
         ],
@@ -1195,66 +1255,6 @@
         "type_line": "Land",
         "colors": [],
         "color_identity": []
-      },
-      {
-        "name": "Island",
-        "quantity": 9,
-        "card_id": "YMMOV",
-        "unique_card_id": "kaN49",
-        "scryfall_id": "e24d0c78-4df5-4cc9-8b9e-65b969c5babd",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Island",
-        "colors": [],
-        "color_identity": [
-          "U"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 11,
-        "card_id": "EW3Vr",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "4510090f-b42d-4df1-af71-64a77dfbc1b2",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Zellix, Sanity Flayer",
-        "quantity": 1,
-        "card_id": "aQoR9",
-        "unique_card_id": "E1AeR",
-        "scryfall_id": "a5d57db6-0aa5-4e28-b156-e97b74af2cee",
-        "mana_cost": "{2}{U}",
-        "cmc": 3.0,
-        "type_line": "Legendary Creature — Horror",
-        "colors": [
-          "U"
-        ],
-        "color_identity": [
-          "U"
-        ]
-      },
-      {
-        "name": "Phyrexian Arena",
-        "quantity": 1,
-        "card_id": "2z6eW",
-        "unique_card_id": "Y84gO",
-        "scryfall_id": "3b18d219-efde-4cc0-b955-cb71ead88023",
-        "mana_cost": "{1}{B}{B}",
-        "cmc": 3.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
       }
     ],
     "mainboard_count": 99,
@@ -12658,22 +12658,6 @@
         ]
       },
       {
-        "name": "Eldritch Evolution",
-        "quantity": 1,
-        "card_id": "KP3MN",
-        "unique_card_id": "YN6RJ",
-        "scryfall_id": "606caf13-c0d3-4a61-9a1a-32f13b6448ab",
-        "mana_cost": "{1}{G}{G}",
-        "cmc": 3.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Unstoppable Plan",
         "quantity": 1,
         "card_id": "doXaz",
@@ -12965,6 +12949,22 @@
         ]
       },
       {
+        "name": "Doubling Season",
+        "quantity": 1,
+        "card_id": "MxPnB",
+        "unique_card_id": "YxjxG",
+        "scryfall_id": "4ba8fabe-3af7-4f19-9508-5b5a6a608a3c",
+        "mana_cost": "{4}{G}",
+        "cmc": 5.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
         "name": "Nissa, Resurgent Animist",
         "quantity": 1,
         "card_id": "n49vp",
@@ -13033,6 +13033,6 @@
       "G"
     ],
     "bracket": 2,
-    "last_updated": "2026-08-19T08:47:19.483Z"
+    "last_updated": "2026-08-22T05:12:38.17Z"
   }
 ]
