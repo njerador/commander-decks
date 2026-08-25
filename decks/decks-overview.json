@@ -10136,11 +10136,105 @@
     "commander_count": 1,
     "mainboard": [
       {
+        "name": "Island",
+        "quantity": 1,
+        "card_id": "loWKe",
+        "unique_card_id": "kaN49",
+        "scryfall_id": "0e443748-edf1-4499-9507-3649dd57ee95",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Island",
+        "colors": [],
+        "color_identity": [
+          "U"
+        ]
+      },
+      {
+        "name": "Mountain",
+        "quantity": 1,
+        "card_id": "43w6P",
+        "unique_card_id": "kqAb3",
+        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Mountain",
+        "colors": [],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Plains",
+        "quantity": 1,
+        "card_id": "pRjDw",
+        "unique_card_id": "EbPg6",
+        "scryfall_id": "a4446149-341b-449b-86e2-2b6b47b7a75e",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Plains",
+        "colors": [],
+        "color_identity": [
+          "W"
+        ]
+      },
+      {
+        "name": "Forest",
+        "quantity": 2,
+        "card_id": "pRn5p",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 2,
+        "card_id": "7vG38",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Arcane Signet",
+        "quantity": 1,
+        "card_id": "LDlAM",
+        "unique_card_id": "k9vvg",
+        "scryfall_id": "1486170d-4ad3-4318-bf72-f948617d567f",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact",
+        "colors": [],
+        "color_identity": []
+      },
+      {
         "name": "Command Tower",
         "quantity": 1,
         "card_id": "kpxzJ",
         "unique_card_id": "kaN92",
         "scryfall_id": "ec1f1041-f667-4b73-b1f2-e5bcae84095e",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Fabled Passage",
+        "quantity": 1,
+        "card_id": "dobar",
+        "unique_card_id": "k71D9",
+        "scryfall_id": "8119d329-6ee5-433c-bd81-8579bb061162",
         "mana_cost": "",
         "cmc": 0,
         "type_line": "Land",
@@ -10161,6 +10255,72 @@
         ],
         "color_identity": [
           "R"
+        ]
+      },
+      {
+        "name": "Animate Dead",
+        "quantity": 1,
+        "card_id": "O9vjo",
+        "unique_card_id": "kpxN0",
+        "scryfall_id": "1489943b-c010-488e-9c9d-87f4af67a4e4",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "type_line": "Enchantment — Aura",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Birds of Paradise",
+        "quantity": 1,
+        "card_id": "a2a6O",
+        "unique_card_id": "ErnNK",
+        "scryfall_id": "492c2f9a-51e7-4e0f-9899-23bf43ea988b",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "type_line": "Creature — Bird",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Bladewing the Risen",
+        "quantity": 1,
+        "card_id": "yj5eN",
+        "unique_card_id": "YN6vM",
+        "scryfall_id": "cd264040-c10d-4244-9229-e11238f7cd5c",
+        "mana_cost": "{3}{B}{B}{R}{R}",
+        "cmc": 7.0,
+        "type_line": "Legendary Creature — Zombie Dragon",
+        "colors": [
+          "B",
+          "R"
+        ],
+        "color_identity": [
+          "B",
+          "R"
+        ]
+      },
+      {
+        "name": "Brainstorm",
+        "quantity": 1,
+        "card_id": "kOezw",
+        "unique_card_id": "LzdZX",
+        "scryfall_id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "type_line": "Instant",
+        "colors": [
+          "U"
+        ],
+        "color_identity": [
+          "U"
         ]
       },
       {
@@ -10208,13 +10368,13 @@
         "color_identity": []
       },
       {
-        "name": "Farseek",
+        "name": "Cultivate",
         "quantity": 1,
-        "card_id": "LK6NK",
-        "unique_card_id": "kyw31",
-        "scryfall_id": "75e4e808-1511-40ca-984b-f95fb8f5daf0",
-        "mana_cost": "{1}{G}",
-        "cmc": 2.0,
+        "card_id": "504bb",
+        "unique_card_id": "EgDpv",
+        "scryfall_id": "e60deb92-f7dd-4f4e-9036-e47dd586f985",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
         "type_line": "Sorcery",
         "colors": [
           "G"
@@ -10236,16 +10396,88 @@
         "color_identity": []
       },
       {
-        "name": "Steel Hellkite",
+        "name": "Heroic Intervention",
         "quantity": 1,
-        "card_id": "LKZBP",
-        "unique_card_id": "Y26zj",
-        "scryfall_id": "90410a4b-59a5-4e11-8034-91a596098b61",
-        "mana_cost": "{6}",
+        "card_id": "WaMMy",
+        "unique_card_id": "YMr0j",
+        "scryfall_id": "4377b09d-08e8-4150-bb84-4a9c00c7af82",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "type_line": "Instant",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Lathliss, Dragon Queen",
+        "quantity": 1,
+        "card_id": "ky9NN",
+        "unique_card_id": "YMrpK",
+        "scryfall_id": "9460e3c6-e745-41d3-8e17-0b92fb126a16",
+        "mana_cost": "{4}{R}{R}",
         "cmc": 6.0,
-        "type_line": "Artifact Creature — Dragon",
+        "type_line": "Legendary Creature — Dragon",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "The Ur-Dragon",
+        "quantity": 1,
+        "card_id": "01rDl",
+        "unique_card_id": "YMr1w",
+        "scryfall_id": "10d42b35-844f-4a64-9981-c6118d45e826",
+        "mana_cost": "{4}{W}{U}{B}{R}{G}",
+        "cmc": 9.0,
+        "type_line": "Legendary Creature — Dragon Avatar",
+        "colors": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
+        "color_identity": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ]
+      },
+      {
+        "name": "Fellwar Stone",
+        "quantity": 1,
+        "card_id": "GPWgQ",
+        "unique_card_id": "E645O",
+        "scryfall_id": "385b9f5e-81dd-49f6-a644-59d53245e3dc",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact",
         "colors": [],
         "color_identity": []
+      },
+      {
+        "name": "Buried Alive",
+        "quantity": 1,
+        "card_id": "E0WZ5",
+        "unique_card_id": "kylP0",
+        "scryfall_id": "c5f51145-aade-4955-b9e7-4a34074253d6",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
       },
       {
         "name": "Exotic Orchard",
@@ -10260,6 +10492,109 @@
         "color_identity": []
       },
       {
+        "name": "Seaside Citadel",
+        "quantity": 1,
+        "card_id": "YNzMJ",
+        "unique_card_id": "Yn0ay",
+        "scryfall_id": "697d2a41-59c1-48c2-9c64-65fb7e78ce4a",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": [
+          "G",
+          "U",
+          "W"
+        ]
+      },
+      {
+        "name": "Stitch Together",
+        "quantity": 1,
+        "card_id": "DAg5X",
+        "unique_card_id": "k7Dv1",
+        "scryfall_id": "73f1aa13-b3bc-480e-826c-6bded7ee1ca6",
+        "mana_cost": "{B}{B}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Steel Hellkite",
+        "quantity": 1,
+        "card_id": "LKZBP",
+        "unique_card_id": "Y26zj",
+        "scryfall_id": "90410a4b-59a5-4e11-8034-91a596098b61",
+        "mana_cost": "{6}",
+        "cmc": 6.0,
+        "type_line": "Artifact Creature — Dragon",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Swiftfoot Boots",
+        "quantity": 1,
+        "card_id": "Yegm8",
+        "unique_card_id": "LzKbN",
+        "scryfall_id": "da8ac93d-3377-4768-8152-d988a090de2a",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact — Equipment",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Entreat the Dead",
+        "quantity": 1,
+        "card_id": "LmQP0",
+        "unique_card_id": "k7Dwb",
+        "scryfall_id": "619f1986-9344-46ba-bcd3-906a84f87472",
+        "mana_cost": "{X}{X}{B}{B}{B}",
+        "cmc": 3.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Cinder Glade",
+        "quantity": 1,
+        "card_id": "G4mq2",
+        "unique_card_id": "LzKz6",
+        "scryfall_id": "82d3cd1f-3971-45ae-83c5-f7c2b3f5758a",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Mountain Forest",
+        "colors": [],
+        "color_identity": [
+          "G",
+          "R"
+        ]
+      },
+      {
+        "name": "Doomed Necromancer",
+        "quantity": 1,
+        "card_id": "EQeyA",
+        "unique_card_id": "kyblo",
+        "scryfall_id": "a1a21acd-100a-4a25-932b-f36943728ac9",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "type_line": "Creature — Human Cleric Mercenary",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
         "name": "Llanowar Wastes",
         "quantity": 1,
         "card_id": "EJOZ4",
@@ -10271,6 +10606,297 @@
         "colors": [],
         "color_identity": [
           "B",
+          "G"
+        ]
+      },
+      {
+        "name": "Lightning Greaves",
+        "quantity": 1,
+        "card_id": "8ObKl",
+        "unique_card_id": "EZNG7",
+        "scryfall_id": "331013f6-976a-4dac-9939-1006e474e108",
+        "mana_cost": "{2}",
+        "cmc": 2.0,
+        "type_line": "Artifact — Equipment",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Living Death",
+        "quantity": 1,
+        "card_id": "9m7pa",
+        "unique_card_id": "kywOP",
+        "scryfall_id": "b22235ac-5028-4b84-8ec2-0ab46768dee2",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Nature's Lore",
+        "quantity": 1,
+        "card_id": "AJeax",
+        "unique_card_id": "Ylgpy",
+        "scryfall_id": "7afc4a15-5ff8-457a-aa62-803b2d78d912",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Sol Ring",
+        "quantity": 1,
+        "card_id": "lo71o",
+        "unique_card_id": "EZyKV",
+        "scryfall_id": "0f44a54b-512e-45ef-80ee-7982d2eaf762",
+        "mana_cost": "{1}",
+        "cmc": 1.0,
+        "type_line": "Artifact",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Swords to Plowshares",
+        "quantity": 1,
+        "card_id": "RJPRp",
+        "unique_card_id": "Y2RBm",
+        "scryfall_id": "f87cf997-14b5-4a2c-a7d1-34b7de6561a2",
+        "mana_cost": "{W}",
+        "cmc": 1.0,
+        "type_line": "Instant",
+        "colors": [
+          "W"
+        ],
+        "color_identity": [
+          "W"
+        ]
+      },
+      {
+        "name": "Wood Elves",
+        "quantity": 1,
+        "card_id": "LGzpx",
+        "unique_card_id": "kOjgX",
+        "scryfall_id": "df965bc4-f443-417c-b0e5-2db080fbd427",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "type_line": "Creature — Elf Scout",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Exhume",
+        "quantity": 1,
+        "card_id": "LRewJ",
+        "unique_card_id": "LKZvm",
+        "scryfall_id": "5f1cdcba-a04a-4a2f-8bc1-0dd7fa03754d",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Bloodstained Mire",
+        "quantity": 1,
+        "card_id": "01Kal",
+        "unique_card_id": "LwR84",
+        "scryfall_id": "579743fe-f71e-4cb2-8629-d6b02ed1591d",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Patriarch's Bidding",
+        "quantity": 1,
+        "card_id": "kXGqZ",
+        "unique_card_id": "YvVrp",
+        "scryfall_id": "317686d8-b762-4598-b74a-8b1fa6b899ba",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Fist of Suns",
+        "quantity": 1,
+        "card_id": "kp78J",
+        "unique_card_id": "kAqX5",
+        "scryfall_id": "2a499b65-8a7e-4fbc-a09b-826b8454d857",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "type_line": "Artifact",
+        "colors": [],
+        "color_identity": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ]
+      },
+      {
+        "name": "Teneb, the Harvester",
+        "quantity": 1,
+        "card_id": "9mbb6",
+        "unique_card_id": "EJl1N",
+        "scryfall_id": "8caa7115-1b26-4615-842f-671b24dc96d8",
+        "mana_cost": "{3}{W}{B}{G}",
+        "cmc": 6.0,
+        "type_line": "Legendary Creature — Dragon",
+        "colors": [
+          "B",
+          "G",
+          "W"
+        ],
+        "color_identity": [
+          "B",
+          "G",
+          "W"
+        ]
+      },
+      {
+        "name": "Hellkite Tyrant",
+        "quantity": 1,
+        "card_id": "KWZ6m",
+        "unique_card_id": "EPgV3",
+        "scryfall_id": "97ff9946-af2c-4568-847e-b828a71d0217",
+        "mana_cost": "{4}{R}{R}",
+        "cmc": 6.0,
+        "type_line": "Creature — Dragon",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Sacred Foundry",
+        "quantity": 1,
+        "card_id": "Q9OZA",
+        "unique_card_id": "Y8qD4",
+        "scryfall_id": "8b4e2642-3c87-4708-b9b4-2e7f7359ac7d",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Mountain Plains",
+        "colors": [],
+        "color_identity": [
+          "R",
+          "W"
+        ]
+      },
+      {
+        "name": "Watery Grave",
+        "quantity": 1,
+        "card_id": "EranM",
+        "unique_card_id": "E66Zp",
+        "scryfall_id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Island Swamp",
+        "colors": [],
+        "color_identity": [
+          "B",
+          "U"
+        ]
+      },
+      {
+        "name": "Bant Panorama",
+        "quantity": 1,
+        "card_id": "Y2Mrm",
+        "unique_card_id": "YeX4K",
+        "scryfall_id": "aed894e3-b9ef-437a-ad2f-298453eb2061",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": []
+      },
+      {
+        "name": "Victimize",
+        "quantity": 1,
+        "card_id": "yj8nD",
+        "unique_card_id": "kqNbP",
+        "scryfall_id": "54b5c19e-f50a-4cd1-bf42-e545da7a6b0f",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
+        "name": "Game Trail",
+        "quantity": 1,
+        "card_id": "g3lzp",
+        "unique_card_id": "Lzow8",
+        "scryfall_id": "2e53f295-60f6-4c6b-a0a4-304556b4eea0",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": [
+          "G",
+          "R"
+        ]
+      },
+      {
+        "name": "Faithless Looting",
+        "quantity": 1,
+        "card_id": "ZMmnN",
+        "unique_card_id": "EJ5A8",
+        "scryfall_id": "c43aeb5a-8bdc-4aa9-89d1-156f97ac38aa",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Farseek",
+        "quantity": 1,
+        "card_id": "LK6NK",
+        "unique_card_id": "kyw31",
+        "scryfall_id": "75e4e808-1511-40ca-984b-f95fb8f5daf0",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
           "G"
         ]
       },
@@ -10293,11 +10919,11 @@
         ]
       },
       {
-        "name": "Bant Panorama",
+        "name": "Cavern of Souls",
         "quantity": 1,
-        "card_id": "Y2Mrm",
-        "unique_card_id": "YeX4K",
-        "scryfall_id": "aed894e3-b9ef-437a-ad2f-298453eb2061",
+        "card_id": "43Ox7",
+        "unique_card_id": "LGwnx",
+        "scryfall_id": "17fc8e0f-6dba-40d6-a6f9-3eb505059727",
         "mana_cost": "",
         "cmc": 0,
         "type_line": "Land",
@@ -10305,47 +10931,18 @@
         "color_identity": []
       },
       {
-        "name": "Swiftfoot Boots",
+        "name": "Hallowed Fountain",
         "quantity": 1,
-        "card_id": "Yegm8",
-        "unique_card_id": "LzKbN",
-        "scryfall_id": "da8ac93d-3377-4768-8152-d988a090de2a",
-        "mana_cost": "{2}",
-        "cmc": 2.0,
-        "type_line": "Artifact — Equipment",
+        "card_id": "XJO0D",
+        "unique_card_id": "EbJXJ",
+        "scryfall_id": "e056b55f-82ed-4fe0-ab0c-bb20fa4a218a",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Plains Island",
         "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Wood Elves",
-        "quantity": 1,
-        "card_id": "LGzpx",
-        "unique_card_id": "kOjgX",
-        "scryfall_id": "df965bc4-f443-417c-b0e5-2db080fbd427",
-        "mana_cost": "{2}{G}",
-        "cmc": 3.0,
-        "type_line": "Creature — Elf Scout",
-        "colors": [
-          "G"
-        ],
         "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Buried Alive",
-        "quantity": 1,
-        "card_id": "E0WZ5",
-        "unique_card_id": "kylP0",
-        "scryfall_id": "c5f51145-aade-4955-b9e7-4a34074253d6",
-        "mana_cost": "{2}{B}",
-        "cmc": 3.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
+          "U",
+          "W"
         ]
       },
       {
@@ -10380,145 +10977,55 @@
         ]
       },
       {
-        "name": "Watery Grave",
+        "name": "Temple Garden",
         "quantity": 1,
-        "card_id": "EranM",
-        "unique_card_id": "E66Zp",
-        "scryfall_id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
+        "card_id": "yD04b",
+        "unique_card_id": "EW9ZD",
+        "scryfall_id": "6cdd2a74-63b3-4ff2-9c5a-a85dee63c3c9",
         "mana_cost": "",
         "cmc": 0,
-        "type_line": "Land — Island Swamp",
+        "type_line": "Land — Forest Plains",
         "colors": [],
         "color_identity": [
-          "B",
-          "U"
-        ]
-      },
-      {
-        "name": "Paradise Druid",
-        "quantity": 1,
-        "card_id": "Yo39J",
-        "unique_card_id": "EZjnD",
-        "scryfall_id": "6ed8d9e7-cdad-450d-8329-fa653d387a63",
-        "mana_cost": "{1}{G}",
-        "cmc": 2.0,
-        "type_line": "Creature — Elf Druid",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Arcane Signet",
-        "quantity": 1,
-        "card_id": "LDlAM",
-        "unique_card_id": "k9vvg",
-        "scryfall_id": "1486170d-4ad3-4318-bf72-f948617d567f",
-        "mana_cost": "{2}",
-        "cmc": 2.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Atarka, World Render",
-        "quantity": 1,
-        "card_id": "Eg1bp",
-        "unique_card_id": "YleJQ",
-        "scryfall_id": "7c341df3-177c-49b4-91fe-38f73c64ef88",
-        "mana_cost": "{5}{R}{G}",
-        "cmc": 7.0,
-        "type_line": "Legendary Creature — Dragon",
-        "colors": [
-          "G",
-          "R"
-        ],
-        "color_identity": [
-          "G",
-          "R"
-        ]
-      },
-      {
-        "name": "Ketria Triome",
-        "quantity": 1,
-        "card_id": "LRe48",
-        "unique_card_id": "kqgp3",
-        "scryfall_id": "d40ef5f6-9221-4b7d-8566-58ad43e77f02",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Forest Island Mountain",
-        "colors": [],
-        "color_identity": [
-          "G",
-          "R",
-          "U"
-        ]
-      },
-      {
-        "name": "Indatha Triome",
-        "quantity": 1,
-        "card_id": "kpZ8O",
-        "unique_card_id": "EQzNp",
-        "scryfall_id": "62bbdc86-f5a0-4738-a5f6-f2347c8b2a58",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Plains Swamp Forest",
-        "colors": [],
-        "color_identity": [
-          "B",
           "G",
           "W"
         ]
       },
       {
-        "name": "Zagoth Triome",
+        "name": "Scalding Tarn",
         "quantity": 1,
-        "card_id": "k7yQ8",
-        "unique_card_id": "YlAG6",
-        "scryfall_id": "d9c01677-2abc-43da-a48e-883b1d220fb6",
+        "card_id": "LRG7z",
+        "unique_card_id": "kAnJe",
+        "scryfall_id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
         "mana_cost": "",
         "cmc": 0,
-        "type_line": "Land — Swamp Forest Island",
+        "type_line": "Land",
         "colors": [],
-        "color_identity": [
-          "B",
-          "G",
-          "U"
-        ]
+        "color_identity": []
       },
       {
-        "name": "Brainstorm",
+        "name": "Polluted Delta",
         "quantity": 1,
-        "card_id": "kOezw",
-        "unique_card_id": "LzdZX",
-        "scryfall_id": "baeb0421-b7af-44cd-a7f6-7daaa3dcaa38",
-        "mana_cost": "{U}",
-        "cmc": 1.0,
-        "type_line": "Instant",
-        "colors": [
-          "U"
-        ],
-        "color_identity": [
-          "U"
-        ]
+        "card_id": "enBDO",
+        "unique_card_id": "Y8wMo",
+        "scryfall_id": "6e288374-2b71-4ace-b1d2-a19fee6cb4af",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": []
       },
       {
-        "name": "Doomed Necromancer",
+        "name": "Wooded Foothills",
         "quantity": 1,
-        "card_id": "EQeyA",
-        "unique_card_id": "kyblo",
-        "scryfall_id": "a1a21acd-100a-4a25-932b-f36943728ac9",
-        "mana_cost": "{2}{B}",
-        "cmc": 3.0,
-        "type_line": "Creature — Human Cleric Mercenary",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
+        "card_id": "J9DZg",
+        "unique_card_id": "E1R1e",
+        "scryfall_id": "4e11ea8a-f895-438d-a3b7-f070238e4161",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": []
       },
       {
         "name": "Karrthus, Tyrant of Jund",
@@ -10541,167 +11048,83 @@
         ]
       },
       {
-        "name": "Exhume",
+        "name": "Atarka, World Render",
         "quantity": 1,
-        "card_id": "LRewJ",
-        "unique_card_id": "LKZvm",
-        "scryfall_id": "5f1cdcba-a04a-4a2f-8bc1-0dd7fa03754d",
-        "mana_cost": "{1}{B}",
-        "cmc": 2.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Lathliss, Dragon Queen",
-        "quantity": 1,
-        "card_id": "ky9NN",
-        "unique_card_id": "YMrpK",
-        "scryfall_id": "9460e3c6-e745-41d3-8e17-0b92fb126a16",
-        "mana_cost": "{4}{R}{R}",
-        "cmc": 6.0,
+        "card_id": "Eg1bp",
+        "unique_card_id": "YleJQ",
+        "scryfall_id": "7c341df3-177c-49b4-91fe-38f73c64ef88",
+        "mana_cost": "{5}{R}{G}",
+        "cmc": 7.0,
         "type_line": "Legendary Creature — Dragon",
         "colors": [
+          "G",
           "R"
         ],
         "color_identity": [
+          "G",
           "R"
         ]
       },
       {
-        "name": "Eerie Ultimatum",
+        "name": "Despark",
         "quantity": 1,
-        "card_id": "EJ3JA",
-        "unique_card_id": "EWKg1",
-        "scryfall_id": "3a9fb2db-228f-4d48-acdf-6330baf356c7",
-        "mana_cost": "{W}{W}{B}{B}{B}{G}{G}",
-        "cmc": 7.0,
-        "type_line": "Sorcery",
+        "card_id": "BD3zR",
+        "unique_card_id": "LVlvO",
+        "scryfall_id": "f37a4bc1-3702-44d7-8b29-dca99b563c6b",
+        "mana_cost": "{W}{B}",
+        "cmc": 2.0,
+        "type_line": "Instant",
         "colors": [
           "B",
-          "G",
           "W"
         ],
         "color_identity": [
           "B",
-          "G",
           "W"
         ]
       },
       {
-        "name": "Raugrin Triome",
+        "name": "Paradise Druid",
         "quantity": 1,
-        "card_id": "k7y6p",
-        "unique_card_id": "E1wpA",
-        "scryfall_id": "c303a627-cce3-4045-81f8-fe7427e0a941",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Island Mountain Plains",
-        "colors": [],
-        "color_identity": [
-          "R",
-          "U",
-          "W"
-        ]
-      },
-      {
-        "name": "Savai Triome",
-        "quantity": 1,
-        "card_id": "Yl9xn",
-        "unique_card_id": "L3w91",
-        "scryfall_id": "d21ef9e6-e2dd-4e0a-a36c-e07034ac4ba3",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Mountain Plains Swamp",
-        "colors": [],
-        "color_identity": [
-          "B",
-          "R",
-          "W"
-        ]
-      },
-      {
-        "name": "Dragonlord Kolaghan",
-        "quantity": 1,
-        "card_id": "YoGXv",
-        "unique_card_id": "EWWoD",
-        "scryfall_id": "1cbf8933-32a1-4892-9bdc-89464ed9ce1b",
-        "mana_cost": "{4}{B}{R}",
-        "cmc": 6.0,
-        "type_line": "Legendary Creature — Elder Dragon",
+        "card_id": "Yo39J",
+        "unique_card_id": "EZjnD",
+        "scryfall_id": "6ed8d9e7-cdad-450d-8329-fa653d387a63",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "type_line": "Creature — Elf Druid",
         "colors": [
-          "B",
-          "R"
+          "G"
         ],
         "color_identity": [
-          "B",
-          "R"
+          "G"
         ]
       },
       {
-        "name": "Dragon's Hoard",
+        "name": "Prismatic Vista",
         "quantity": 1,
-        "card_id": "Yxel9",
-        "unique_card_id": "Er0QR",
-        "scryfall_id": "5b441fc8-bc89-47d4-8745-2525aeb6d98d",
-        "mana_cost": "{3}",
-        "cmc": 3.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
-        "quantity": 1,
-        "card_id": "LVWDl",
-        "unique_card_id": "EJVKA",
-        "scryfall_id": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
-        "mana_cost": null,
-        "cmc": 4.0,
-        "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas",
-        "colors": [],
-        "color_identity": [
-          "B",
-          "R",
-          "U"
-        ]
-      },
-      {
-        "name": "Seaside Citadel",
-        "quantity": 1,
-        "card_id": "YNzMJ",
-        "unique_card_id": "Yn0ay",
-        "scryfall_id": "697d2a41-59c1-48c2-9c64-65fb7e78ce4a",
+        "card_id": "5025M",
+        "unique_card_id": "Lz6qX",
+        "scryfall_id": "22b5b5ef-9b8d-4ace-86db-21ce00b29928",
         "mana_cost": "",
         "cmc": 0,
         "type_line": "Land",
         "colors": [],
-        "color_identity": [
-          "G",
-          "U",
-          "W"
-        ]
+        "color_identity": []
       },
       {
-        "name": "Fist of Suns",
+        "name": "Crux of Fate",
         "quantity": 1,
-        "card_id": "kp78J",
-        "unique_card_id": "kAqX5",
-        "scryfall_id": "2a499b65-8a7e-4fbc-a09b-826b8454d857",
-        "mana_cost": "{3}",
-        "cmc": 3.0,
-        "type_line": "Artifact",
-        "colors": [],
+        "card_id": "2D6Pd",
+        "unique_card_id": "YnvzZ",
+        "scryfall_id": "4d507db6-29a6-4816-8e37-5b6e318d740f",
+        "mana_cost": "{3}{B}{B}",
+        "cmc": 5.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "B"
+        ],
         "color_identity": [
-          "B",
-          "G",
-          "R",
-          "U",
-          "W"
+          "B"
         ]
       },
       {
@@ -10723,6 +11146,54 @@
         ]
       },
       {
+        "name": "Three Visits",
+        "quantity": 1,
+        "card_id": "ZMvpm",
+        "unique_card_id": "YlOvG",
+        "scryfall_id": "99bf792f-963e-4509-8d3c-7db129c6a77f",
+        "mana_cost": "{1}{G}",
+        "cmc": 2.0,
+        "type_line": "Sorcery",
+        "colors": [
+          "G"
+        ],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Mass Hysteria",
+        "quantity": 1,
+        "card_id": "ZOVVP",
+        "unique_card_id": "Yn3Rv",
+        "scryfall_id": "291760e5-569d-486d-ae5e-4096ec99b5cf",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "R"
+        ],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Akroma's Will",
+        "quantity": 1,
+        "card_id": "vrp48",
+        "unique_card_id": "kXKlo",
+        "scryfall_id": "0663dcc8-2f72-4439-bfa9-06c4ef06c54d",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "type_line": "Instant",
+        "colors": [
+          "W"
+        ],
+        "color_identity": [
+          "W"
+        ]
+      },
+      {
         "name": "The World Tree",
         "quantity": 1,
         "card_id": "kODXW",
@@ -10741,16 +11212,28 @@
         ]
       },
       {
-        "name": "Scalding Tarn",
+        "name": "Tiamat",
         "quantity": 1,
-        "card_id": "LRG7z",
-        "unique_card_id": "kAnJe",
-        "scryfall_id": "71e491c5-8c07-449b-b2f1-ffa052e6d311",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
+        "card_id": "LKg8m",
+        "unique_card_id": "kpNa4",
+        "scryfall_id": "8d80dfbe-d691-4d00-a6b7-8c4f6d18be05",
+        "mana_cost": "{2}{W}{U}{B}{R}{G}",
+        "cmc": 7.0,
+        "type_line": "Legendary Creature — Dragon God",
+        "colors": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
+        "color_identity": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ]
       },
       {
         "name": "Profane Tutor",
@@ -10760,22 +11243,6 @@
         "scryfall_id": "2afc6f7d-ab59-4d64-bd11-6bd0fd4bfcd2",
         "mana_cost": "",
         "cmc": 0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Patriarch's Bidding",
-        "quantity": 1,
-        "card_id": "kXGqZ",
-        "unique_card_id": "YvVrp",
-        "scryfall_id": "317686d8-b762-4598-b74a-8b1fa6b899ba",
-        "mana_cost": "{3}{B}{B}",
-        "cmc": 5.0,
         "type_line": "Sorcery",
         "colors": [
           "B"
@@ -10802,22 +11269,6 @@
           "B",
           "R",
           "W"
-        ]
-      },
-      {
-        "name": "Entreat the Dead",
-        "quantity": 1,
-        "card_id": "LmQP0",
-        "unique_card_id": "k7Dwb",
-        "scryfall_id": "619f1986-9344-46ba-bcd3-906a84f87472",
-        "mana_cost": "{X}{X}{B}{B}{B}",
-        "cmc": 3.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
         ]
       },
       {
@@ -10869,6 +11320,36 @@
         ]
       },
       {
+        "name": "Sundown Pass",
+        "quantity": 1,
+        "card_id": "KWqwa",
+        "unique_card_id": "EQ59D",
+        "scryfall_id": "5d3d4504-28c8-42b4-b161-bbc2fdac0d09",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": [
+          "R",
+          "W"
+        ]
+      },
+      {
+        "name": "Stormcarved Coast",
+        "quantity": 1,
+        "card_id": "b5adg",
+        "unique_card_id": "LRoJ2",
+        "scryfall_id": "bd3ae4fa-4c97-410a-8c0a-bd203342595d",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land",
+        "colors": [],
+        "color_identity": [
+          "R",
+          "U"
+        ]
+      },
+      {
         "name": "Ancient Copper Dragon",
         "quantity": 1,
         "card_id": "N9gpG",
@@ -10917,352 +11398,6 @@
         ]
       },
       {
-        "name": "Teneb, the Harvester",
-        "quantity": 1,
-        "card_id": "9mbb6",
-        "unique_card_id": "EJl1N",
-        "scryfall_id": "8caa7115-1b26-4615-842f-671b24dc96d8",
-        "mana_cost": "{3}{W}{B}{G}",
-        "cmc": 6.0,
-        "type_line": "Legendary Creature — Dragon",
-        "colors": [
-          "B",
-          "G",
-          "W"
-        ],
-        "color_identity": [
-          "B",
-          "G",
-          "W"
-        ]
-      },
-      {
-        "name": "Dragon Tempest",
-        "quantity": 1,
-        "card_id": "5MpdM",
-        "unique_card_id": "EJXxM",
-        "scryfall_id": "13ad7bb2-e58b-4cd1-9b32-38c7f8589214",
-        "mana_cost": "{1}{R}",
-        "cmc": 2.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Game Trail",
-        "quantity": 1,
-        "card_id": "g3lzp",
-        "unique_card_id": "Lzow8",
-        "scryfall_id": "2e53f295-60f6-4c6b-a0a4-304556b4eea0",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": [
-          "G",
-          "R"
-        ]
-      },
-      {
-        "name": "Haven of the Spirit Dragon",
-        "quantity": 1,
-        "card_id": "AW6aJ",
-        "unique_card_id": "YoPnv",
-        "scryfall_id": "f4454c38-a490-4ea7-8525-c695e37b9fc9",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "The Ur-Dragon",
-        "quantity": 1,
-        "card_id": "01rDl",
-        "unique_card_id": "YMr1w",
-        "scryfall_id": "10d42b35-844f-4a64-9981-c6118d45e826",
-        "mana_cost": "{4}{W}{U}{B}{R}{G}",
-        "cmc": 9.0,
-        "type_line": "Legendary Creature — Dragon Avatar",
-        "colors": [
-          "B",
-          "G",
-          "R",
-          "U",
-          "W"
-        ],
-        "color_identity": [
-          "B",
-          "G",
-          "R",
-          "U",
-          "W"
-        ]
-      },
-      {
-        "name": "Victimize",
-        "quantity": 1,
-        "card_id": "yj8nD",
-        "unique_card_id": "kqNbP",
-        "scryfall_id": "54b5c19e-f50a-4cd1-bf42-e545da7a6b0f",
-        "mana_cost": "{2}{B}",
-        "cmc": 3.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Heroic Intervention",
-        "quantity": 1,
-        "card_id": "WaMMy",
-        "unique_card_id": "YMr0j",
-        "scryfall_id": "4377b09d-08e8-4150-bb84-4a9c00c7af82",
-        "mana_cost": "{1}{G}",
-        "cmc": 2.0,
-        "type_line": "Instant",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Living Death",
-        "quantity": 1,
-        "card_id": "9m7pa",
-        "unique_card_id": "kywOP",
-        "scryfall_id": "b22235ac-5028-4b84-8ec2-0ab46768dee2",
-        "mana_cost": "{3}{B}{B}",
-        "cmc": 5.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Lightning Greaves",
-        "quantity": 1,
-        "card_id": "8ObKl",
-        "unique_card_id": "EZNG7",
-        "scryfall_id": "331013f6-976a-4dac-9939-1006e474e108",
-        "mana_cost": "{2}",
-        "cmc": 2.0,
-        "type_line": "Artifact — Equipment",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Bladewing the Risen",
-        "quantity": 1,
-        "card_id": "yj5eN",
-        "unique_card_id": "YN6vM",
-        "scryfall_id": "cd264040-c10d-4244-9229-e11238f7cd5c",
-        "mana_cost": "{3}{B}{B}{R}{R}",
-        "cmc": 7.0,
-        "type_line": "Legendary Creature — Zombie Dragon",
-        "colors": [
-          "B",
-          "R"
-        ],
-        "color_identity": [
-          "B",
-          "R"
-        ]
-      },
-      {
-        "name": "Sol Ring",
-        "quantity": 1,
-        "card_id": "lo71o",
-        "unique_card_id": "EZyKV",
-        "scryfall_id": "0f44a54b-512e-45ef-80ee-7982d2eaf762",
-        "mana_cost": "{1}",
-        "cmc": 1.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Cinder Glade",
-        "quantity": 1,
-        "card_id": "G4mq2",
-        "unique_card_id": "LzKz6",
-        "scryfall_id": "82d3cd1f-3971-45ae-83c5-f7c2b3f5758a",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Mountain Forest",
-        "colors": [],
-        "color_identity": [
-          "G",
-          "R"
-        ]
-      },
-      {
-        "name": "Cavern of Souls",
-        "quantity": 1,
-        "card_id": "43Ox7",
-        "unique_card_id": "LGwnx",
-        "scryfall_id": "17fc8e0f-6dba-40d6-a6f9-3eb505059727",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Animate Dead",
-        "quantity": 1,
-        "card_id": "O9vjo",
-        "unique_card_id": "kpxN0",
-        "scryfall_id": "1489943b-c010-488e-9c9d-87f4af67a4e4",
-        "mana_cost": "{1}{B}",
-        "cmc": 2.0,
-        "type_line": "Enchantment — Aura",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Bloodstained Mire",
-        "quantity": 1,
-        "card_id": "01Kal",
-        "unique_card_id": "LwR84",
-        "scryfall_id": "579743fe-f71e-4cb2-8629-d6b02ed1591d",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Polluted Delta",
-        "quantity": 1,
-        "card_id": "enBDO",
-        "unique_card_id": "Y8wMo",
-        "scryfall_id": "6e288374-2b71-4ace-b1d2-a19fee6cb4af",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Wooded Foothills",
-        "quantity": 1,
-        "card_id": "J9DZg",
-        "unique_card_id": "E1R1e",
-        "scryfall_id": "4e11ea8a-f895-438d-a3b7-f070238e4161",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Akroma's Will",
-        "quantity": 1,
-        "card_id": "vrp48",
-        "unique_card_id": "kXKlo",
-        "scryfall_id": "0663dcc8-2f72-4439-bfa9-06c4ef06c54d",
-        "mana_cost": "{3}{W}",
-        "cmc": 4.0,
-        "type_line": "Instant",
-        "colors": [
-          "W"
-        ],
-        "color_identity": [
-          "W"
-        ]
-      },
-      {
-        "name": "Sarkhan, Fireblood",
-        "quantity": 1,
-        "card_id": "DjrlX",
-        "unique_card_id": "YjP5y",
-        "scryfall_id": "31b6b055-d233-42bb-baf9-9a339d25467c",
-        "mana_cost": "{1}{R}{R}",
-        "cmc": 3.0,
-        "type_line": "Legendary Planeswalker — Sarkhan",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Island",
-        "quantity": 1,
-        "card_id": "loWKe",
-        "unique_card_id": "kaN49",
-        "scryfall_id": "0e443748-edf1-4499-9507-3649dd57ee95",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Island",
-        "colors": [],
-        "color_identity": [
-          "U"
-        ]
-      },
-      {
-        "name": "Mountain",
-        "quantity": 1,
-        "card_id": "43w6P",
-        "unique_card_id": "kqAb3",
-        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Mountain",
-        "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Plains",
-        "quantity": 1,
-        "card_id": "pRjDw",
-        "unique_card_id": "EbPg6",
-        "scryfall_id": "a4446149-341b-449b-86e2-2b6b47b7a75e",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Plains",
-        "colors": [],
-        "color_identity": [
-          "W"
-        ]
-      },
-      {
-        "name": "Mass Hysteria",
-        "quantity": 1,
-        "card_id": "ZOVVP",
-        "unique_card_id": "Yn3Rv",
-        "scryfall_id": "291760e5-569d-486d-ae5e-4096ec99b5cf",
-        "mana_cost": "{R}",
-        "cmc": 1.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
         "name": "Ureni of the Unwritten",
         "quantity": 1,
         "card_id": "2DNWd",
@@ -11283,38 +11418,6 @@
         ]
       },
       {
-        "name": "Swords to Plowshares",
-        "quantity": 1,
-        "card_id": "RJPRp",
-        "unique_card_id": "Y2RBm",
-        "scryfall_id": "f87cf997-14b5-4a2c-a7d1-34b7de6561a2",
-        "mana_cost": "{W}",
-        "cmc": 1.0,
-        "type_line": "Instant",
-        "colors": [
-          "W"
-        ],
-        "color_identity": [
-          "W"
-        ]
-      },
-      {
-        "name": "Faithless Looting",
-        "quantity": 1,
-        "card_id": "ZMmnN",
-        "unique_card_id": "EJ5A8",
-        "scryfall_id": "c43aeb5a-8bdc-4aa9-89d1-156f97ac38aa",
-        "mana_cost": "{R}",
-        "cmc": 1.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "R"
-        ],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
         "name": "Colossal Grave-Reaver",
         "quantity": 1,
         "card_id": "mOmQr",
@@ -11330,24 +11433,6 @@
         "color_identity": [
           "B",
           "G"
-        ]
-      },
-      {
-        "name": "Despark",
-        "quantity": 1,
-        "card_id": "BD3zR",
-        "unique_card_id": "LVlvO",
-        "scryfall_id": "f37a4bc1-3702-44d7-8b29-dca99b563c6b",
-        "mana_cost": "{W}{B}",
-        "cmc": 2.0,
-        "type_line": "Instant",
-        "colors": [
-          "B",
-          "W"
-        ],
-        "color_identity": [
-          "B",
-          "W"
         ]
       },
       {
@@ -11371,30 +11456,32 @@
         ]
       },
       {
-        "name": "Stitch Together",
+        "name": "Dragonlord Kolaghan",
         "quantity": 1,
-        "card_id": "DAg5X",
-        "unique_card_id": "k7Dv1",
-        "scryfall_id": "73f1aa13-b3bc-480e-826c-6bded7ee1ca6",
-        "mana_cost": "{B}{B}",
-        "cmc": 2.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Hellkite Tyrant",
-        "quantity": 1,
-        "card_id": "KWZ6m",
-        "unique_card_id": "EPgV3",
-        "scryfall_id": "97ff9946-af2c-4568-847e-b828a71d0217",
-        "mana_cost": "{4}{R}{R}",
+        "card_id": "YoGXv",
+        "unique_card_id": "EWWoD",
+        "scryfall_id": "1cbf8933-32a1-4892-9bdc-89464ed9ce1b",
+        "mana_cost": "{4}{B}{R}",
         "cmc": 6.0,
-        "type_line": "Creature — Dragon",
+        "type_line": "Legendary Creature — Elder Dragon",
+        "colors": [
+          "B",
+          "R"
+        ],
+        "color_identity": [
+          "B",
+          "R"
+        ]
+      },
+      {
+        "name": "Dragon Tempest",
+        "quantity": 1,
+        "card_id": "5MpdM",
+        "unique_card_id": "EJXxM",
+        "scryfall_id": "13ad7bb2-e58b-4cd1-9b32-38c7f8589214",
+        "mana_cost": "{1}{R}",
+        "cmc": 2.0,
+        "type_line": "Enchantment",
         "colors": [
           "R"
         ],
@@ -11403,246 +11490,159 @@
         ]
       },
       {
-        "name": "Crux of Fate",
+        "name": "Haven of the Spirit Dragon",
         "quantity": 1,
-        "card_id": "2D6Pd",
-        "unique_card_id": "YnvzZ",
-        "scryfall_id": "4d507db6-29a6-4816-8e37-5b6e318d740f",
-        "mana_cost": "{3}{B}{B}",
-        "cmc": 5.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
-        "name": "Sacred Foundry",
-        "quantity": 1,
-        "card_id": "Q9OZA",
-        "unique_card_id": "Y8qD4",
-        "scryfall_id": "8b4e2642-3c87-4708-b9b4-2e7f7359ac7d",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Mountain Plains",
-        "colors": [],
-        "color_identity": [
-          "R",
-          "W"
-        ]
-      },
-      {
-        "name": "Hallowed Fountain",
-        "quantity": 1,
-        "card_id": "XJO0D",
-        "unique_card_id": "EbJXJ",
-        "scryfall_id": "e056b55f-82ed-4fe0-ab0c-bb20fa4a218a",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Plains Island",
-        "colors": [],
-        "color_identity": [
-          "U",
-          "W"
-        ]
-      },
-      {
-        "name": "Temple Garden",
-        "quantity": 1,
-        "card_id": "yD04b",
-        "unique_card_id": "EW9ZD",
-        "scryfall_id": "6cdd2a74-63b3-4ff2-9c5a-a85dee63c3c9",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land — Forest Plains",
-        "colors": [],
-        "color_identity": [
-          "G",
-          "W"
-        ]
-      },
-      {
-        "name": "Stormcarved Coast",
-        "quantity": 1,
-        "card_id": "b5adg",
-        "unique_card_id": "LRoJ2",
-        "scryfall_id": "bd3ae4fa-4c97-410a-8c0a-bd203342595d",
+        "card_id": "AW6aJ",
+        "unique_card_id": "YoPnv",
+        "scryfall_id": "f4454c38-a490-4ea7-8525-c695e37b9fc9",
         "mana_cost": "",
         "cmc": 0,
         "type_line": "Land",
         "colors": [],
-        "color_identity": [
-          "R",
-          "U"
-        ]
+        "color_identity": []
       },
       {
-        "name": "Fellwar Stone",
+        "name": "Dragon's Hoard",
         "quantity": 1,
-        "card_id": "GPWgQ",
-        "unique_card_id": "E645O",
-        "scryfall_id": "385b9f5e-81dd-49f6-a644-59d53245e3dc",
-        "mana_cost": "{2}",
-        "cmc": 2.0,
+        "card_id": "Yxel9",
+        "unique_card_id": "Er0QR",
+        "scryfall_id": "5b441fc8-bc89-47d4-8745-2525aeb6d98d",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
         "type_line": "Artifact",
         "colors": [],
         "color_identity": []
       },
       {
-        "name": "Fabled Passage",
+        "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
         "quantity": 1,
-        "card_id": "dobar",
-        "unique_card_id": "k71D9",
-        "scryfall_id": "8119d329-6ee5-433c-bd81-8579bb061162",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Sundown Pass",
-        "quantity": 1,
-        "card_id": "KWqwa",
-        "unique_card_id": "EQ59D",
-        "scryfall_id": "5d3d4504-28c8-42b4-b161-bbc2fdac0d09",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
+        "card_id": "LVWDl",
+        "unique_card_id": "EJVKA",
+        "scryfall_id": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+        "mana_cost": null,
+        "cmc": 4.0,
+        "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas",
         "colors": [],
         "color_identity": [
+          "B",
           "R",
-          "W"
+          "U"
         ]
       },
       {
-        "name": "Prismatic Vista",
+        "name": "Sarkhan, Fireblood",
         "quantity": 1,
-        "card_id": "5025M",
-        "unique_card_id": "Lz6qX",
-        "scryfall_id": "22b5b5ef-9b8d-4ace-86db-21ce00b29928",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Land",
-        "colors": [],
-        "color_identity": []
-      },
-      {
-        "name": "Three Visits",
-        "quantity": 1,
-        "card_id": "ZMvpm",
-        "unique_card_id": "YlOvG",
-        "scryfall_id": "99bf792f-963e-4509-8d3c-7db129c6a77f",
-        "mana_cost": "{1}{G}",
-        "cmc": 2.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Cultivate",
-        "quantity": 1,
-        "card_id": "504bb",
-        "unique_card_id": "EgDpv",
-        "scryfall_id": "e60deb92-f7dd-4f4e-9036-e47dd586f985",
-        "mana_cost": "{2}{G}",
+        "card_id": "DjrlX",
+        "unique_card_id": "YjP5y",
+        "scryfall_id": "31b6b055-d233-42bb-baf9-9a339d25467c",
+        "mana_cost": "{1}{R}{R}",
         "cmc": 3.0,
-        "type_line": "Sorcery",
+        "type_line": "Legendary Planeswalker — Sarkhan",
         "colors": [
-          "G"
+          "R"
         ],
         "color_identity": [
-          "G"
+          "R"
         ]
       },
       {
-        "name": "Birds of Paradise",
+        "name": "Eerie Ultimatum",
         "quantity": 1,
-        "card_id": "a2a6O",
-        "unique_card_id": "ErnNK",
-        "scryfall_id": "492c2f9a-51e7-4e0f-9899-23bf43ea988b",
-        "mana_cost": "{G}",
-        "cmc": 1.0,
-        "type_line": "Creature — Bird",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Nature's Lore",
-        "quantity": 1,
-        "card_id": "AJeax",
-        "unique_card_id": "Ylgpy",
-        "scryfall_id": "7afc4a15-5ff8-457a-aa62-803b2d78d912",
-        "mana_cost": "{1}{G}",
-        "cmc": 2.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "G"
-        ],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Tiamat",
-        "quantity": 1,
-        "card_id": "LKg8m",
-        "unique_card_id": "kpNa4",
-        "scryfall_id": "8d80dfbe-d691-4d00-a6b7-8c4f6d18be05",
-        "mana_cost": "{2}{W}{U}{B}{R}{G}",
+        "card_id": "EJ3JA",
+        "unique_card_id": "EWKg1",
+        "scryfall_id": "3a9fb2db-228f-4d48-acdf-6330baf356c7",
+        "mana_cost": "{W}{W}{B}{B}{B}{G}{G}",
         "cmc": 7.0,
-        "type_line": "Legendary Creature — Dragon God",
+        "type_line": "Sorcery",
         "colors": [
           "B",
           "G",
-          "R",
-          "U",
           "W"
         ],
         "color_identity": [
           "B",
           "G",
+          "W"
+        ]
+      },
+      {
+        "name": "Indatha Triome",
+        "quantity": 1,
+        "card_id": "kpZ8O",
+        "unique_card_id": "EQzNp",
+        "scryfall_id": "62bbdc86-f5a0-4738-a5f6-f2347c8b2a58",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Plains Swamp Forest",
+        "colors": [],
+        "color_identity": [
+          "B",
+          "G",
+          "W"
+        ]
+      },
+      {
+        "name": "Ketria Triome",
+        "quantity": 1,
+        "card_id": "LRe48",
+        "unique_card_id": "kqgp3",
+        "scryfall_id": "d40ef5f6-9221-4b7d-8566-58ad43e77f02",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Forest Island Mountain",
+        "colors": [],
+        "color_identity": [
+          "G",
+          "R",
+          "U"
+        ]
+      },
+      {
+        "name": "Savai Triome",
+        "quantity": 1,
+        "card_id": "Yl9xn",
+        "unique_card_id": "L3w91",
+        "scryfall_id": "d21ef9e6-e2dd-4e0a-a36c-e07034ac4ba3",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Mountain Plains Swamp",
+        "colors": [],
+        "color_identity": [
+          "B",
+          "R",
+          "W"
+        ]
+      },
+      {
+        "name": "Raugrin Triome",
+        "quantity": 1,
+        "card_id": "k7y6p",
+        "unique_card_id": "E1wpA",
+        "scryfall_id": "c303a627-cce3-4045-81f8-fe7427e0a941",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Land — Island Mountain Plains",
+        "colors": [],
+        "color_identity": [
           "R",
           "U",
           "W"
         ]
       },
       {
-        "name": "Forest",
-        "quantity": 2,
-        "card_id": "pRn5p",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "name": "Zagoth Triome",
+        "quantity": 1,
+        "card_id": "k7yQ8",
+        "unique_card_id": "YlAG6",
+        "scryfall_id": "d9c01677-2abc-43da-a48e-883b1d220fb6",
         "mana_cost": "",
         "cmc": 0,
-        "type_line": "Basic Land — Forest",
+        "type_line": "Land — Swamp Forest Island",
         "colors": [],
         "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 2,
-        "card_id": "7vG38",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
+          "B",
+          "G",
+          "U"
         ]
       }
     ],
