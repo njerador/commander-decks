@@ -1,5 +1,80 @@
 {
   "generated_from": "decks/analysis-data.json",
-  "decks_changed": 0,
-  "changes": {}
+  "decks_changed": 2,
+  "changes": {
+    "deck-01": {
+      "added": [],
+      "removed": [
+        {
+          "name": "Curse of Verbosity",
+          "quantity": 1
+        },
+        {
+          "name": "Diabolic Tutor",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Brain",
+          "quantity": 1
+        },
+        {
+          "name": "Herald's Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Jet Medallion",
+          "quantity": 1
+        },
+        {
+          "name": "Mind Flayer",
+          "quantity": 1
+        },
+        {
+          "name": "Open into Wonder",
+          "quantity": 1
+        },
+        {
+          "name": "Stitch Together",
+          "quantity": 1
+        }
+      ]
+    },
+    "decks-overview": {
+      "added": [],
+      "removed": [
+        {
+          "name": "Curse of Verbosity",
+          "quantity": 1
+        },
+        {
+          "name": "Diabolic Tutor",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Brain",
+          "quantity": 1
+        },
+        {
+          "name": "Herald's Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Jet Medallion",
+          "quantity": 1
+        },
+        {
+          "name": "Mind Flayer",
+          "quantity": 1
+        },
+        {
+          "name": "Open into Wonder",
+          "quantity": 1
+        },
+        {
+          "name": "Stitch Together",
+          "quantity": 1
+        }
+      ]
+    }
+  }
 }

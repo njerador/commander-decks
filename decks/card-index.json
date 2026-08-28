@@ -1793,18 +1793,6 @@
     ],
     "deck_count": 2
   },
-  "curse of verbosity": {
-    "name": "Curse of Verbosity",
-    "decks": [
-      {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "damning verdict": {
     "name": "Damning Verdict",
     "decks": [
@@ -1997,18 +1985,6 @@
       {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "diabolic tutor": {
-    "name": "Diabolic Tutor",
-    "decks": [
-      {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -2285,18 +2261,6 @@
       {
         "deck_number": 3,
         "deck_name": "food and fellowship",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "elder brain": {
-    "name": "Elder Brain",
-    "decks": [
-      {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -3699,19 +3663,13 @@
     "name": "Herald's Horn",
     "decks": [
       {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 5,
         "deck_name": "Giada",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "heroic intervention": {
     "name": "Heroic Intervention",
@@ -3981,19 +3939,13 @@
     "name": "Jet Medallion",
     "decks": [
       {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 2,
         "deck_name": "disa",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "joraga warcaller": {
     "name": "Joraga Warcaller",
@@ -4823,18 +4775,6 @@
     ],
     "deck_count": 1
   },
-  "mind flayer": {
-    "name": "Mind Flayer",
-    "decks": [
-      {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
   "mind stone": {
     "name": "Mind Stone",
     "decks": [
@@ -5297,18 +5237,6 @@
       {
         "deck_number": 6,
         "deck_name": "korvold",
-        "quantity": 1,
-        "board": "mainboard"
-      }
-    ],
-    "deck_count": 1
-  },
-  "open into wonder": {
-    "name": "Open into Wonder",
-    "decks": [
-      {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
         "quantity": 1,
         "board": "mainboard"
       }
@@ -7203,19 +7131,13 @@
     "name": "Stitch Together",
     "decks": [
       {
-        "deck_number": 1,
-        "deck_name": "captain nghathrod",
-        "quantity": 1,
-        "board": "mainboard"
-      },
-      {
         "deck_number": 9,
         "deck_name": "spross des ur-drachen",
         "quantity": 1,
         "board": "mainboard"
       }
     ],
-    "deck_count": 2
+    "deck_count": 1
   },
   "stitcher's supplier": {
     "name": "Stitcher's Supplier",

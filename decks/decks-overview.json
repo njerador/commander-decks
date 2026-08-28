@@ -155,22 +155,6 @@
         ]
       },
       {
-        "name": "Open into Wonder",
-        "quantity": 1,
-        "card_id": "Yl11e",
-        "unique_card_id": "kqv4x",
-        "scryfall_id": "0df4db1e-f2a7-44e7-9b8d-fecf73d1e01c",
-        "mana_cost": "{X}{U}{U}",
-        "cmc": 2.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "U"
-        ],
-        "color_identity": [
-          "U"
-        ]
-      },
-      {
         "name": "Guiltfeeder",
         "quantity": 1,
         "card_id": "YeDj2",
@@ -278,22 +262,6 @@
         ]
       },
       {
-        "name": "Curse of Verbosity",
-        "quantity": 1,
-        "card_id": "EWmz1",
-        "unique_card_id": "EJOy4",
-        "scryfall_id": "3054eba1-238f-4328-8e9f-5148b5c37aac",
-        "mana_cost": "{2}{U}",
-        "cmc": 3.0,
-        "type_line": "Enchantment — Aura Curse",
-        "colors": [
-          "U"
-        ],
-        "color_identity": [
-          "U"
-        ]
-      },
-      {
         "name": "Sludge Monster",
         "quantity": 1,
         "card_id": "EWQy5",
@@ -378,22 +346,6 @@
         "colors": [],
         "color_identity": [
           "U"
-        ]
-      },
-      {
-        "name": "Elder Brain",
-        "quantity": 1,
-        "card_id": "enn5Q",
-        "unique_card_id": "EbzBa",
-        "scryfall_id": "14e49d20-170a-4b6a-ac82-d3ceaab226ea",
-        "mana_cost": "{5}{B}{B}",
-        "cmc": 7.0,
-        "type_line": "Creature — Horror",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
         ]
       },
       {
@@ -513,22 +465,6 @@
         "colors": [],
         "color_identity": [
           "B",
-          "U"
-        ]
-      },
-      {
-        "name": "Mind Flayer",
-        "quantity": 1,
-        "card_id": "KP5wd",
-        "unique_card_id": "YBmZW",
-        "scryfall_id": "a6cb10f5-ee9f-49e6-826a-a2a2395daa92",
-        "mana_cost": "{3}{U}{U}",
-        "cmc": 5.0,
-        "type_line": "Creature — Horror",
-        "colors": [
-          "U"
-        ],
-        "color_identity": [
           "U"
         ]
       },
@@ -767,18 +703,6 @@
         ]
       },
       {
-        "name": "Herald's Horn",
-        "quantity": 1,
-        "card_id": "mP0vK",
-        "unique_card_id": "LVNJ5",
-        "scryfall_id": "c2cc583b-4ca1-4e34-bf66-693d69e4f77e",
-        "mana_cost": "{3}",
-        "cmc": 3.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Cruel Somnophage // Can't Wake Up",
         "quantity": 1,
         "card_id": "bRrZ6",
@@ -981,18 +905,6 @@
         ]
       },
       {
-        "name": "Jet Medallion",
-        "quantity": 1,
-        "card_id": "BXnZW",
-        "unique_card_id": "E6dxN",
-        "scryfall_id": "d423365c-a32c-4060-b178-3221e3200387",
-        "mana_cost": "{2}",
-        "cmc": 2.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
-      },
-      {
         "name": "Exotic Orchard",
         "quantity": 1,
         "card_id": "O9gdn",
@@ -1020,22 +932,6 @@
         "color_identity": [
           "B",
           "U"
-        ]
-      },
-      {
-        "name": "Diabolic Tutor",
-        "quantity": 1,
-        "card_id": "mPdOz",
-        "unique_card_id": "LR3dq",
-        "scryfall_id": "dd14df0b-026d-473f-bfba-f57a2ccfd771",
-        "mana_cost": "{2}{B}{B}",
-        "cmc": 4.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
         ]
       },
       {
@@ -1101,22 +997,6 @@
         ]
       },
       {
-        "name": "Stitch Together",
-        "quantity": 1,
-        "card_id": "DAg5X",
-        "unique_card_id": "k7Dv1",
-        "scryfall_id": "73f1aa13-b3bc-480e-826c-6bded7ee1ca6",
-        "mana_cost": "{B}{B}",
-        "cmc": 2.0,
-        "type_line": "Sorcery",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
         "name": "Chasm Skulker",
         "quantity": 1,
         "card_id": "GP86Z",
@@ -1170,6 +1050,22 @@
         ],
         "color_identity": [
           "U"
+        ]
+      },
+      {
+        "name": "Phyrexian Arena",
+        "quantity": 1,
+        "card_id": "KW2A0",
+        "unique_card_id": "Y84gO",
+        "scryfall_id": "f78bfbdf-719d-48f2-b26d-970aad3dbe06",
+        "mana_cost": "{1}{B}{B}",
+        "cmc": 3.0,
+        "type_line": "Enchantment",
+        "colors": [
+          "B"
+        ],
+        "color_identity": [
+          "B"
         ]
       },
       {
@@ -1239,33 +1135,17 @@
         "color_identity": [
           "U"
         ]
-      },
-      {
-        "name": "Phyrexian Arena",
-        "quantity": 1,
-        "card_id": "2z6eW",
-        "unique_card_id": "Y84gO",
-        "scryfall_id": "3b18d219-efde-4cc0-b955-cb71ead88023",
-        "mana_cost": "{1}{B}{B}",
-        "cmc": 3.0,
-        "type_line": "Enchantment",
-        "colors": [
-          "B"
-        ],
-        "color_identity": [
-          "B"
-        ]
       }
     ],
-    "mainboard_count": 99,
-    "unique_mainboard_cards": 81,
-    "total_cards": 100,
+    "mainboard_count": 91,
+    "unique_mainboard_cards": 73,
+    "total_cards": 92,
     "colors": [
       "U",
       "B"
     ],
     "bracket": 2,
-    "last_updated": "2026-06-15T06:51:48.1Z"
+    "last_updated": "2026-08-27T10:03:08.96Z"
   },
   {
     "deck_number": 2,
