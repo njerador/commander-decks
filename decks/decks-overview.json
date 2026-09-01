@@ -2917,48 +2917,6 @@
         ]
       },
       {
-        "name": "Forest",
-        "quantity": 8,
-        "card_id": "bRj88",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "cbe793e4-c034-4a22-929d-d743c0255bf1",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Plains",
-        "quantity": 4,
-        "card_id": "J9K8g",
-        "unique_card_id": "EbPg6",
-        "scryfall_id": "5bb495cc-9908-455e-bec9-3993d595f4f9",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Plains",
-        "colors": [],
-        "color_identity": [
-          "W"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 4,
-        "card_id": "7vPdN",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "2a0fba6e-54d2-498c-83bc-41024307e608",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
-        ]
-      },
-      {
         "name": "Meriadoc Brandybuck",
         "quantity": 1,
         "card_id": "Q4J94",
@@ -3943,6 +3901,48 @@
         "type_line": "Legendary Artifact — Equipment",
         "colors": [],
         "color_identity": []
+      },
+      {
+        "name": "Forest",
+        "quantity": 8,
+        "card_id": "bRj88",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "cbe793e4-c034-4a22-929d-d743c0255bf1",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Plains",
+        "quantity": 4,
+        "card_id": "J9K8g",
+        "unique_card_id": "EbPg6",
+        "scryfall_id": "5bb495cc-9908-455e-bec9-3993d595f4f9",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Plains",
+        "colors": [],
+        "color_identity": [
+          "W"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 4,
+        "card_id": "7vPdN",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "2a0fba6e-54d2-498c-83bc-41024307e608",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
+        ]
       }
     ],
     "mainboard_count": 98,
