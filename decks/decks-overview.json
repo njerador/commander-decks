@@ -7107,6 +7107,48 @@
         ]
       },
       {
+        "name": "Forest",
+        "quantity": 8,
+        "card_id": "pRn5p",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Mountain",
+        "quantity": 3,
+        "card_id": "43w6P",
+        "unique_card_id": "kqAb3",
+        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Mountain",
+        "colors": [],
+        "color_identity": [
+          "R"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 4,
+        "card_id": "7vG38",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
+        ]
+      },
+      {
         "name": "Tireless Tracker",
         "quantity": 1,
         "card_id": "q46RP",
@@ -7509,48 +7551,6 @@
         "type_line": "Artifact — Equipment",
         "colors": [],
         "color_identity": []
-      },
-      {
-        "name": "Forest",
-        "quantity": 8,
-        "card_id": "pRn5p",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
-        "name": "Mountain",
-        "quantity": 3,
-        "card_id": "43w6P",
-        "unique_card_id": "kqAb3",
-        "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Mountain",
-        "colors": [],
-        "color_identity": [
-          "R"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 4,
-        "card_id": "7vG38",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
-        ]
       }
     ],
     "mainboard_count": 99,
