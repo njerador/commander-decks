@@ -6001,6 +6001,20 @@
         ]
       },
       {
+        "name": "Plains",
+        "quantity": 29,
+        "card_id": "pRjDw",
+        "unique_card_id": "EbPg6",
+        "scryfall_id": "a4446149-341b-449b-86e2-2b6b47b7a75e",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Plains",
+        "colors": [],
+        "color_identity": [
+          "W"
+        ]
+      },
+      {
         "name": "Archangel of Thune",
         "quantity": 1,
         "card_id": "ZOVRV",
@@ -6015,6 +6029,18 @@
         "color_identity": [
           "W"
         ]
+      },
+      {
+        "name": "Herald's Horn",
+        "quantity": 1,
+        "card_id": "WOJyl",
+        "unique_card_id": "LVNJ5",
+        "scryfall_id": "48a8abd6-8b5f-45b6-9f82-f2ce17d86222",
+        "mana_cost": "{3}",
+        "cmc": 3.0,
+        "type_line": "Artifact",
+        "colors": [],
+        "color_identity": []
       },
       {
         "name": "Bonders' Enclave",
@@ -6145,32 +6171,6 @@
         "color_identity": [
           "W"
         ]
-      },
-      {
-        "name": "Plains",
-        "quantity": 29,
-        "card_id": "pRjDw",
-        "unique_card_id": "EbPg6",
-        "scryfall_id": "a4446149-341b-449b-86e2-2b6b47b7a75e",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Plains",
-        "colors": [],
-        "color_identity": [
-          "W"
-        ]
-      },
-      {
-        "name": "Herald's Horn",
-        "quantity": 1,
-        "card_id": "WOJyl",
-        "unique_card_id": "LVNJ5",
-        "scryfall_id": "48a8abd6-8b5f-45b6-9f82-f2ce17d86222",
-        "mana_cost": "{3}",
-        "cmc": 3.0,
-        "type_line": "Artifact",
-        "colors": [],
-        "color_identity": []
       }
     ],
     "mainboard_count": 99,
