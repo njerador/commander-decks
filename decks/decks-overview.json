@@ -10749,30 +10749,6 @@
         ]
       },
       {
-        "name": "Tiamat",
-        "quantity": 1,
-        "card_id": "LKg8m",
-        "unique_card_id": "kpNa4",
-        "scryfall_id": "8d80dfbe-d691-4d00-a6b7-8c4f6d18be05",
-        "mana_cost": "{2}{W}{U}{B}{R}{G}",
-        "cmc": 7.0,
-        "type_line": "Legendary Creature — Dragon God",
-        "colors": [
-          "B",
-          "G",
-          "R",
-          "U",
-          "W"
-        ],
-        "color_identity": [
-          "B",
-          "G",
-          "R",
-          "U",
-          "W"
-        ]
-      },
-      {
         "name": "Ancient Copper Dragon",
         "quantity": 1,
         "card_id": "N9gpG",
@@ -11109,20 +11085,6 @@
         ]
       },
       {
-        "name": "Forest",
-        "quantity": 2,
-        "card_id": "pRn5p",
-        "unique_card_id": "kywJr",
-        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Forest",
-        "colors": [],
-        "color_identity": [
-          "G"
-        ]
-      },
-      {
         "name": "Island",
         "quantity": 1,
         "card_id": "loWKe",
@@ -11162,20 +11124,6 @@
         "colors": [],
         "color_identity": [
           "W"
-        ]
-      },
-      {
-        "name": "Swamp",
-        "quantity": 2,
-        "card_id": "7vG38",
-        "unique_card_id": "kOzVw",
-        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
-        "mana_cost": "",
-        "cmc": 0,
-        "type_line": "Basic Land — Swamp",
-        "colors": [],
-        "color_identity": [
-          "B"
         ]
       },
       {
@@ -11523,6 +11471,58 @@
         ],
         "color_identity": [
           "G"
+        ]
+      },
+      {
+        "name": "Tiamat",
+        "quantity": 1,
+        "card_id": "LKg8m",
+        "unique_card_id": "kpNa4",
+        "scryfall_id": "8d80dfbe-d691-4d00-a6b7-8c4f6d18be05",
+        "mana_cost": "{2}{W}{U}{B}{R}{G}",
+        "cmc": 7.0,
+        "type_line": "Legendary Creature — Dragon God",
+        "colors": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
+        "color_identity": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ]
+      },
+      {
+        "name": "Forest",
+        "quantity": 2,
+        "card_id": "pRn5p",
+        "unique_card_id": "kywJr",
+        "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Forest",
+        "colors": [],
+        "color_identity": [
+          "G"
+        ]
+      },
+      {
+        "name": "Swamp",
+        "quantity": 2,
+        "card_id": "7vG38",
+        "unique_card_id": "kOzVw",
+        "scryfall_id": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
+        "mana_cost": "",
+        "cmc": 0,
+        "type_line": "Basic Land — Swamp",
+        "colors": [],
+        "color_identity": [
+          "B"
         ]
       }
     ],
